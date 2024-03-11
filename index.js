@@ -45,7 +45,7 @@ raymond1933=[
 		[[],``],
 		[[10,9,2016],``,``]
 	],
-	[`george1907`,`Gladys Eleanor Silverlock`],
+	[`george1907`,`gladys1906`],
 	[`richard1967`,`Gary Raymond Manoel`,`Wayne Anthony Manoel`,`Geoffrey Peter Manoel`,`Neil David Manoel`,`Wendy Joy Manoel`],
 ]
 george1907=[
@@ -57,6 +57,16 @@ george1907=[
 	],
 	[`george1873`,`laura1877`],
 	[`raymond1933`,`Peter Manoel`,`Barry Manoel`,`Margaret Manoel`]
+]
+gladys1906=[
+	[`Gladys`,`Eleanor`,`Silverlock`],
+	[
+		[[23,4,1906],`Semaphore, Adelaide, South Australia`],
+		[[],``],
+		[[`?`,`?`,1993],``,``]
+	],
+	[],
+	[`raymond1933`]
 ]
 laura1877=[
 	[`Laura`,`Dixon`],
