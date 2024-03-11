@@ -2,6 +2,7 @@
 //	[],
 //	[
 //		[],
+//		[],
 //		[]
 //	],
 //	[],
@@ -64,8 +65,18 @@ george1873=[
 		[],
 		[17,11,1945]
 	],
-	[`peter1840`,`Martha Mary Creed Rimes`],
+	[`peter1840`,`martha1848`],
 	[`george1907`]
+]
+martha1848=[
+	[`Martha`,`Mary`,`Creed`,`Rimes`],
+	[
+		[`?`,9,1848],
+		[],
+		[22,7,1934]
+	],
+	[`daniel1807`,`Mary Creed`],
+	[`george1873`]
 ]
 peter1840=[
 	[`Peter`,`Fredrick`,`Manolis`],
@@ -76,4 +87,14 @@ peter1840=[
 	],
 	[`Nicholas Manolis`],
 	[`george1873`]
+]
+daniel1807=[
+	[`Daniel`,`Rimes`],
+	[
+		[`?`,`?`,1807],
+		[`?`,7,1840],
+		[`?`,10,1891]
+	],
+	[],
+	[`martha1848`]
 ]
