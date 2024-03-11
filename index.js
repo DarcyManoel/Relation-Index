@@ -198,6 +198,16 @@ peter1944=[
 	[`gladys1906`,`george1907`],
 	[]
 ]
+peter1938=[
+	[`Peter`,`LePoidevin`],
+	[
+		[[19,11,1938],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[`Luke Richard LePoidevin`,`Sean Peter LePoidevin`]
+]
 gwen1935=[
 	[`Gwendoline`,`LePoidevin`],
 	[
@@ -218,6 +228,16 @@ raymond1933=[
 	[`george1907`,`gladys1906`],
 	[`gary1953`,`wayne1955`,`geoffrey1958`,`neil1960`,`wendy1962`,`richard1967`]
 ]
+gwen1932=[
+	[`Gwendoline`,`Olive`,`LePoidevin`],
+	[
+		[[7,7,1932],``],
+		[[],``],
+		[[7,7,1932],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[]
+]
 marjorie1932=[
 	[`Marjorie`,`Valda`,`Williams`],
 	[
@@ -227,6 +247,106 @@ marjorie1932=[
 	],
 	[`Hamilton Williams`,`Marjorie Schauer`],
 	[`gloria1954`]
+]
+joy1929=[
+	[`Joy`,`Lorraine`,`LePoidevin`],
+	[
+		[[12,7,1929],``],
+		[[],``],
+		[[2,6,1986],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[]
+]
+murray1927=[
+	[`Murray`,`Russell`,`LePoidevin`],
+	[
+		[[16,11,1927],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[`Graham Richard LePoidevin`,`Denise Anne LePoidevin`,`Steven Murray LePoidevin`]
+]
+joan1926=[
+	[`Joan`,`Torquay`,`LePoidevin`],
+	[
+		[[24,7,1926],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[`Lynette Joan Bishop`,`Jennifer Kay Bishop`,`Barry Thomas Bishop`,`Meredith Anne Bishop`]
+]
+lillian1924=[
+	[`Lillian`,`France`,`LePoidevin`],
+	[
+		[[25,9,1924],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[`David Richard Bruce`,`Peter Dean Bruce`,`Ian Scott Bruce`]
+]
+gordon1924=[
+	[`Gordon`,`Phillip`,`LePoidevin`],
+	[
+		[[25,9,1924],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[`Margaret Cloris LePoidevin`,`Janet Key LePoidevin`,`Helen Jean LePoidevin`]
+]
+bennett1921=[
+	[`Bennett`,`Teare`,`LePoidevin`],
+	[
+		[[19,6,1921],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[`Gaylene Ruth LePoidevin`,`Jilliann Wynette LePoidevin`,`Wayne Philip LePoidevin`]
+]
+daisy1919=[
+	[`Daisy`,`Millicent`,`LePoidevin`],
+	[
+		[[23,4,1919],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[`Barry Malcolm Dungey`]
+]
+edgar1917=[
+	[`Edgar George LePoidevin`],
+	[
+		[[6,4,1917],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[`Julie Marlene LePoidevin`,`Mande Olive LePoidevin`]
+]
+ivy1915=[
+	[`Ivy`,`Esther`,`LePoidevin`],
+	[
+		[[21,10,1915],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[`Gerald Alexander Collins`]
+]
+amy1914=[
+	[`Amy`,`Patience`,`LePoidevin`],
+	[
+		[[8,3,1914],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[`Ivy Lorraine Liston`,`Rhonda Aileenn Liston`,`Colin William Liston`,`Carolyn Amy Liston`]
 ]
 george1907=[
 	[`George`,`William`,`Manoel`],
@@ -248,6 +368,16 @@ gladys1906=[
 	[],
 	[`raymond1933`,`peter1944`]
 ]
+olive1891=[
+	[`Olive`,`Annie`,`White`],
+	[
+		[[24,9,1891],``],
+		[[],``],
+		[[14,2,1977],``,``]
+	],
+	[],
+	[`amy1914`,`ivy1915`,`edgar1917`,`daisy1919`,`bennett1921`,`gordon1924`,`lillian1924`,`joan1926`,`murray1927`,`joy1929`,`gwen1932`,`gwen1935`,`peter1938`]
+]
 richard1889=[
 	[`Richard`,`Gordan`,`LePoidevin`],
 	[
@@ -256,7 +386,7 @@ richard1889=[
 		[[5,5,1977],`Morphett Vale, South Australia`,``]
 	],
 	[`richard1856`,`Esther Jane Tear`],
-	[`gwen1935`]
+	[`amy1914`,`ivy1915`,`edgar1917`,`daisy1919`,`bennett1921`,`gordon1924`,`lillian1924`,`joan1926`,`murray1927`,`joy1929`,`gwen1932`,`gwen1935`,`peter1938`]
 ]
 laura1877=[
 	[`Laura`,`Dixon`],
