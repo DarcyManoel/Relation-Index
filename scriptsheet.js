@@ -1,12 +1,52 @@
 var focus=`darcy2000`
+var yearDiff
 function renderCard(){
 	document.getElementById(`main`).innerHTML=`<div id="title">`+window[focus][0].join(` `)+`</div>`
 	document.getElementById(`main`).innerHTML+=`<div id="lifePoints" class="back20">b. `+window[focus][1][0].join(`-`)+`</div>`
+	yearDiff=0
 	if(window[focus][1][1].length){
 		document.getElementById(`lifePoints`).innerHTML+=`<br>m. `+window[focus][1][1].join(`-`)
+		yearDiff=window[focus][1][1][2]-window[focus][1][0][2]
+		if(window[focus][1][1][1]>window[focus][1][0][1]){
+			printYearRange(1)
+		}
+		else if(window[focus][1][1][1]<window[focus][1][0][1]){
+			printYearRange(-1)
+		}
+		else if(window[focus][1][1][1]==window[focus][1][0][1]){
+			if(window[focus][1][1][0]>=window[focus][1][0][0]){
+				printYearRange(1)
+			}
+			else if(window[focus][1][1][0]<window[focus][1][0][0]){
+				printYearRange(-1)
+			}else if(window[focus][1][1][0]==`?`||window[focus][1][0][0]==`?`){
+				printYearRange(0)
+			}
+		}else if(window[focus][1][1][1]==`?`||window[focus][1][0][1]==`?`){
+			printYearRange(0)
+		}
 	}
 	if(window[focus][1][2].length){
 		document.getElementById(`lifePoints`).innerHTML+=`<br>d. `+window[focus][1][2].join(`-`)
+		yearDiff=window[focus][1][2][2]-window[focus][1][0][2]
+		if(window[focus][1][2][1]>window[focus][1][0][1]){
+			printYearRange(1)
+		}
+		else if(window[focus][1][2][1]<window[focus][1][0][1]){
+			printYearRange(-1)
+		}
+		else if(window[focus][1][2][1]==window[focus][1][0][1]){
+			if(window[focus][1][2][0]>=window[focus][1][0][0]){
+				printYearRange(1)
+			}
+			else if(window[focus][1][2][0]<window[focus][1][0][0]){
+				printYearRange(-1)
+			}else if(window[focus][1][2][0]==`?`||window[focus][1][0][0]==`?`){
+				printYearRange(0)
+			}
+		}else if(window[focus][1][2][1]==`?`||window[focus][1][0][1]==`?`){
+			printYearRange(0)
+		}
 	}
 	if(window[focus][2].length){
 		document.getElementById(`main`).innerHTML+=`<div id="parents"><span class="back20">Parents:</span><br></div>`
@@ -27,6 +67,15 @@ function renderCard(){
 				document.getElementById(`children`).innerHTML+=`<span onClick=changeFocus("`+window[focus][3][i1]+`")>`+window[window[focus][3][i1]][0].join(` `)+`</span><br>`
 			}
 		}
+	}
+}
+function printYearRange(year){
+	if(year==-1){
+		document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+` years)`
+	}else if(year==0){
+		document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+`-`+yearDiff+` years)`
+	}else if(year==1){
+		document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+yearDiff+` years)`
 	}
 }
 function changeFocus(passedFocus){
