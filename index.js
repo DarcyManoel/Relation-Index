@@ -78,6 +78,16 @@ brandi1973=[
 	[`david1952`,`gloria1954`],
 	[`monty1999`,`darcy2000`,`holly2008`]
 ]
+gavin1968=[
+	[`Gavin`,`Thomas`,`Alexander`],
+	[
+		[[19,11,1968],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`thomas1939`,`ivy1940`],
+	[`Mitchell Gavin Alexander`]
+]
 richard1967=[
 	[`Richard`,`John`,`Manoel`],
 	[
@@ -87,6 +97,16 @@ richard1967=[
 	],
 	[`raymond1933`,`gwen1935`],
 	[`monty1999`,`darcy2000`,`holly2008`]
+]
+june1965=[
+	[`June`,`Erica`,`Alexander`],
+	[
+		[[18,10,1965],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`thomas1939`,`ivy1940`],
+	[]
 ]
 shelly1962=[
 	[`Shelly`,`Louise`,`Jones`],
@@ -236,7 +256,17 @@ ivy1940=[
 		[[],``,``]
 	],
 	[`amy1914`,`ronald1913`],
-	[`June Erica Alexander`,`Gavin Thomas Alexander`]
+	[`june1965`,`gavin1968`]
+]
+thomas1939=[
+	[`Thomas`,`Mitchell`,`Alexander`],
+	[
+		[[1,10,1939],``],
+		[[],``],
+		[[26,6,1986],``,``]
+	],
+	[],
+	[`june1965`,`gavin1968`]
 ]
 peter1938=[
 	[`Peter`,`LePoidevin`],
