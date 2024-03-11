@@ -48,6 +48,46 @@ richard1967=[
 	[`raymond1933`,`gwen1935`],
 	[`monty1999`,`darcy2000`,`holly2008`]
 ]
+wendy1962=[
+	[`Wendy`,`Joy`,`Manoel`],
+	[
+		[[3,2,1962],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`raymond1933`,`gwen1935`],
+	[]
+]
+neil1960=[
+	[`Neil`,`David`,`Manoel`],
+	[
+		[[23,3,1960],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`raymond1933`,`gwen1935`],
+	[`Shane Neil Manoel`]
+]
+geoffrey1958=[
+	[`Geoffrey`,`Peter`,`Manoel`],
+	[
+		[[4,11,1958],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`raymond1933`,`gwen1935`],
+	[`Matthew Geoffrey Manoel`,`Sarah Louise Manoel`]
+]
+wayne1955=[
+	[`Wayne`,`Anthony`,`Manoel`],
+	[
+		[[12,8,1955],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`raymond1933`,`gwen1935`],
+	[`Melissa Joy Manoel`]
+]
 gloria1954=[
 	[`Gloria`,`Parslow`],
 	[
@@ -57,6 +97,16 @@ gloria1954=[
 	],
 	[`marjorie1932`,`Ronald Stanley Parslow`],
 	[`brandi1973`]
+]
+gary1953=[
+	[`Gary`,`Raymond`,`Manoel`],
+	[
+		[[25,9,1953],``],
+		[[],``],
+		[[8,12,2022],``,``]
+	],
+	[`raymond1933`,`gwen1935`],
+	[]
 ]
 david1952=[
 	[`David`,`James`,`Hamilton`],
@@ -76,7 +126,7 @@ gwen1935=[
 		[[30,4,2016],``,``]
 	],
 	[`richard1889`,`Olive Annie White`],
-	[`richard1967`,`Gary Raymond Manoel`,`Wayne Anthony Manoel`,`Geoffrey Peter Manoel`,`Neil David Manoel`,`Wendy Joy Manoel`]
+	[`gary1953`,`wayne1955`,`geoffrey1958`,`neil1960`,`wendy1962`,`richard1967`]
 ]
 raymond1933=[
 	[`Raymond`,`Walter`,`Manoel`],
@@ -86,7 +136,7 @@ raymond1933=[
 		[[10,9,2016],``,``]
 	],
 	[`george1907`,`gladys1906`],
-	[`richard1967`,`Gary Raymond Manoel`,`Wayne Anthony Manoel`,`Geoffrey Peter Manoel`,`Neil David Manoel`,`Wendy Joy Manoel`]
+	[`gary1953`,`wayne1955`,`geoffrey1958`,`neil1960`,`wendy1962`,`richard1967`]
 ]
 marjorie1932=[
 	[`Marjorie`,`Valda`,`Williams`],
