@@ -105,7 +105,7 @@ peter1840=[
 		[[25,12,1868],`Brompton, South Australia (Bowden)`],
 		[[26,7,1914],`Philip St, Southwark, South Australia`,`Asthma(long term), Bronchitis, and finally heart failure`]
 	],
-	[`Nicholas Manolis`],
+	[`nicholas1810`],
 	[`george1873`]
 ]
 joseph1825=[
@@ -127,6 +127,16 @@ mary1810=[
 	],
 	[],
 	[`martha1848`]
+]
+nicholas1810=[
+	[`Nicholas`,`Manolis`],
+	[
+		[[`?`,`?`,1810],`Mitilini, Island of Lesbos, Greek Isles`],
+		[[],``],
+		[[`?`,`?`,`?`],``,``]
+	],
+	[],
+	[`peter1840`]
 ]
 daniel1807=[
 	[`Daniel`,`Rimes`],
