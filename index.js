@@ -55,8 +55,18 @@ george1907=[
 		[[],``],
 		[[17,11,1990],`Manse, Semaphore, South Australia`,``]
 	],
-	[`george1873`,`Laura Dixon`],
+	[`george1873`,`laura1877`],
 	[`raymond1933`,`Peter Manoel`,`Barry Manoel`,`Margaret Manoel`]
+]
+laura1877=[
+	[`Laura`,`Dixon`],
+	[
+		[[14,4,1877],`Moonta Mines, South Australia`],
+		[[],``],
+		[[5,7,1961],`South Australia`,``]
+	],
+	[`david1840`,`Mary Jane Delbridge`],
+	[`george1907`]
 ]
 george1873=[
 	[`George`,`Henry`,`Manoel`],
@@ -78,6 +88,16 @@ martha1848=[
 	[`daniel1807`,`mary1810`],
 	[`george1873`]
 ]
+david1840=[
+	[`David`,`William`,`Dixon`],
+	[
+		[[15,3,1840],`North Adelaide, South Australia`],
+		[[24,7,1867],`Aliendale, South Australia`],
+		[[12,12,1926],`Perth, Western Australia`,``]
+	],
+	[`joseph1825`,`Martha Howe`],
+	[`laura1877`]
+]
 peter1840=[
 	[`Peter`,`Fredrick`,`Manolis`],
 	[
@@ -87,6 +107,16 @@ peter1840=[
 	],
 	[`Nicholas Manolis`],
 	[`george1873`]
+]
+joseph1825=[
+	[`Joseph`,`Dixon`],
+	[
+		[[22,6,1825],``],
+		[[6,12,1846],``],
+		[[31,3,1890],``,``]
+	],
+	[],
+	[`david1840`]
 ]
 mary1810=[
 	[`Mary`,`Creed`],
