@@ -1,9 +1,12 @@
 var focus=`darcy2000`
 function renderCard(){
 	document.getElementById(`main`).innerHTML=`<div id="title">`+window[focus][0].join(` `)+`</div>`
-	document.getElementById(`main`).innerHTML+=`<div id="lifespan" class="back20">b. `+window[focus][1][0].join(`-`)+`</div>`
+	document.getElementById(`main`).innerHTML+=`<div id="lifePoints" class="back20">b. `+window[focus][1][0].join(`-`)+`</div>`
 	if(window[focus][1][1].length){
-		document.getElementById(`lifespan`).innerHTML+=`<br>d. `+window[focus][1][1].join(`-`)
+		document.getElementById(`lifePoints`).innerHTML+=`<br>m. `+window[focus][1][1].join(`-`)
+	}
+	if(window[focus][1][2].length){
+		document.getElementById(`lifePoints`).innerHTML+=`<br>d. `+window[focus][1][2].join(`-`)
 	}
 	if(window[focus][2].length){
 		document.getElementById(`main`).innerHTML+=`<div id="parents"><span class="back20">Parents:</span><br></div>`
