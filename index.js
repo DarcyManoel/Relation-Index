@@ -1,7 +1,27 @@
+holly2008=[
+	[`Holly`,`Crystal`,`Manoel`],
+	[
+		[[17,4,2008],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1967`,`brandi1973`],
+	[]
+]
 darcy2000=[
 	[`Darcy`,`Hamilton`,`Manoel`],
 	[
 		[[9,5,2000],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`richard1967`,`brandi1973`],
+	[]
+]
+monty1999=[
+	[`Monty`,`Hamilton`,`Manoel`],
+	[
+		[[2,5,1999],``],
 		[[],``],
 		[[],``,``]
 	],
@@ -16,7 +36,7 @@ brandi1973=[
 		[[],``,``]
 	],
 	[`David James Hamilton`,`Gloria Parslow`],
-	[`darcy2000`,`Monty Hamilton Manoel`,`Holly Crystal Manoel`]
+	[`monty1999`,`darcy2000`,`holly2008`]
 ]
 richard1967=[
 	[`Richard`,`John`,`Manoel`],
@@ -26,7 +46,7 @@ richard1967=[
 		[[],``,``]
 	],
 	[`raymond1933`,`gwen1935`],
-	[`darcy2000`,`Monty Hamilton Manoel`,`Holly Crystal Manoel`]
+	[`monty1999`,`darcy2000`,`holly2008`]
 ]
 gwen1935=[
 	[`Gwendoline`,`LePoidevin`],
