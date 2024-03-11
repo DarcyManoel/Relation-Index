@@ -55,7 +55,7 @@ gloria1954=[
 		[[],``],
 		[[],``,``]
 	],
-	[`Marjorie Valda Williams`,`Ronald Stanley Parslow`],
+	[`marjorie1932`,`Ronald Stanley Parslow`],
 	[`brandi1973`]
 ]
 david1952=[
@@ -87,6 +87,16 @@ raymond1933=[
 	],
 	[`george1907`,`gladys1906`],
 	[`richard1967`,`Gary Raymond Manoel`,`Wayne Anthony Manoel`,`Geoffrey Peter Manoel`,`Neil David Manoel`,`Wendy Joy Manoel`]
+]
+marjorie1932=[
+	[`Marjorie`,`Valda`,`Williams`],
+	[
+		[[14,11,1932],``],
+		[[],``],
+		[[25,2,2024],``,``]
+	],
+	[`Hamilton Williams`,`Marjorie Schauer`],
+	[`gloria1954`]
 ]
 george1907=[
 	[`George`,`William`,`Manoel`],
