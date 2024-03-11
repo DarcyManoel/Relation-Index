@@ -38,6 +38,26 @@ melissa1988=[
 	[`wayne1955`,`carolyn1958`],
 	[]
 ]
+sarah1983=[
+	[`Sarah`,`Louise`,`Manoel`],
+	[
+		[[27,10,1983],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`geoffrey1958`,`shelly1962`],
+	[]
+]
+matthew1980=[
+	[`Matthew`,`Geoffrey`,`Manoel`],
+	[
+		[[21,8,1980],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`geoffrey1958`,`shelly1962`],
+	[]
+]
 brandi1973=[
 	[`Brandi`,`Hamilton`],
 	[
@@ -57,6 +77,16 @@ richard1967=[
 	],
 	[`raymond1933`,`gwen1935`],
 	[`monty1999`,`darcy2000`,`holly2008`]
+]
+shelly1962=[
+	[`Shelly`,`Louise`,`Jones`],
+	[
+		[[10,10,1962],``],
+		[[],``],
+		[[],``,``]
+	],
+	[],
+	[`matthew1980`,`sarah1983`]
 ]
 wendy1962=[
 	[`Wendy`,`Joy`,`Manoel`],
@@ -96,7 +126,7 @@ geoffrey1958=[
 		[[],``,``]
 	],
 	[`raymond1933`,`gwen1935`],
-	[`Matthew Geoffrey Manoel`,`Sarah Louise Manoel`]
+	[`matthew1980`,`sarah1983`]
 ]
 wayne1955=[
 	[`Wayne`,`Anthony`,`Manoel`],
