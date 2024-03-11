@@ -1,0 +1,38 @@
+body{
+	outline:none;
+	user-select:none;
+}
+#main{
+	border:1px solid #000;
+	height:800px;
+	left:50%;
+	padding:20px;
+	position:absolute;
+	top:50%;
+	transform:translate(-50%,-50%);
+	width:600px;
+}
+#title{
+	font-size:36px;
+}
+#lifespan{
+	margin:20px;
+}
+#parents,
+#children{
+	margin:20px;
+}
+.back20{
+	color:#000;
+	cursor:default;
+	left:-20px;
+	position:relative;
+}
+.blank{
+	color:#000;
+	cursor:default;
+}
+span{
+	color:#00e;
+	cursor:pointer;
+}

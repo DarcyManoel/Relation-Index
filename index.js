@@ -1,0 +1,45 @@
+darcy2000=[
+	[`Darcy`,`Hamilton`,`Manoel`],
+	[
+		[9,5,2000],
+		[]
+	],
+	[`richard1967`,`brandi1973`],
+	[]
+]
+brandi1973=[
+	[`Brandi`,`Hamilton`],
+	[
+		[22,7,1973],
+		[]
+	],
+	[],
+	[`darcy2000`]
+]
+richard1967=[
+	[`Richard`,`John`,`Manoel`],
+	[
+		[25,6,1967],
+		[]
+	],
+	[`raymond1933`],
+	[`darcy2000`]
+]
+raymond1933=[
+	[`Raymond`,`Walter`,`Manoel`],
+	[
+		[22,6,1933],
+		[10,9,2016]
+	],
+	[`george1907`,`Gladys Eleanor Silverlock`],
+	[`richard1967`],
+]
+george1907=[
+	[`George`,`William`,`Manoel`],
+	[
+		[`?`,`?`,1907],
+		[17,11,1990]
+	],
+	[`George Henry Manoel`,`Laura Dixon`],
+	[`raymond1933`,`Peter Manoel`,`Barry Manoel`,`Margaret Manoel`]
+]
