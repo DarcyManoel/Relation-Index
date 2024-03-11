@@ -28,6 +28,16 @@ monty1999=[
 	[`richard1967`,`brandi1973`],
 	[]
 ]
+melissa1988=[
+	[`Melissa`,`Joy`,`Manoel`],
+	[
+		[[31,10,1988],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`wayne1955`,`carolyn1958`],
+	[]
+]
 brandi1973=[
 	[`Brandi`,`Hamilton`],
 	[
@@ -68,6 +78,16 @@ neil1960=[
 	[`raymond1933`,`gwen1935`],
 	[`Shane Neil Manoel`]
 ]
+carolyn1958=[
+	[`Carolyn`,`June`,`Sanders`],
+	[
+		[[11,11,1958],``],
+		[[],``],
+		[[],``,``]
+	],
+	[],
+	[`melissa1988`]
+]
 geoffrey1958=[
 	[`Geoffrey`,`Peter`,`Manoel`],
 	[
@@ -86,7 +106,7 @@ wayne1955=[
 		[[],``,``]
 	],
 	[`raymond1933`,`gwen1935`],
-	[`Melissa Joy Manoel`]
+	[`melissa1988`]
 ]
 gloria1954=[
 	[`Gloria`,`Parslow`],
