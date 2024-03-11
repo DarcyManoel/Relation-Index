@@ -1,3 +1,6 @@
+const year=new Date().getFullYear()
+const month=new Date().getMonth()+1
+const day=new Date().getDate()
 var focus=`darcy2000`
 var yearDiff
 function renderCard(){
@@ -53,12 +56,30 @@ function renderCard(){
 		}else if(window[focus][1][2][0][1]==`?`||window[focus][1][0][0][1]==`?`){
 			printYearRange(0)
 		}
-	}
-	if(window[focus][1][2][1].length){
-		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+window[focus][1][2][1]+`</span>`
-	}
-	if(window[focus][1][2][2].length){
-		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+window[focus][1][2][2]+`</span>`
+		if(window[focus][1][2][1].length){
+			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+window[focus][1][2][1]+`</span>`
+		}
+		if(window[focus][1][2][2].length){
+			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+window[focus][1][2][2]+`</span>`
+		}
+	}else{
+		yearDiff=year-window[focus][1][0][0][2]
+		if(window[focus][1][0][0][2]==`?`){
+		}else if(month>window[focus][1][0][0][1]){
+			printYearRange(1)
+		}else if(month<window[focus][1][0][0][1]){
+			printYearRange(-1)
+		}else if(month==window[focus][1][0][0][1]){
+			if(day>=window[focus][1][0][0][0]){
+				printYearRange(1)
+			}else if(day<window[focus][1][0][0][0]){
+				printYearRange(-1)
+			}else if(window[focus][1][0][0][0]==`?`){
+				printYearRange(0)
+			}
+		}else if(window[focus][1][2][0][1]==`?`||window[focus][1][0][0][1]==`?`){
+			printYearRange(0)
+		}
 	}
 	if(window[focus][2].length){
 		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span>Parents:</span><br></div>`
