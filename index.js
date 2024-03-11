@@ -188,6 +188,16 @@ david1952=[
 	[`James Frederick Godfrey Hamilton`,`Gwendoline Joyce Woodcock`],
 	[`brandi1973`,`Danielle Ann`]
 ]
+peter1944=[
+	[`Peter`,`Manoel`],
+	[
+		[[3,2,1944],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`gladys1906`,`george1907`],
+	[]
+]
 gwen1935=[
 	[`Gwendoline`,`LePoidevin`],
 	[
@@ -226,7 +236,7 @@ george1907=[
 		[[17,11,1990],`Manse, Semaphore, South Australia`,``]
 	],
 	[`george1873`,`laura1877`],
-	[`raymond1933`,`Peter Manoel`,`Barry Manoel`,`Margaret Manoel`]
+	[`raymond1933`,`peter1944`,`Barry Manoel`,`Margaret Manoel`]
 ]
 gladys1906=[
 	[`Gladys`,`Eleanor`,`Silverlock`],
@@ -236,7 +246,7 @@ gladys1906=[
 		[[`?`,`?`,1993],``,``]
 	],
 	[],
-	[`raymond1933`]
+	[`raymond1933`,`peter1944`]
 ]
 richard1889=[
 	[`Richard`,`Gordan`,`LePoidevin`],
