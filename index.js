@@ -28,6 +28,16 @@ monty1999=[
 	[`richard1967`,`brandi1973`],
 	[]
 ]
+mitchell1989=[
+	[`Mitchell`,`Gavin`,`Alexander`],
+	[
+		[[23,4,1989],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`gavin1968`,`bernadette1970`],
+	[]
+]
 melissa1988=[
 	[`Melissa`,`Joy`,`Manoel`],
 	[
@@ -78,6 +88,16 @@ brandi1973=[
 	[`david1952`,`gloria1954`],
 	[`monty1999`,`darcy2000`,`holly2008`]
 ]
+bernadette1970=[
+	[`Bernadette`,`Mary`,`Reedy`],
+	[
+		[[25,3,1970],``],
+		[[],``],
+		[[],``,``]
+	],
+	[],
+	[`mitchell1989`]
+]
 gavin1968=[
 	[`Gavin`,`Thomas`,`Alexander`],
 	[
@@ -86,7 +106,7 @@ gavin1968=[
 		[[],``,``]
 	],
 	[`thomas1939`,`ivy1940`],
-	[`Mitchell Gavin Alexander`]
+	[`mitchell1989`]
 ]
 richard1967=[
 	[`Richard`,`John`,`Manoel`],
