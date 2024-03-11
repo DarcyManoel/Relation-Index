@@ -11,6 +11,8 @@ function renderCard(){
 		document.getElementById(`lifePoints`).innerHTML+=`<br>m. `+window[focus][1][1][0].join(`-`)
 		yearDiff=window[focus][1][1][0][2]-window[focus][1][0][0][2]
 		if(window[focus][1][1][0][2]==`?`||window[focus][1][0][0][2]==`?`){
+		}else if(window[focus][1][1][0][1]==`?`&&window[focus][1][0][0][1]==`?`){
+			printYearRange(0)
 		}else if(window[focus][1][1][0][1]>window[focus][1][0][0][1]){
 			printYearRange(1)
 		}else if(window[focus][1][1][0][1]<window[focus][1][0][0][1]){
@@ -34,6 +36,8 @@ function renderCard(){
 		document.getElementById(`lifePoints`).innerHTML+=`<br>d. `+window[focus][1][2][0].join(`-`)
 		yearDiff=window[focus][1][2][0][2]-window[focus][1][0][0][2]
 		if(window[focus][1][2][0][2]==`?`||window[focus][1][0][0][2]==`?`){
+		}else if(window[focus][1][2][0][1]==`?`&&window[focus][1][0][0][1]==`?`){
+			printYearRange(0)
 		}else if(window[focus][1][2][0][1]>window[focus][1][0][0][1]){
 			printYearRange(1)
 		}else if(window[focus][1][2][0][1]<window[focus][1][0][0][1]){
