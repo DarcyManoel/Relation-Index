@@ -75,7 +75,7 @@ martha1848=[
 		[[],``],
 		[[22,7,1934],``,``]
 	],
-	[`daniel1807`,`Mary Creed`],
+	[`daniel1807`,`mary1810`],
 	[`george1873`]
 ]
 peter1840=[
@@ -87,6 +87,16 @@ peter1840=[
 	],
 	[`Nicholas Manolis`],
 	[`george1873`]
+]
+mary1810=[
+	[`Mary`,`Creed`],
+	[
+		[[11,2,1810],`West Pennard, Somerset, England`],
+		[[],``],
+		[[`?`,6,1885],`Yeovil, Somerset, England`,``]
+	],
+	[],
+	[`martha1848`]
 ]
 daniel1807=[
 	[`Daniel`,`Rimes`],
