@@ -2,7 +2,7 @@ var focus=`darcy2000`
 var yearDiff
 function renderCard(){
 	document.getElementById(`main`).innerHTML=`<div id="title">`+window[focus][0].join(` `)+`</div>`
-	document.getElementById(`main`).innerHTML+=`<div id="lifePoints" class="back20">b. `+window[focus][1][0][0].join(`-`)+`</div>`
+	document.getElementById(`main`).innerHTML+=`<div id="lifePoints">b. `+window[focus][1][0][0].join(`-`)+`</div>`
 	if(window[focus][1][0][1].length){
 		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+window[focus][1][0][1]+`</span>`
 	}
@@ -57,7 +57,7 @@ function renderCard(){
 		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+window[focus][1][2][2]+`</span>`
 	}
 	if(window[focus][2].length){
-		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span class="back20">Parents:</span><br></div>`
+		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span>Parents:</span><br></div>`
 		for(i1=0;i1<window[focus][2].length;i1++){
 			if(containsUppercase(window[focus][2][i1])){
 				document.getElementById(`parents`).innerHTML+=`<span class="list">`+window[focus][2][i1]+`</span><br>`
@@ -67,7 +67,7 @@ function renderCard(){
 		}
 	}
 	if(window[focus][3].length){
-		document.getElementById(`main`).innerHTML+=`<br><div id="children"><span class="back20">Children:</span><br></div>`
+		document.getElementById(`main`).innerHTML+=`<br><div id="children"><span>Children:</span><br></div>`
 		for(i1=0;i1<window[focus][3].length;i1++){
 			if(containsUppercase(window[focus][3][i1])){
 				document.getElementById(`children`).innerHTML+=`<span class="list">`+window[focus][3][i1]+`</span><br>`
