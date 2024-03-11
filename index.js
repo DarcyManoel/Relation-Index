@@ -35,7 +35,7 @@ brandi1973=[
 		[[],``],
 		[[],``,``]
 	],
-	[`David James Hamilton`,`Gloria Parslow`],
+	[`david1952`,`Gloria Parslow`],
 	[`monty1999`,`darcy2000`,`holly2008`]
 ]
 richard1967=[
@@ -47,6 +47,16 @@ richard1967=[
 	],
 	[`raymond1933`,`gwen1935`],
 	[`monty1999`,`darcy2000`,`holly2008`]
+]
+david1952=[
+	[`David`,`James`,`Hamilton`],
+	[
+		[[17,1,1952],``],
+		[[],``],
+		[[5,8,2016],``,``]
+	],
+	[`James Frederick Godfrey Hamilton`,`Gwendoline Joyce Woodcock`],
+	[`brandi1973`,`Danielle Ann`]
 ]
 gwen1935=[
 	[`Gwendoline`,`LePoidevin`],
