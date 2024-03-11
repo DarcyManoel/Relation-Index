@@ -1,13 +1,3 @@
-//example=[
-//	[],
-//	[
-//		[[],``],
-//		[[],``],
-//		[[],``,``]
-//	],
-//	[],
-//	[]
-//]
 darcy2000=[
 	[`Darcy`,`Hamilton`,`Manoel`],
 	[
@@ -35,8 +25,18 @@ richard1967=[
 		[[],``],
 		[[],``,``]
 	],
-	[`raymond1933`,`Gwendoline LePoidevin`],
+	[`raymond1933`,`gwen1935`],
 	[`darcy2000`,`Monty Hamilton Manoel`,`Holly Crystal Manoel`]
+]
+gwen1935=[
+	[`Gwendoline`,`LePoidevin`],
+	[
+		[[4,1,1935],``],
+		[[],``],
+		[[30,4,2016],``,``]
+	],
+	[`richard1889`,`Olive Annie White`],
+	[`richard1967`,`Gary Raymond Manoel`,`Wayne Anthony Manoel`,`Geoffrey Peter Manoel`,`Neil David Manoel`,`Wendy Joy Manoel`]
 ]
 raymond1933=[
 	[`Raymond`,`Walter`,`Manoel`],
@@ -46,7 +46,7 @@ raymond1933=[
 		[[10,9,2016],``,``]
 	],
 	[`george1907`,`gladys1906`],
-	[`richard1967`,`Gary Raymond Manoel`,`Wayne Anthony Manoel`,`Geoffrey Peter Manoel`,`Neil David Manoel`,`Wendy Joy Manoel`],
+	[`richard1967`,`Gary Raymond Manoel`,`Wayne Anthony Manoel`,`Geoffrey Peter Manoel`,`Neil David Manoel`,`Wendy Joy Manoel`]
 ]
 george1907=[
 	[`George`,`William`,`Manoel`],
@@ -68,6 +68,16 @@ gladys1906=[
 	[],
 	[`raymond1933`]
 ]
+richard1889=[
+	[`Richard`,`Gordan`,`LePoidevin`],
+	[
+		[[11,5,1889],`Morphett Vale, South Australia`],
+		[[],``],
+		[[5,5,1977],`Morphett Vale, South Australia`,``]
+	],
+	[`richard1856`,`Esther Jane Tear`],
+	[`gwen1935`]
+]
 laura1877=[
 	[`Laura`,`Dixon`],
 	[
@@ -87,6 +97,16 @@ george1873=[
 	],
 	[`peter1840`,`martha1848`],
 	[`george1907`]
+]
+richard1856=[
+	[`Richard`,`Morgan`,`Lepoidevin`],
+	[
+		[[5,7,1856],`Noarlunga, South Australia`],
+		[[],``],
+		[[27,6,1913],`O'Halloran Hill, South Australia`,``]
+	],
+	[`daniel1826`,`Harriet Palmer Hutchison`],
+	[`richard1889`]
 ]
 martha1848=[
 	[`Martha`,`Mary`,`Creed`,`Rimes`],
@@ -117,6 +137,16 @@ peter1840=[
 	],
 	[`nicholas1810`],
 	[`george1873`]
+]
+daniel1826=[
+	[`Daniel`,`LePoidevin`],
+	[
+		[[19,5,1826],`St Pierre du Bois, Guernsey, Channel Islands`],
+		[[],``],
+		[[30,10,1918],`Morphett Vale, South Australia`,``]
+	],
+	[`thomas1789`,`Martha Marquand`],
+	[`richard1856`]
 ]
 joseph1825=[
 	[`Joseph`,`Dixon`],
@@ -157,4 +187,14 @@ daniel1807=[
 	],
 	[],
 	[`martha1848`]
+]
+thomas1789=[
+	[`Thomas`,`LePoidevin`],
+	[
+		[[`?`,`?`,1789],``],
+		[[],``],
+		[[`?`,`?`,1872],``,``]
+	],
+	[],
+	[`daniel1826`]
 ]
