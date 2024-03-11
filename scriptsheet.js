@@ -53,6 +53,9 @@ function renderCard(){
 	if(window[focus][1][2][1].length){
 		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+window[focus][1][2][1]+`</span>`
 	}
+	if(window[focus][1][2][2].length){
+		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+window[focus][1][2][2]+`</span>`
+	}
 	if(window[focus][2].length){
 		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span class="back20">Parents:</span><br></div>`
 		for(i1=0;i1<window[focus][2].length;i1++){
