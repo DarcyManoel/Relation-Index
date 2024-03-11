@@ -15,24 +15,11 @@ body{
 #title{
 	font-size:36px;
 }
-#lifePoints{
-	margin:20px;
-}
-#parents,
-#children{
-	margin:20px;
-}
-.back20{
-	color:#000;
-	cursor:default;
-	left:-20px;
+.list{
+	left:20px;
 	position:relative;
 }
-.blank{
-	color:#000;
-	cursor:default;
-}
-span{
-	color:#00e;
+.link{
+	color:#00c;
 	cursor:pointer;
 }
