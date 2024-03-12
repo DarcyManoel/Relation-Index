@@ -576,7 +576,57 @@ ivy1915=[
 		[[],``,``]
 	],
 	[`richard1889`,`olive1891`],
-	[`Gerald Alexander Collins`]
+	[`gerald1941`]
+]
+alexander1915=[
+	[`Alexander`,`Collins`],
+	[
+		[[28,3,1915],``],
+		[[],``],
+		[[],``,``]
+	],
+	[],
+	[`gerald1941`]
+]
+gerald1941=[
+	[`Gerald`,`Alexander`,`Collins`],
+	[
+		[[6,3,1941],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`alexander1915`,`ivy1915`],
+	[`stewart1966`,`catherine1967`]
+]
+jannette1941=[
+	[`Jannette`,`Patricia`,`Shave`],
+	[
+		[[19,5,1941],``],
+		[[],``],
+		[[],``,``]
+	],
+	[],
+	[`stewart1966`,`catherine1967`]
+]
+stewart1966=[
+	[`Stewart`,`Alexander`,`Collins`],
+	[
+		[[18,1,1966],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`gerald1941`,`jannette1941`],
+	[]
+]
+catherine1967=[
+	[`Catherine`,`Anne`,`Collins`],
+	[
+		[[27,8,1967],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`gerald1941`,`jannette1941`],
+	[]
 ]
 amy1914=[
 	[`Amy`,`Patience`,`LePoidevin`],
