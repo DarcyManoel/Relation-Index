@@ -5,13 +5,13 @@ var focus=`darcy2000`
 var yearDiff
 function renderCard(){
 	document.getElementById(`main`).innerHTML=`<div id="title">`+window[focus][0].join(` `)+`</div>`
-	document.getElementById(`main`).innerHTML+=`<div id="lifePoints">b. `+window[focus][1][0][0].join(`-`)+`</div>`
+	document.getElementById(`main`).innerHTML+=`<div id="lifePoints"><span class="heading">b.</span> `+window[focus][1][0][0].join(`-`)+`</div>`
 	if(window[focus][1][0][1].length){
 		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+window[focus][1][0][1]+`</span>`
 	}
 	yearDiff=0
 	if(window[focus][1][1][0].length){
-		document.getElementById(`lifePoints`).innerHTML+=`<br>m. `+window[focus][1][1][0].join(`-`)
+		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">m.</span> `+window[focus][1][1][0].join(`-`)
 		yearDiff=window[focus][1][1][0][2]-window[focus][1][0][0][2]
 		if(window[focus][1][1][0][2]==`?`||window[focus][1][0][0][2]==`?`){
 		}else if(window[focus][1][1][0][1]==`?`&&window[focus][1][0][0][1]==`?`){
@@ -36,7 +36,7 @@ function renderCard(){
 		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+window[focus][1][1][1]+`</span>`
 	}
 	if(window[focus][1][2][0].length){
-		document.getElementById(`lifePoints`).innerHTML+=`<br>d. `+window[focus][1][2][0].join(`-`)
+		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">d.</span> `+window[focus][1][2][0].join(`-`)
 		yearDiff=window[focus][1][2][0][2]-window[focus][1][0][0][2]
 		if(window[focus][1][2][0][2]==`?`||window[focus][1][0][0][2]==`?`){
 		}else if(window[focus][1][2][0][1]==`?`&&window[focus][1][0][0][1]==`?`){
@@ -82,7 +82,7 @@ function renderCard(){
 		}
 	}
 	if(window[focus][2].length){
-		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span>Parents:</span><br></div>`
+		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span class="heading">Parents:</span><br></div>`
 		for(i1=0;i1<window[focus][2].length;i1++){
 			if(containsUppercase(window[focus][2][i1])){
 				document.getElementById(`parents`).innerHTML+=`<span class="list nolink">`+window[focus][2][i1]+`</span><br>`
@@ -92,7 +92,7 @@ function renderCard(){
 		}
 	}
 	if(window[focus][3].length){
-		document.getElementById(`main`).innerHTML+=`<br><div id="children"><span>Children:</span><br></div>`
+		document.getElementById(`main`).innerHTML+=`<br><div id="children"><span class="heading">Children:</span><br></div>`
 		for(i1=0;i1<window[focus][3].length;i1++){
 			if(containsUppercase(window[focus][3][i1])){
 				document.getElementById(`children`).innerHTML+=`<span class="list nolink">`+window[focus][3][i1]+`</span><br>`
@@ -103,7 +103,7 @@ function renderCard(){
 	}
 	if(window[focus][2].length){
 		if(window[window[focus][2][0]][3].length-1){
-			document.getElementById(`main`).innerHTML+=`<br><div id="siblings"><span>Siblings:</span><br></div>`
+			document.getElementById(`main`).innerHTML+=`<br><div id="siblings"><span class="heading">Siblings:</span><br></div>`
 			for(i1=0;i1<window[window[focus][2][0]][3].length;i1++){
 				if(containsUppercase(window[window[focus][2][0]][3][i1])){
 					document.getElementById(`siblings`).innerHTML+=`<span class="list nolink">`+window[window[focus][2][0]][3][i1]+`</span><br>`

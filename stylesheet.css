@@ -1,4 +1,8 @@
 body{
+	font-family:"Montserrat",sans-serif;
+	font-optical-sizing:auto;
+	font-weight:300;
+	font-style:normal;
 	outline:none;
 	user-select:none;
 }
@@ -14,6 +18,9 @@ body{
 }
 #title{
 	font-size:36px;
+}
+#title,.heading{
+	font-weight:500;
 }
 .list{
 	left:20px;
