@@ -545,8 +545,28 @@ gladys1906=[
 		[[],``],
 		[[`?`,`?`,1993],``,``]
 	],
-	[],
+	[`walter1853`,`sarah1861`],
 	[`raymond1933`,`peter1944`]
+]
+walter1853=[
+	[`Walter`,`Silverlock`],
+	[
+		[[`?`,`?`,1853],``],
+		[[`?`,`?`,1882],``],
+		[[`?`,`?`,1921],``,``]
+	],
+	[],
+	[`gladys1906`,`Francis Ewart Everett Silverlock`]
+]
+sarah1861=[
+	[`Sarah`,`Ann`,`Everett`],
+	[
+		[[`?`,`?`,1861],``],
+		[[`?`,`?`,1882],``],
+		[[`?`,`?`,`?`],``,``]
+	],
+	[],
+	[`gladys1906`,`Francis Ewart Everett Silverlock`]
 ]
 olive1891=[
 	[`Olive`,`Annie`,`White`],
