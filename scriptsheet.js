@@ -101,6 +101,21 @@ function renderCard(){
 			}
 		}
 	}
+	if(window[focus][2].length){
+		if(window[window[focus][2][0]][3].length){
+			document.getElementById(`main`).innerHTML+=`<br><div id="siblings"><span>Siblings:</span><br></div>`
+			for(i1=0;i1<window[window[focus][2][0]][3].length;i1++){
+				if(containsUppercase(window[window[focus][2][0]][3][i1])){
+					document.getElementById(`siblings`).innerHTML+=`<span class="list">`+window[window[focus][2][0]][3][i1]+`</span><br>`
+				}else{
+					if(window[window[window[focus][2][0]][3][i1]][0].join(` `)==window[focus][0].join(` `)){
+					}else{
+						document.getElementById(`siblings`).innerHTML+=`<span class="list link" onClick=changeFocus("`+window[window[focus][2][0]][3][i1]+`")>`+window[window[window[focus][2][0]][3][i1]][0].join(` `)+`</span><br>`
+					}
+				}
+			}
+		}
+	}
 }
 function printYearRange(year){
 	if(year==-1){
