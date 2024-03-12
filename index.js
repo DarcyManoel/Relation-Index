@@ -728,16 +728,6 @@ george1873=[
 	[`peter1840`,`martha1848`],
 	[`george1907`]
 ]
-richard1856=[
-	[`Richard`,`Morgan`,`Lepoidevin`],
-	[
-		[[5,7,1856],`Noarlunga, South Australia`],
-		[[],``],
-		[[27,6,1913],`O'Halloran Hill, South Australia`,``]
-	],
-	[`daniel1826`,`Harriet Palmer Hutchison`],
-	[`richard1889`]
-]
 martha1848=[
 	[`Martha`,`Mary`,`Creed`,`Rimes`],
 	[
@@ -772,11 +762,31 @@ daniel1826=[
 	[`Daniel`,`LePoidevin`],
 	[
 		[[19,5,1826],`St Pierre du Bois, Guernsey, Channel Islands`],
-		[[],``],
+		[[21,10,1852],`Horseshoe Road, Noarlunga`],
 		[[30,10,1918],`Morphett Vale, South Australia`,``]
 	],
 	[`martha1788`,`thomas1789`],
 	[`richard1856`]
+]
+harriet1835=[
+	[`Harriet`,`Palmer`,`Hutchinson`],
+	[
+		[[4,10,1835],`Ardwick, Manchester, England`],
+		[[21,10,1852],`Horseshoe Road, Noarlunga`],
+		[[8,9,1905],``,``]
+	],
+	[`William Hutchinson`],
+	[`richard1856`]
+]
+richard1856=[
+	[`Richard`,`Morgan`,`Lepoidevin`],
+	[
+		[[5,7,1856],`Noarlunga, South Australia`],
+		[[],``],
+		[[27,6,1913],`O'Halloran Hill, South Australia`,``]
+	],
+	[`daniel1826`,`harriet1835`],
+	[`richard1889`]
 ]
 joseph1825=[
 	[`Joseph`,`Dixon`],
