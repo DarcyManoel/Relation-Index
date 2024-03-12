@@ -102,7 +102,7 @@ function renderCard(){
 		}
 	}
 	if(window[focus][2].length){
-		if(window[window[focus][2][0]][3].length){
+		if(window[window[focus][2][0]][3].length-1){
 			document.getElementById(`main`).innerHTML+=`<br><div id="siblings"><span>Siblings:</span><br></div>`
 			for(i1=0;i1<window[window[focus][2][0]][3].length;i1++){
 				if(containsUppercase(window[window[focus][2][0]][3][i1])){
