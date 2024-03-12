@@ -258,6 +258,16 @@ peter1944=[
 	[`gladys1906`,`george1907`],
 	[]
 ]
+gary1941=[
+	[`Gary`,`John`,`Ling`],
+	[
+		[[31,10,1941],``],
+		[[],``],
+		[[],``,``]
+	],
+	[],
+	[`leona1962`,`karen1963`,`tanya1969`]
+]
 rhonda1941=[
 	[`Rhonda`,`Aileen`,`Liston`],
 	[
@@ -266,7 +276,77 @@ rhonda1941=[
 		[[],``,``]
 	],
 	[`amy1914`,`ronald1913`],
-	[`Leona Jean Goldsworthy`,`Karen Marie Ling`,`Tanya Marie Ling`]
+	[`leona1962`,`karen1963`,`tanya1969`]
+]
+leona1962=[
+	[`Leona`,`Jean`,`Goldsworthy`],
+	[
+		[[6,8,1962],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`gary1941`,`rhonda1941`],
+	[]
+]
+karen1963=[
+	[`Karen`,`Marie`,`Ling`],
+	[
+		[[25,10,1963],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`gary1941`,`rhonda1941`],
+	[`kyle1987`]
+]
+shane1961=[
+	[`Shane`,`Malcolm`,`Christopher`],
+	[
+		[[18,7,1961],``],
+		[[],``],
+		[[],``,``]
+	],
+	[],
+	[`kyle1987`]
+]
+kyle1987=[
+	[`Kyle`,`Harold`,`Liston`,`Christopher`],
+	[
+		[[17,10,1987],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`shane1961`,`karen1963`],
+	[]
+]
+tanya1969=[
+	[`Tanya`,`Marie`,`Ling`],
+	[
+		[[23,3,1969],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`gary1941`,`rhonda1941`],
+	[`ryan1989`]
+]
+warren1963=[
+	[`Warren`,`Grant`,`Hartell`],
+	[
+		[[18,10,1963],``],
+		[[],``],
+		[[],``,``]
+	],
+	[],
+	[`ryan1989`]
+]
+ryan1989=[
+	[`Ryan`,`Corey`,`Hartell`],
+	[
+		[[3,5,1989],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`warren1963`,`tanya1969`],
+	[]
 ]
 ivy1940=[
 	[`Ivy`,`Lorraine`,`Liston`],
