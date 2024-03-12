@@ -22,4 +22,8 @@ body{
 .link{
 	color:#00c;
 	cursor:pointer;
+	transition:left .2s;
+}
+.link:hover{
+	left:30px;
 }
