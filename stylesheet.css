@@ -20,9 +20,12 @@ body{
 	position:relative;
 }
 .link{
-	color:#00c;
+	color:#33f;
 	cursor:pointer;
 	transition:left .2s;
+}
+.nolink{
+	color:#f33;
 }
 .link:hover{
 	left:30px;

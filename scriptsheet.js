@@ -85,7 +85,7 @@ function renderCard(){
 		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span>Parents:</span><br></div>`
 		for(i1=0;i1<window[focus][2].length;i1++){
 			if(containsUppercase(window[focus][2][i1])){
-				document.getElementById(`parents`).innerHTML+=`<span class="list">`+window[focus][2][i1]+`</span><br>`
+				document.getElementById(`parents`).innerHTML+=`<span class="list nolink">`+window[focus][2][i1]+`</span><br>`
 			}else{
 				document.getElementById(`parents`).innerHTML+=`<span class="list link" onClick=changeFocus("`+window[focus][2][i1]+`")>`+window[window[focus][2][i1]][0].join(` `)+`</span><br>`
 			}
@@ -95,7 +95,7 @@ function renderCard(){
 		document.getElementById(`main`).innerHTML+=`<br><div id="children"><span>Children:</span><br></div>`
 		for(i1=0;i1<window[focus][3].length;i1++){
 			if(containsUppercase(window[focus][3][i1])){
-				document.getElementById(`children`).innerHTML+=`<span class="list">`+window[focus][3][i1]+`</span><br>`
+				document.getElementById(`children`).innerHTML+=`<span class="list nolink">`+window[focus][3][i1]+`</span><br>`
 			}else{
 				document.getElementById(`children`).innerHTML+=`<span class="list link" onClick=changeFocus("`+window[focus][3][i1]+`")>`+window[window[focus][3][i1]][0].join(` `)+`</span><br>`
 			}
@@ -106,7 +106,7 @@ function renderCard(){
 			document.getElementById(`main`).innerHTML+=`<br><div id="siblings"><span>Siblings:</span><br></div>`
 			for(i1=0;i1<window[window[focus][2][0]][3].length;i1++){
 				if(containsUppercase(window[window[focus][2][0]][3][i1])){
-					document.getElementById(`siblings`).innerHTML+=`<span class="list">`+window[window[focus][2][0]][3][i1]+`</span><br>`
+					document.getElementById(`siblings`).innerHTML+=`<span class="list nolink">`+window[window[focus][2][0]][3][i1]+`</span><br>`
 				}else{
 					if(window[window[window[focus][2][0]][3][i1]][0].join(` `)==window[focus][0].join(` `)){
 					}else{
