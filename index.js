@@ -195,8 +195,48 @@ carolyn1957=[
 		[[],``],
 		[[],``,``]
 	],
-	[`amy1914`,`ronald1913`],
-	[`Keith Wilfred Ashby`,`Jessica Amy Ashby`,`Eric Ronald Ashby`]
+	[`ronald1913`,`amy1914`],
+	[`keith1980`,`jessica1983`,`eric1984`]
+]
+ivan1958=[
+	[`Ivan`,`Keith`,`Ashby`],
+	[
+		[[16,10,1958],``],
+		[[],``],
+		[[],``,``]
+	],
+	[],
+	[`keith1980`,`jessica1983`,`eric1984`]
+]
+keith1980=[
+	[`Keith`,`Wilfred`,`Ashby`],
+	[
+		[[10,5,1980],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`carolyn1957`,`ivan1958`],
+	[]
+]
+jessica1983=[
+	[`Jessica`,`Amy`,`Ashby`],
+	[
+		[[17,1,1983],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`carolyn1957`,`ivan1958`],
+	[]
+]
+eric1984=[
+	[`Eric`,`Ronald`,`Ashby`],
+	[
+		[[9,3,1984],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`carolyn1957`,`ivan1958`],
+	[]
 ]
 wayne1955=[
 	[`Wayne`,`Anthony`,`Manoel`],
@@ -245,8 +285,38 @@ colin1951=[
 		[[],``],
 		[[],``,``]
 	],
-	[`amy1914`,`ronald1913`],
-	[`Rebecca Claire Liston`,`David Ronald Noel Liston`]
+	[`ronald1913`,`amy1914`],
+	[`rebecca1979`,`david1981`]
+]
+mary1955=[
+	[`Mary`,`Frances`,`Roper`],
+	[
+		[[10,3,1955],``],
+		[[],``],
+		[[],``,``]
+	],
+	[],
+	[`rebecca1979`,`david1981`]
+]
+rebecca1979=[
+	[`Rebecca`,`Claire`,`Liston`],
+	[
+		[[9,4,1979],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`colin1951`,`mary1955`],
+	[]
+]
+david1981=[
+	[`David`,`Ronald`,`Noel`,`Liston`],
+	[
+		[[8,5,1981],``],
+		[[],``],
+		[[],``,``]
+	],
+	[`colin1951`,`mary1955`],
+	[]
 ]
 peter1944=[
 	[`Peter`,`Manoel`],
@@ -275,7 +345,7 @@ rhonda1941=[
 		[[],``],
 		[[],``,``]
 	],
-	[`amy1914`,`ronald1913`],
+	[`ronald1913`,`amy1914`],
 	[`leona1962`,`karen1963`,`tanya1969`]
 ]
 leona1962=[
@@ -355,7 +425,7 @@ ivy1940=[
 		[[],``],
 		[[],``,``]
 	],
-	[`amy1914`,`ronald1913`],
+	[`ronald1913`,`amy1914`],
 	[`june1965`,`gavin1968`]
 ]
 thomas1939=[
@@ -395,7 +465,7 @@ raymond1933=[
 		[[],``],
 		[[10,9,2016],``,``]
 	],
-	[`george1907`,`gladys1906`],
+	[`gladys1906`,`george1907`],
 	[`gary1953`,`wayne1955`,`geoffrey1958`,`neil1960`,`wendy1962`,`richard1967`]
 ]
 gwen1932=[
@@ -655,7 +725,7 @@ daniel1826=[
 		[[],``],
 		[[30,10,1918],`Morphett Vale, South Australia`,``]
 	],
-	[`thomas1789`,`martha1788`],
+	[`martha1788`,`thomas1789`],
 	[`richard1856`]
 ]
 joseph1825=[
