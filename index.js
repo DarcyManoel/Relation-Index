@@ -786,7 +786,7 @@ william1813=[
 		[[8,2,1884],``,``]
 	],
 	[`Joseph Hutchinson`,`Ann Trewhitt`],
-	[`eleanora1833`,`harriet1835`,`william1838`,`elizabeth1840`,`mary1843`]
+	[`eleanora1833`,`harriet1835`,`william1838`,`elizabeth1840`,`mary1843`,`john1845`,`eleanor1847`,`thomas1850`,`frederick1852`]
 ]
 harriet1811=[
 	[`Harriet`,`Smith`,`Palmer`],
@@ -809,14 +809,24 @@ eleanora1833=[
 	[]
 ]
 william1838=[
-	[`William`,`Palmer`],
+	[`William`,`Palmer`,`Hutchinson`],
 	[
 		[[13,4,1838],``],
 		[[],``],
-		[[`?`,`?`,`?`],``,``]
+		[[2,8,1925],``,``]
 	],
 	[`harriet1811`,`william1813`],
-	[]
+	[`Joseph`,`Rhoda`,`Emily`,`Albert`,`Edwin`,`Harry`,`Frederick`,`Elanore`,`Annie`,`Bertha`,`Jessie`,`Herbert`]
+]
+mary1841=[
+	[`Mary`,`Ann`,`Middleton`],
+	[
+		[[26,9,1841],``],
+		[[],``],
+		[[30,7,1922],``,``]
+	],
+	[`harriet1811`,`william1813`],
+	[`Joseph`,`Rhoda`,`Emily`,`Albert`,`Edwin`,`Harry`,`Frederick`,`Elanore`,`Annie`,`Bertha`,`Jessie`,`Herbert`]
 ]
 elizabeth1840=[
 	[`Elizabeth`,`Palmer`],
