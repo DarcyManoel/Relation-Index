@@ -766,7 +766,7 @@ daniel1826=[
 		[[30,10,1918],`Morphett Vale, South Australia`,``]
 	],
 	[`martha1788`,`thomas1789`],
-	[`richard1856`]
+	[`richard1856`,`Thomas`,`Louisa`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Amy`,`Laura Jones`,`Lionel`,`Howard`,`Ross`]
 ]
 harriet1835=[
 	[`Harriet`,`Palmer`,`Hutchinson`],
@@ -776,24 +776,34 @@ harriet1835=[
 		[[8,9,1905],``,``]
 	],
 	[`william1813`,`harriet1811`],
-	[`richard1856`]
+	[`richard1856`,`Thomas`,`Louisa`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Amy`,`Laura Jones`,`Lionel`,`Howard`,`Ross`]
 ]
 william1813=[
 	[`William`,`Hutchinson`],
 	[
 		[[`?`,`?`,1813],``],
 		[[18,2,1833],``],
-		[[`?`,`?`,1884],``,``]
+		[[8,2,1884],``,``]
 	],
 	[`Joseph Hutchinson`,`Ann Trewhitt`],
 	[`eleanora1833`,`harriet1835`,`william1838`,`elizabeth1840`,`mary1843`]
 ]
+harriet1811=[
+	[`Harriet`,`Smith`,`Palmer`],
+	[
+		[[`?`,`?`,1811],``],
+		[[18,2,1833],``],
+		[[`?`,`?`,1880],``,``]
+	],
+	[`john1783`,`Harriet Palmer`],
+	[`eleanora1833`,`harriet1835`,`william1838`,`elizabeth1840`,`mary1843`,`john1845`,`eleanor1847`,`thomas1850`,`frederick1852`]
+]
 eleanora1833=[
-	[`Eleanora`,`Christiana`],
+	[`Eleanora`,`Christiana`,`Whitfield`,`Hutchinson`],
 	[
 		[[25,12,1833],``],
 		[[],``],
-		[[`?`,`?`,`?`],``,``]
+		[[`?`,`?`,1839],``,``]
 	],
 	[`harriet1811`,`william1813`],
 	[]
@@ -828,15 +838,45 @@ mary1843=[
 	[`harriet1811`,`william1813`],
 	[]
 ]
-harriet1811=[
-	[`Harriet`,`Smith`,`Palmer`],
+john1845=[
+	[`John`,`Palmer`],
 	[
-		[[`?`,`?`,1811],``],
-		[[18,2,1833],``],
-		[[`?`,`?`,1880],``,``]
+		[[12,6,1845],`Hackham`],
+		[[],``],
+		[[],``,``]
 	],
-	[`john1783`,`Harriet Palmer`],
-	[`eleanora1833`,`harriet1835`,`william1838`,`elizabeth1840`,`mary1843`]
+	[`harriet1811`,`william1813`],
+	[]
+]
+eleanor1847=[
+	[`Eleanor`],
+	[
+		[[14,7,1847],`Hackham`],
+		[[],``],
+		[[],``,``]
+	],
+	[`harriet1811`,`william1813`],
+	[]
+]
+thomas1850=[
+	[`Thomas`,`Palmer`],
+	[
+		[[27,1,1850],`Hackham`],
+		[[],``],
+		[[],``,``]
+	],
+	[`harriet1811`,`william1813`],
+	[]
+]
+frederick1852=[
+	[`Frederick`,`Williams`],
+	[
+		[[`?`,`?`,1852],`Hackham`],
+		[[],``],
+		[[],``,``]
+	],
+	[`harriet1811`,`william1813`],
+	[]
 ]
 john1783=[
 	[`John`,`Palmer`],
