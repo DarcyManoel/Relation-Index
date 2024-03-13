@@ -775,8 +775,78 @@ harriet1835=[
 		[[21,10,1852],`Horseshoe Road, Noarlunga`],
 		[[8,9,1905],``,``]
 	],
-	[`William Hutchinson`],
+	[`william1813`,`harriet1811`],
 	[`richard1856`]
+]
+william1813=[
+	[`William`,`Hutchinson`],
+	[
+		[[`?`,`?`,1813],``],
+		[[18,2,1833],``],
+		[[`?`,`?`,1884],``,``]
+	],
+	[`Joseph Hutchinson`,`Ann Trewhitt`],
+	[`eleanora1833`,`harriet1835`,`william1838`,`elizabeth1840`,`mary1843`]
+]
+eleanora1833=[
+	[`Eleanora`,`Christiana`],
+	[
+		[[25,12,1833],``],
+		[[],``],
+		[[`?`,`?`,`?`],``,``]
+	],
+	[`harriet1811`,`william1813`],
+	[]
+]
+william1838=[
+	[`William`,`Palmer`],
+	[
+		[[13,4,1838],``],
+		[[],``],
+		[[`?`,`?`,`?`],``,``]
+	],
+	[`harriet1811`,`william1813`],
+	[]
+]
+elizabeth1840=[
+	[`Elizabeth`,`Palmer`],
+	[
+		[[27,8,1840],``],
+		[[],``],
+		[[`?`,`?`,`?`],``,``]
+	],
+	[`harriet1811`,`william1813`],
+	[]
+]
+mary1843=[
+	[`Mary`,`Palmer`],
+	[
+		[[15,2,1843],``],
+		[[],``],
+		[[`?`,`?`,`?`],``,``]
+	],
+	[`harriet1811`,`william1813`],
+	[]
+]
+harriet1811=[
+	[`Harriet`,`Smith`,`Palmer`],
+	[
+		[[`?`,`?`,1811],``],
+		[[18,2,1833],``],
+		[[`?`,`?`,1880],``,``]
+	],
+	[`john1783`,`Harriet Palmer`],
+	[`eleanora1833`,`harriet1835`,`william1838`,`elizabeth1840`,`mary1843`]
+]
+john1783=[
+	[`John`,`Palmer`],
+	[
+		[[`?`,`?`,1783],`Bishop Middleham, Durham`],
+		[[],``],
+		[[`?`,`?`,1846],`Manchester`,``]
+	],
+	[],
+	[`harriet1811`]
 ]
 richard1856=[
 	[`Richard`,`Morgan`,`Lepoidevin`],
