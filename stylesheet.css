@@ -1,21 +1,28 @@
+@media only screen and (max-width:600px) {
+	#card{
+		width:95vw;
+		padding:4vh 0 0 5vw;
+	}
+}
+@media only screen and (min-width:600px) {
+	#card{
+		border:1px solid #000;
+		height:85vh;
+		left:50%;
+		padding:4vh 2vw 2vh 2vw;
+		position:absolute;
+		top:50%;
+		transform:translate(-50%,-50%);
+		width:60vw;
+	}
+}
 body{
 	font-family:"Montserrat",sans-serif;
 	font-optical-sizing:auto;
 	font-weight:300;
 	font-style:normal;
 	outline:none;
-	user-select:none;
-}
-#card{
-	border:1px solid #000;
-	height:760px;
-	left:50%;
-	padding:20px;
-	padding-top:40px;
-	position:absolute;
-	top:50%;
-	transform:translate(-50%,-50%);
-	width:600px;
+	user-select:none;s
 }
 #title{
 	font-size:36px;
