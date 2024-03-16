@@ -13,6 +13,9 @@ function renderCard(){
 	var focus=window[focusPlain]
 	document.getElementById(`main`).innerHTML=`<div id="title">`+focus.name+`</div>`
 	document.getElementById(`main`).innerHTML+=`<div id="lifePoints"><span class="heading">b.</span> `+focus.birth.join(`-`)+`</div>`
+	if(!focus.death){
+		printYearRange(focus.birth,[day,month,year])
+	}
 	if(focus.birthPlace){
 		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.birthPlace+`</span>`
 	}
