@@ -1,10 +1,12 @@
-example=[
-	[],
-	[
-		[[],``],
-		[[],``],
-		[[],``,``]
-	],
-	[],
-	[]
-]
+example={
+	name:``
+	birth:[`?`,`?`,`?`]
+	birthPlace:``
+	marriage:[`?`,`?`,`?`]
+	marriagePlace:``
+	death:[`?`,`?`,`?`]
+	deathPlace:``
+	deathCause:``
+	parents:[]
+	children:[]
+}
