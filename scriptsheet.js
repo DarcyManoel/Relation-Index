@@ -4,6 +4,11 @@ const day=new Date().getDate()
 var prevFocus=[]
 var focusPlain=`darcy2000`
 var yearDiff
+function initialize(){
+	if(typeof screen.orientation!=='undefined'){
+		alert(`test`)
+	}
+}
 function renderCard(){
 	if(prevFocus.length){
 		document.getElementById(`back`).classList.remove(`unavailable`)
