@@ -1,5 +1,6 @@
 example={
 	name:``
+	gender:``
 	birth:[`?`,`?`,`?`]
 	birthPlace:``
 	marriage:[`?`,`?`,`?`]
