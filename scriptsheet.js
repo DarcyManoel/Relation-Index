@@ -1,10 +1,16 @@
 const year=new Date().getFullYear()
 const month=new Date().getMonth()+1
 const day=new Date().getDate()
-var focus=`darcy2000`
+var prevFocus=[]
+var focusPlain=`darcy2000`
 var yearDiff
 function renderCard(){
-	focus=window[focus]
+	if(prevFocus.length){
+		document.getElementById(`back`).classList.remove(`unavailable`)
+	}else{
+		document.getElementById(`back`).classList.add(`unavailable`)
+	}
+	var focus=window[focusPlain]
 	document.getElementById(`main`).innerHTML=`<div id="title">`+focus.name+`</div>`
 	document.getElementById(`main`).innerHTML+=`<div id="lifePoints"><span class="heading">b.</span> `+focus.birth.join(`-`)+`</div>`
 	if(focus.birthPlace){
@@ -107,7 +113,12 @@ function printYearRange(start,end){
 	}
 }
 function changeFocus(passedFocus){
-	focus=passedFocus
+	prevFocus.push(focusPlain)
+	focusPlain=passedFocus
+	renderCard()
+}
+function backFocus(){
+	focusPlain=prevFocus.pop()
 	renderCard()
 }
 function containsUppercase(string){

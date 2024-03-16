@@ -6,11 +6,12 @@ body{
 	outline:none;
 	user-select:none;
 }
-#main{
+#card{
 	border:1px solid #000;
-	height:800px;
+	height:760px;
 	left:50%;
 	padding:20px;
+	padding-top:40px;
 	position:absolute;
 	top:50%;
 	transform:translate(-50%,-50%);
@@ -21,6 +22,17 @@ body{
 }
 #title,.heading{
 	font-weight:500;
+}
+#back{
+	cursor:pointer;
+	font-size:32px;
+	left:10px;
+	position:absolute;
+	top:5px;
+}
+.unavailable{
+	color:#aaa;
+	pointer-events:none;
 }
 .list{
 	left:20px;
