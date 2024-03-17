@@ -1,7 +1,7 @@
 @media only screen and (max-width:600px) {
 	#card{
-		width:95vw;
 		padding:4vh 0 0 5vw;
+		width:95vw;
 	}
 }
 @media only screen and (min-width:600px) {
@@ -13,7 +13,7 @@
 		position:absolute;
 		top:50%;
 		transform:translate(-50%,-50%);
-		width:60vw;
+		width:40vw;
 	}
 }
 body{

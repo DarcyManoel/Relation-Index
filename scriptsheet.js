@@ -3,6 +3,7 @@ const month=new Date().getMonth()+1
 const day=new Date().getDate()
 var prevFocus=[]
 var focusPlain=`darcy2000`
+var focus=window[focusPlain]
 var yearDiff
 function renderCard(){
 	if(prevFocus.length){
@@ -10,7 +11,7 @@ function renderCard(){
 	}else{
 		document.getElementById(`back`).classList.add(`unavailable`)
 	}
-	var focus=window[focusPlain]
+	focus=window[focusPlain]
 	document.getElementById(`main`).innerHTML=`<div id="title">`+focus.name+`</div>`
 	document.getElementById(`main`).innerHTML+=`<div id="lifePoints"><span class="heading">b.</span> `+focus.birth.join(`-`)+`</div>`
 	if(!focus.death){
