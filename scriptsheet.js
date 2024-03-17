@@ -2,16 +2,24 @@ const year=new Date().getFullYear()
 const month=new Date().getMonth()+1
 const day=new Date().getDate()
 var prevFocus=[]
+if(localStorage.getItem(`prevFocus`)){
+	prevFocus=localStorage.getItem(`prevFocus`).split(`,`)
+}
 var focusPlain=`darcy2000`
+if(localStorage.getItem(`focusPlain`)){
+	focusPlain=localStorage.getItem(`focusPlain`)
+}
 var focus=window[focusPlain]
 var yearDiff
 function renderCard(){
+	localStorage.setItem(`prevFocus`,prevFocus)
+	localStorage.setItem(`focusPlain`,focusPlain)
+	focus=window[focusPlain]
 	if(prevFocus.length){
 		document.getElementById(`back`).classList.remove(`unavailable`)
 	}else{
 		document.getElementById(`back`).classList.add(`unavailable`)
 	}
-	focus=window[focusPlain]
 	document.getElementById(`main`).innerHTML=`<div id="title">`+focus.name+`</div>`
 	document.getElementById(`main`).innerHTML+=`<div id="lifePoints"><span class="heading">b.</span> `+focus.birth.join(`-`)+`</div>`
 	if(!focus.death){
