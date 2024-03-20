@@ -430,6 +430,8 @@ martha1848={
 	name:`Martha Mary Creed Rimes`,
 	gender:`female`,
 	birth:[`?`,9,1848],
+	marriage:[25,12,1868],
+	marriagePlace:`Brompton, South Australia (Bowden)`,
 	death:[22,7,1934],
 	parents:[`daniel1807`,`mary1810`],
 	children:[`george1873`]}
@@ -455,7 +457,8 @@ peter1840={
 	deathPlace:`Philip St, Southwark, South Australia`,
 	deathCause:`Asthma(long term), bronchitis, and finally heart failure`,
 	parents:[`nicholas1810`],
-	children:[`george1873`]}
+	children:[`george1873`],
+	photos:[`3`,`4`]}
 daniel1826={
 	name:`Daniel Le Poidevin`,
 	gender:`male`,
@@ -466,8 +469,24 @@ daniel1826={
 	death:[30,10,1918],
 	deathPlace:`Morphett Vale, South Australia`,
 	parents:[`martha1788`,`thomas1789`],
-	children:[`richard1856`,`Thomas`,`Louisa`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Amy`,`Laura Jones`,`Lionel`,`Howard`,`Ross`],
+	children:[`richard1856`,`louisa1858`,`amy1873`,`Thomas`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Laura Jones`,`Lionel`,`Howard`,`Ross`],
 	photos:[`2`]}
+amy1873={
+	name:`Amy Marguerite Le Poidevin`,
+	gender:`female`,
+	birth:[`?`,`?`,1873],
+	birthPlace:`Noarlunga, South Australia`,
+	death:[`?`,`?`,1952],
+	parents:[`daniel1826`,`harriet1835`],
+	photos:[`5`]}
+louisa1858={
+	name:`Louisa Mary Le Poidevin`,
+	gender:`female`,
+	birth:[`?`,`?`,1858],
+	birthPlace:`Morphett Vale, South Australia`,
+	death:[`?`,`?`,1928],
+	parents:[`daniel1826`,`harriet1835`],
+	photos:[`6`]}
 harriet1835={
 	name:`Harriet Palmer Hutchinson`,
 	gender:`female`,
@@ -477,7 +496,7 @@ harriet1835={
 	marriagePlace:`Horseshoe Road, Noarlunga`,
 	death:[8,9,1905],
 	parents:[`william1813`,`harriet1811`],
-	children:[`richard1856`,`Thomas`,`Louisa`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Amy`,`Laura Jones`,`Lionel`,`Howard`,`Ross`],
+	children:[`richard1856`,`louisa1858`,`amy1873`,`Thomas`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Laura Jones`,`Lionel`,`Howard`,`Ross`],
 	photos:[`2`]}
 william1813={
 	name:`William Hutchinson`,
