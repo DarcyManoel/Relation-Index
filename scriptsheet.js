@@ -103,6 +103,12 @@ function renderCard(){
 			}
 		}
 	}
+	if(focus.photos){
+		document.getElementById(`main`).innerHTML+=`<br><div id="photos"></div>`
+		for(i1=0;i1<focus.photos.length;i1++){
+			document.getElementById(`photos`).innerHTML+=`<img src="images/photos/`+focus.photos[i1]+`.jpg"></img>`
+		}
+	}
 }
 function printYearRange(start,end){
 	if(end[2]!==`?`){

@@ -16,6 +16,9 @@
 		width:40vw;
 	}
 }
+#card{
+	overflow-y:scroll;
+}
 body{
 	font-family:"Montserrat",sans-serif;
 	font-optical-sizing:auto;
@@ -23,6 +26,10 @@ body{
 	font-style:normal;
 	outline:none;
 	user-select:none;s
+}
+img{
+	border-radius:20px;
+	height:200px;
 }
 #footer{
 	position:absolute;

@@ -275,7 +275,8 @@ gwen1935={
 	birth:[4,1,1935],
 	death:[30,4,2016],
 	parents:[`richard1889`,`olive1891`],
-	children:[`gary1953`,`wayne1955`,`geoffrey1958`,`neil1960`,`wendy1962`,`richard1967`]}
+	children:[`gary1953`,`wayne1955`,`geoffrey1958`,`neil1960`,`wendy1962`,`richard1967`],
+	photos:[`1`]}
 marjorie1932={
 	name:`Marjorie Valda Williams`,
 	gender:`female`,
@@ -465,7 +466,8 @@ daniel1826={
 	death:[30,10,1918],
 	deathPlace:`Morphett Vale, South Australia`,
 	parents:[`martha1788`,`thomas1789`],
-	children:[`richard1856`,`Thomas`,`Louisa`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Amy`,`Laura Jones`,`Lionel`,`Howard`,`Ross`]}
+	children:[`richard1856`,`Thomas`,`Louisa`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Amy`,`Laura Jones`,`Lionel`,`Howard`,`Ross`],
+	photos:[`2`]}
 harriet1835={
 	name:`Harriet Palmer Hutchinson`,
 	gender:`female`,
@@ -475,7 +477,8 @@ harriet1835={
 	marriagePlace:`Horseshoe Road, Noarlunga`,
 	death:[8,9,1905],
 	parents:[`william1813`,`harriet1811`],
-	children:[`richard1856`,`Thomas`,`Louisa`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Amy`,`Laura Jones`,`Lionel`,`Howard`,`Ross`]}
+	children:[`richard1856`,`Thomas`,`Louisa`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Amy`,`Laura Jones`,`Lionel`,`Howard`,`Ross`],
+	photos:[`2`]}
 william1813={
 	name:`William Hutchinson`,
 	gender:`male`,
