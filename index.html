@@ -11,7 +11,8 @@
 	</head>
 	<body onLoad="renderCard()">
 		<div id="card">
-			<div id="back" class="unavailable" onClick="backFocus()">&#8592;</div>
+			<div id="back" class="unavailable" onClick="backFocus(0)">&#8592;</div>
+			<div id="refresh" onClick="backFocus(1)"></div>
 			<div id="main"></div>
 <!-- Auto scrolling card footer, not sure if needed in future
 			<marquee id="footer" direction="right">test</marquee>

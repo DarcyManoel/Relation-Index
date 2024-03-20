@@ -17,8 +17,10 @@ function renderCard(){
 	focus=window[focusPlain]
 	if(prevFocus.length){
 		document.getElementById(`back`).classList.remove(`unavailable`)
+		document.getElementById(`refresh`).classList.remove(`unavailable`)
 	}else{
 		document.getElementById(`back`).classList.add(`unavailable`)
+		document.getElementById(`refresh`).classList.add(`unavailable`)
 	}
 	document.getElementById(`main`).innerHTML=`<div id="title">`+focus.name+`</div>`
 	document.getElementById(`main`).innerHTML+=`<div id="lifePoints"><span class="heading">b.</span> `+focus.birth.join(`-`)+`</div>`
@@ -135,8 +137,13 @@ function changeFocus(passedFocus){
 	focusPlain=passedFocus
 	renderCard()
 }
-function backFocus(){
-	focusPlain=prevFocus.pop()
+function backFocus(home){
+	if(home){
+		prevFocus=[]
+		focusPlain=`darcy2000`
+	}else{
+		focusPlain=prevFocus.pop()
+	}
 	renderCard()
 }
 function containsUppercase(string){
