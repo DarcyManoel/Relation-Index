@@ -21,9 +21,10 @@ gladys1906={
 	gender:`female`,
 	birth:[23,4,1906],
 	birthPlace:`Semaphore, Adelaide, South Australia`,
-	death:[`?`,`?`,1993],
+	death:[19,7,1993],
+	deathPlace:`Adelaide, South Australia`,
 	parents:[`walter1853`,`sarah1861`],
-	children:[`raymond1933`,`peter1944`]}
+	children:[`raymond1933`,`peter1944`,`Barry Manoel`,`Margaret Manoel`]}
 walter1853={
 	name:`Walter Silverlock`,
 	gender:`male`,
@@ -382,6 +383,7 @@ george1907={
 	birthPlace:`Broken Hill, New South Wales, Australia`,
 	death:[17,11,1990],
 	deathPlace:`Manse, Semaphore, South Australia`,
+	buried:`Cheltenham, South Australia`,
 	parents:[`george1873`,`laura1877`],
 	children:[`raymond1933`,`peter1944`,`Barry Manoel`,`Margaret Manoel`]}
 sarah1861={
@@ -411,21 +413,25 @@ laura1877={
 	gender:`female`,
 	birth:[14,4,1877],
 	birthPlace:`Moonta Mines, South Australia`,
-	death:[5,7,1961],
+	marriage:[`?`,`?`,1897],
+	marriagePlace:`Broken Hill, New South Wales, Australia`,
+	death:[5,1,1961],
 	deathPlace:`South Australia`,
-	parents:[`david1840`,`Mary Jane Delbridge`],
-	children:[`george1907`]}
+	buried:`Cheltenham Cemetery, Cheltenham, South Australia`,
+	parents:[`david1840`,`mary1849`],
+	children:[`george1907`,`Florence Dorothy Manoel`,`Gwendoline Ada Manoel`,`Ethel Mary Manoel`]}
 george1873={
 	name:`George Henry Manoel`,
 	gender:`male`,
 	birth:[13,4,1873],
 	birthPlace:`Portland Estate, Pt Adelaide, South Australia`,
-	marriage:[`?`,`?`,`?`],
+	marriage:[`?`,`?`,1897],
 	marriagePlace:`Broken Hill, New South Wales, Australia`,
 	death:[17,11,1945],
 	deathPlace:`South Australia`,
+	buried:`Cheltenham Cemetery, Cheltenham, South Australia`,
 	parents:[`peter1840`,`martha1848`],
-	children:[`george1907`]}
+	children:[`george1907`,`Florence Dorothy Manoel`,`Gwendoline Ada Manoel`,`Ethel Mary Manoel`]}
 martha1848={
 	name:`Martha Mary Creed Rimes`,
 	gender:`female`,
@@ -439,7 +445,7 @@ martha1848={
 david1840={
 	name:`David William Dixon`,
 	gender:`male`,
-	birth:[15,3,1840],
+	birth:[15,3,1847],
 	birthPlace:`North Adelaide, South Australia`,
 	marriage:[24,7,1867],
 	marriagePlace:`Aliendale, South Australia`,
@@ -447,6 +453,28 @@ david1840={
 	deathPlace:`Perth, Western Australia`,
 	parents:[`joseph1825`,`Martha Howe`],
 	children:[`laura1877`]}
+mary1849={
+	name:`Mary Jane Delbridge`,
+	birth:[15,10,1849],
+	birthPlace:`South Australia`,
+	marriage:[24,7,1867],
+	marriagePlace:`Allendale North, South Australia`,
+	death:[22,6,1892],
+	deathPlace:`Jamestown, South Australia`,
+	buried:`Jamestown Cemetery, Jamestown, South Australia`,
+	parents:[`james1806`,`Margaret Rickard`],
+	children:[`laura1877`,`Martha Annie Dixon`,`Emma Elizabeth Dixon`,`Florence Helena Dixon`,`Ada Dixon`,`Lillian Beatrice Dixon`]}
+james1806={
+	name:`James Delbridge`,
+	birth:[2,5,1806],
+	birthPlace:`Cubert, Cornwall, England`,
+	marriage:[9,8,1829],
+	marriagePlace:`Kenwyn, Cornwall, England`,
+	death:[31,5,1890],
+	deathPlace:`Kapunda, South Australia`,
+	buried:`Kapunda Cemetery, Kapunda, South Australia`,
+	parents:[`John Delbridge`,`Jane Hinkson`],
+	children:[`mary1849`,`James Delbridge`,`Elizabeth Cundy Delbridge`,`Anthony Delbridge`,`Mary Jane Delbridge`,`George Cundy Delbridge`,`John Delbridge`,`Anne Delbridge`,`Ellen Helena Delbridge`,`Sarah Victoria Delbridge`]}
 peter1840={
 	name:`Peter Fredrick Manolis`,
 	gender:`male`,
