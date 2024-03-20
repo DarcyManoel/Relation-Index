@@ -30,7 +30,7 @@ function renderCard(){
 	}
 	if(focus.marriage){
 		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">m.</span> `+focus.marriage.join(`-`)
-		printYearRange(focus.birth,focus.death)
+		printYearRange(focus.birth,focus.marriage)
 		if(focus.marriagePlace){
 			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.marriagePlace+`</span>`
 		}
