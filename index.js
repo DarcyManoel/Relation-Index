@@ -434,7 +434,8 @@ martha1848={
 	marriagePlace:`Brompton, South Australia (Bowden)`,
 	death:[22,7,1934],
 	parents:[`daniel1807`,`mary1810`],
-	children:[`george1873`]}
+	children:[`sophia1871`,`george1873`],
+	photos:[`7`]}
 david1840={
 	name:`David William Dixon`,
 	gender:`male`,
@@ -456,9 +457,23 @@ peter1840={
 	death:[26,7,1914],
 	deathPlace:`Philip St, Southwark, South Australia`,
 	deathCause:`Asthma(long term), bronchitis, and finally heart failure`,
+	buried:`Cemetery Ave, Nailsworth, South Australia`,
 	parents:[`nicholas1810`],
-	children:[`george1873`],
+	children:[`sophia1871`,`george1873`],
 	photos:[`3`,`4`]}
+sophia1871={
+	name:`Sophia Manoel`,
+	gender:`female`,
+	birth:[24,7,1871],
+	birthPlace:`Port Adelaide, South Australia`,
+	marriage:[24,5,1890],
+	marriagePlace:`Jamestown, South Australia`,
+	death:[14,7,1903],
+	deathPlace:`Jamestown, South Australia`,
+	buried:`Jamestown Cemetery, Jamestown, South Australia`,
+	parents:[`peter1840`,`martha1848`],
+	children:[`Amelia May Camp`,`Ernest John Camp`,`Lionel Oldridge Camp`,`Clara Hilda Camp`,`Beatrice Florence Camp`,`Celia L Camp`,`William Henry Camp`,`Leta Eileen Camp`,`Albert Camp`,`Mabel Camp`],
+	photos:[`8`]}
 daniel1826={
 	name:`Daniel Le Poidevin`,
 	gender:`male`,

@@ -46,6 +46,9 @@ function renderCard(){
 		if(focus.deathCause){
 			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.deathCause+`</span>`
 		}
+		if(focus.buried){
+			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">bur.</span> `+focus.buried
+		}
 	}
 	if(focus.parents){
 		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span class="heading">Parents:</span><br></div>`
