@@ -1,3 +1,5 @@
+//	104
+
 darcy2000={
 	name:`Darcy Hamilton Manoel`,
 	gender:`male`,
@@ -160,7 +162,7 @@ wayne1955={
 	parents:[`raymond1933`,`gwen1935`],
 	children:[`melissa1988`]}
 gloria1954={
-	name:`Gloria Parslow`,
+	name:`Gloria Dawn Parslow`,
 	gender:`female`,
 	birth:[8,8,1954],
 	parents:[`marjorie1932`,`Ronald Stanley Parslow`],
@@ -177,7 +179,13 @@ david1952={
 	birth:[17,1,1952],
 	death:[5,8,2016],
 	parents:[`James Frederick Godfrey Hamilton`,`Gwendoline Joyce Woodcock`],
-	children:[`brandi1973`,`Danielle Ann`]}
+	children:[`brandi1973`,`danielle1983`]}
+danielle1983={
+	name:`Danielle Ann`,
+	gender:`female`,
+	birth:[`?`,`?`,1983],
+	parents:[`Tracey Ann Mills`],
+	children:[`Mia Rose`,`Riley`]}
 colin1951={
 	name:`Colin William Liston`,
 	gender:`male`,
