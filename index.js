@@ -283,8 +283,20 @@ marjorie1932={
 	gender:`female`,
 	birth:[14,11,1932],
 	death:[25,2,2024],
-	parents:[`Hamilton Williams`,`Marjorie Schauer`],
-	children:[`gloria1954`]}
+	parents:[`hamilton1912`,`Marjorie Schauer`],
+	children:[`gloria1954`],
+	photos:[`9`,`10`,`11`]}
+hamilton1912={
+	name:`Hamilton Williams`,
+	gender:`male`,
+	birth:[1,4,1912],
+	birthPlace:`Norwood, Adelaide, South Australia`,
+	death:[5,6,1945],
+	deathPlace:`Hope Valley, Adelaide, South Australia`,
+	buried:`Enfield Cemetery, Clearview, South Australia`,
+	parents:[`Charles Alfred Williams`,`Daisy Hamilton`],
+	children:[`marjorie1932`],
+	photos:[`12`]}
 joy1929={
 	name:`Joy Lorraine Le Poidevin`,
 	gender:`female`,
