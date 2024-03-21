@@ -31,16 +31,20 @@ function renderCard(){
 		}
 	}
 	if(focus.death){
-		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">d.</span> `+focus.death.join(`-`)
-		printYearRange(focus.birth,focus.death)
-		if(focus.deathPlace){
-			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.deathPlace+`</span>`
-		}
-		if(focus.deathCause){
-			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.deathCause+`</span>`
-		}
-		if(focus.buried){
-			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">bur.</span> `+focus.buried
+		if(focus.birth[2]==focus.death[2]){
+			document.getElementById(`lifePoints`).innerHTML=`<span class="heading">b. & d.</span> `+focus.birth.join(`-`)
+		}else{
+			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">d.</span> `+focus.death.join(`-`)
+			printYearRange(focus.birth,focus.death)
+			if(focus.deathPlace){
+				document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.deathPlace+`</span>`
+			}
+			if(focus.deathCause){
+				document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.deathCause+`</span>`
+			}
+			if(focus.buried){
+				document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">bur.</span> `+focus.buried
+			}
 		}
 	}
 	if(focus.parents){
