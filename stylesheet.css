@@ -1,48 +1,27 @@
-@media only screen and (max-width:600px) {
-	#card{
-		padding:40px 0 0 5vw;
-		width:95vw;
-	}
-}
-@media only screen and (min-width:600px) {
-	#card{
-		border:1px solid #000;
-		height:85vh;
-		left:50%;
-		padding:40px 2vw 2vh 2vw;
-		position:absolute;
-		top:50%;
-		transform:translate(-50%,-50%);
-		width:40vw;
-	}
-}
-#card{
-	overflow-y:scroll;
-}
 body{
 	font-family:"Montserrat",sans-serif;
 	font-optical-sizing:auto;
-	font-weight:300;
 	font-style:normal;
+	font-weight:300;
 	outline:none;
-	user-select:none;s
+	padding:20px;
+	user-select:none;
 }
 img{
 	border-radius:20px;
 	height:200px;
-	margin-top:-4px;
-	margin-left:-1px;
+	margin:-2px 2px 2px 2px;
 }
 #footer{
-	position:absolute;
-	left:0;
 	bottom:0;
-	width:100%;
 	height:20px;
+	left:0;
 	overflow-x:scroll;
+	position:absolute;
+	width:100%;
 }
 #title{
-	font-size:36px;
+	font-size:3em;
 }
 #title,.heading{
 	font-weight:500;
@@ -60,12 +39,23 @@ img{
 	cursor:pointer;
 	transition:padding-left .2s;
 }
-.visited{
-	color:#c2c;
-}
 .link:hover{
 	padding-left:10px;
 }
+.visited{
+	color:#c2c;
+}
 .nolink{
 	color:#f33;
+}
+/*	Mobile inclusions
+*/
+@media only screen and (max-width:600px){
+	.link:hover{
+		padding-left:0;
+	}
+}
+/*	Desktop inclusions
+*/
+@media only screen and (min-width:600px){
 }
