@@ -47,38 +47,6 @@ img{
 #title,.heading{
 	font-weight:500;
 }
-#back{
-	cursor:pointer;
-	font-size:32px;
-	left:10px;
-	position:absolute;
-	top:5px;
-}
-#refresh{
-	border-bottom:solid 2px currentColor;
-	border-left:solid 2px transparent;
-	border-radius:50%;
-	border-right:solid 2px currentColor;
-	border-top:solid 2px currentColor;
-	cursor:pointer;
-	height:20px;
-	left:55px;
-	position:absolute;
-	top:12px;
-	width:20px;
-}
-#refresh:before{
-	-webkit-transform:rotate(-22.5deg);
-	border-left:solid 2px currentColor;
-	border-top:solid 2px currentColor;
-	content:'';
-	height:6px;
-	left:1px;
-	position:absolute;
-	top:15px;
-	transform:rotate(-22.5deg);
-	width:6px;
-}
 .unavailable{
 	color:#aaa;
 	pointer-events:none;
@@ -91,6 +59,9 @@ img{
 	color:#33f;
 	cursor:pointer;
 	transition:padding-left .2s;
+}
+.visited{
+	color:#c2c;
 }
 .link:hover{
 	padding-left:10px;
