@@ -184,7 +184,7 @@ danielle1983={
 	name:`Danielle Ann`,
 	gender:`female`,
 	birth:[`?`,`?`,1983],
-	parents:[`Tracey Ann Mills`],
+	parents:[`david1952`,`Tracey Ann Mills`],
 	children:[`Mia Rose`,`Riley`]}
 colin1951={
 	name:`Colin William Liston`,
