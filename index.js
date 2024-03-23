@@ -2,11 +2,13 @@ darcy1={
 	name:`Darcy Hamilton Manoel`,
 	gender:`male`,
 	birth:[9,5,2000],
+	birthPlace:`Adelaide, South Australia`,
 	parents:[`richard2`,`brandi9`]}
 richard2={
 	name:`Richard John Manoel`,
 	gender:`male`,
 	birth:[25,6,1967],
+	birthPlace:`North Adelaide, South Australia`,
 	parents:[`raymond3`,`gwen51`],
 	children:[`monty7`,`darcy1`,`holly8`]}
 raymond3={
@@ -42,16 +44,19 @@ monty7={
 	name:`Monty Hamilton Manoel`,
 	gender:`male`,
 	birth:[2,5,1999],
+	birthPlace:`Adelaide, South Australia`,
 	parents:[`richard2`,`brandi9`]}
 holly8={
 	name:`Holly Crystal Manoel`,
 	gender:`female`,
 	birth:[17,4,2008],
+	birthPlace:`Adelaide, South Australia`,
 	parents:[`richard2`,`brandi9`]}
 brandi9={
 	name:`Brandi Hamilton`,
 	gender:`female`,
 	birth:[22,7,1973],
+	birthPlace:`Rose Park, South Australia`,
 	parents:[`david32`,`gloria30`],
 	children:[`monty7`,`darcy1`,`holly8`]}
 mitchell10={
@@ -575,7 +580,7 @@ harriet87={
 	marriage:[18,2,1833],
 	death:[,,1880],
 	buried:`St Philip and St James Anglican Church, Old Noarlunga, South Australia`,
-	parents:[`john97`,`Harriet Smith`],
+	parents:[`john97`,`harriet111`],
 	children:[`eleanora88`,`harriet85`,`william89`,`elizabeth91`,`mary92`,`john93`,`eleanor94`,`thomas95`,`frederick96`]}
 eleanora88={
 	name:`Eleanora Christiana Whitfield Hutchinson`,
@@ -642,7 +647,7 @@ john97={
 	death:[23,8,1846],
 	deathPlace:`Chorlton-on-Medlock, Manchester, UK`,
 	parents:[`william98`,`elizabeth99`],
-	children:[`harriet87`],
+	children:[`harriet87`,`thomas126`],
 	accomplishments:[[`author`,`The History of the Siege of Manchester`],[`author`,`A Brief Guide to the Collegiate Church`]]}
 william98={
 	name:`William Palmer`,
@@ -663,15 +668,17 @@ mary100={
 	name:`Mary Whitfield`,
 	gender:`female`,
 	birth:[,,1713],
-	marriage:[,,1732],
+	marriage:[4,3,1732],
 	death:[,,1783],
+	buried:`Bishop Middleham, Durham, England`,
 	children:[`elizabeth99`,`lance102`]}
 robert101={
-	name:`Robert`,
+	name:`Robert Whitfield`,
 	gender:`male`,
 	birth:[,,1706],
-	marriage:[,,1732],
+	marriage:[4,3,1732],
 	death:[,,1766],
+	buried:`Bishop Middleham, Durham, England`,
 	parents:[`james105`,`elizabeth103`],
 	children:[`elizabeth99`,`lance102`]}
 lance102={
@@ -686,6 +693,7 @@ elizabeth103={
 	birth:[,,1681],
 	marriage:[,,1700],
 	death:[,,],
+	parents:[`John Dent`,`Margaret Dent`],
 	children:[`robert101`,`daniel104`]}
 daniel104={
 	name:`Daniel`,
@@ -694,11 +702,12 @@ daniel104={
 	death:[,,],
 	parents:[`james105`,`elizabeth103`]}
 james105={
-	name:`James`,
+	name:`James Whitfield`,
 	gender:`male`,
 	birth:[,,1679],
 	marriage:[,,1700],
 	death:[,,1760],
+	buried:`Bishop Middleham, Durham, England`,
 	parents:[`thomas107`,`ellen106`],
 	children:[`robert101`,`daniel104`]}
 ellen106={
@@ -709,27 +718,30 @@ ellen106={
 	death:[,,1712],
 	children:[`james105`]}
 thomas107={
-	name:`Thomas`,
+	name:`Thomas Whitfield`,
 	gender:`male`,
 	birth:[,,1648],
 	marriage:[,,1670],
 	death:[,,1716],
+	buried:`Bishop Middleham, Durham, England`,
 	parents:[`john109`,`eleanor108`],
 	children:[`james105`]}
 eleanor108={
 	name:`Eleanor Durham`,
 	gender:`female`,
 	birth:[,,1612],
-	marriage:[,,1631],
+	marriage:[10,7,1631],
 	death:[,,1680],
+	buried:`Pittington, County Durham`,
 	children:[`thomas107`,`mary110`]}
 john109={
-	name:`John`,
+	name:`John Whitfield`,
 	gender:`male`,
 	birth:[,,1605],
-	marriage:[,,1631],
+	marriage:[10,7,1631],
 	death:[,,1695],
-	parents:[`Nicholas`,`Elizabeth`],
+	buried:`Pittington, County Durham`,
+	parents:[`nicholas119`,`elizabeth120`],
 	children:[`thomas107`,`mary110`]}
 mary110={
 	name:`Mary`,
@@ -743,7 +755,7 @@ harriet111={
 	birth:[,,1786],
 	marriage:[,,1805],
 	death:[,,],
-	children:[`harriet87`]}
+	children:[`harriet87`,`thomas126`]}
 richard112={
 	name:`Richard Morgan Le Poidevin`,
 	gender:`male`,
@@ -797,3 +809,49 @@ martha118={
 	birth:[,,1788],
 	death:[,,],
 	children:[`daniel82`]}
+nicholas119={
+	name:`Nicholas Whitfield`,
+	gender:`male`,
+	death:[,,1632],
+	deathPlace:`Pittington, County Durham`
+	buried:`Pittington, County Durham`,
+	children:[`john109`,`robert121`,`thomas122`,`jane123`,`elizabeth124`,`frances125`]}
+elizabeth120={
+	name:`Elizabeth`,
+	gender:`female`,
+	children:[`john109`,`robert121`,`thomas122`,`jane123`,`elizabeth124`,`frances125`]}
+robert121={
+	name:`Robert`,
+	gender:`male`,
+	birth:[,,1607],
+	death:[,,],
+	parents:[`nicholas119`,`elizabeth120`]}
+thomas122={
+	name:`Thomas`,
+	gender:`male`,
+	birth:[,,1609],
+	death:[,,],
+	parents:[`nicholas119`,`elizabeth120`]}
+jane123={
+	name:`Jane`,
+	gender:`female`,
+	birth:[,,1611],
+	death:[,,],
+	parents:[`nicholas119`,`elizabeth120`]}
+elizabeth124={
+	name:`Elizabeth`,
+	gender:`female`,
+	birth:[,,1613],
+	death:[,,],
+	parents:[`nicholas119`,`elizabeth120`]}
+frances125={
+	name:`Frances`,
+	gender:`male`,
+	birth:[,,1615],
+	death:[,,],
+	parents:[`nicholas119`,`elizabeth120`]}
+thomas126={
+	name:`Thomas Whitfield Palmer`,
+	gender:`male`,
+	parents:[`john97`,`harriet111`]
+}

@@ -16,9 +16,16 @@ function renderCard(){
 	localStorage.setItem(`focusPlain`,focusPlain)
 	focus=window[focusPlain]
 	document.getElementById(`main`).innerHTML=`<div id="title">`+focus.name+`</div>`
-	document.getElementById(`main`).innerHTML+=`<div id="lifePoints"><span class="heading">b.</span> `+focus.birth.join(`-`)+`</div>`
-	if(!focus.death){
-		printYearRange(focus.birth,[day,month,year])
+	if(focus.birth||focus.birthPlace||focus.marriage||focus.marriagePlace||focus.death||focus.deathPlace||focus.buried){
+		document.getElementById(`main`).innerHTML+=`<div id="lifePoints"></div>`
+	}
+	if(focus.birth){
+		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">b.</span> `+focus.birth.join(`-`)
+		if(!focus.death){
+			printYearRange(focus.birth,[day,month,year])
+		}else if(focus.birth[2]==focus.death[2]){
+			document.getElementById(`lifePoints`).innerHTML=`<span class="heading">b. & d.</span> `+focus.birth.join(`-`)
+		}
 	}
 	if(focus.birthPlace){
 		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.birthPlace+`</span>`
@@ -31,20 +38,18 @@ function renderCard(){
 		}
 	}
 	if(focus.death){
-		if(focus.birth[2]==focus.death[2]){
-			document.getElementById(`lifePoints`).innerHTML=`<span class="heading">b. & d.</span> `+focus.birth.join(`-`)
-		}else{
-			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">d.</span> `+focus.death.join(`-`)
+		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">d.</span> `+focus.death.join(`-`)
+		if(focus.birth){
 			printYearRange(focus.birth,focus.death)
-			if(focus.deathPlace){
-				document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.deathPlace+`</span>`
-			}
-			if(focus.deathCause){
-				document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.deathCause+`</span>`
-			}
-			if(focus.buried){
-				document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">bur.</span> `+focus.buried
-			}
+		}
+		if(focus.deathPlace){
+			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.deathPlace+`</span>`
+		}
+		if(focus.deathCause){
+			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.deathCause+`</span>`
+		}
+		if(focus.buried){
+			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">bur.</span> `+focus.buried
 		}
 	}
 	if(focus.parents){
