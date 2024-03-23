@@ -1,5 +1,3 @@
-//	104
-
 darcy2000={
 	name:`Darcy Hamilton Manoel`,
 	gender:`male`,
@@ -638,12 +636,114 @@ frederick1852={
 john1783={
 	name:`John Palmer`,
 	gender:`male`,
-	birth:[`?`,`?`,1783],
+	birth:[28,1,1783],
 	birthPlace:`Bishop Middleham, Durham`,
-	death:[`?`,`?`,1846],
-	deathPlace:`Manchester`,
+	marriage:[`?`,`?`,1805],
+	death:[23,8,1846],
+	deathPlace:`Chorlton-on-Medlock, Manchester, UK`,
+	parents:[`william1744`,`elizabeth1747`],
 	children:[`harriet1811`],
-	accomplishments:[[`author`,`The History of the Siege of Manchester`]]}
+	accomplishments:[[`author`,`The History of the Siege of Manchester`],[`author`,`A Brief Guide to the Collegiate Church`]]}
+william1744={
+	name:`William Palmer`,
+	gender:`male`,
+	birth:[`?`,`?`,1744],
+	marriage:[`?`,`?`,1766],
+	death:[`?`,`?`,`?`],
+	children:[`john1783`]}
+elizabeth1747={
+	name:`Elizabeth Whitfield`,
+	gender:`female`,
+	birth:[`?`,`?`,1747],
+	marriage:[`?`,`?`,1766],
+	death:[`?`,`?`,1835],
+	parents:[`robert1706`,`mary1713`],
+	children:[`john1783`]}
+mary1713={
+	name:`Mary Whitfield`,
+	gender:`female`,
+	birth:[`?`,`?`,1713],
+	marriage:[`?`,`?`,1732],
+	death:[`?`,`?`,1783],
+	children:[`elizabeth1747`,`lance1749`]}
+robert1706={
+	name:`Robert`,
+	gender:`male`,
+	birth:[`?`,`?`,1706],
+	marriage:[`?`,`?`,1732],
+	death:[`?`,`?`,1766],
+	parents:[`james1679`,`elizabeth1681`],
+	children:[`elizabeth1747`,`lance1749`]}
+lance1749={
+	name:`Lance`,
+	gender:`male`,
+	birth:[`?`,`?`,1749],
+	death:[`?`,`?`,`?`],
+	parents:[`robert1706`,`mary1713`]}
+elizabeth1681={
+	name:`Elizabeth Dent`,
+	gender:`female`,
+	birth:[`?`,`?`,1681],
+	marriage:[`?`,`?`,1700],
+	death:[`?`,`?`,`?`],
+	children:[`robert1706`,`daniel1708`]}
+daniel1708={
+	name:`Daniel`,
+	gender:`male`,
+	birth:[`?`,`?`,1708],
+	death:[`?`,`?`,`?`],
+	parents:[`james1679`,`elizabeth1681`]}
+james1679={
+	name:`James`,
+	gender:`male`,
+	birth:[`?`,`?`,1679],
+	marriage:[`?`,`?`,1700],
+	death:[`?`,`?`,1760],
+	parents:[`thomas1648`,`ellen1651`],
+	children:[`robert1706`,`daniel1708`]}
+ellen1651={
+	name:`Ellen`,
+	gender:`female`,
+	birth:[`?`,`?`,1651],
+	marriage:[`?`,`?`,1670],
+	death:[`?`,`?`,1712],
+	children:[`james1679`]}
+thomas1648={
+	name:`Thomas`,
+	gender:`male`,
+	birth:[`?`,`?`,1648],
+	marriage:[`?`,`?`,1670],
+	death:[`?`,`?`,1716],
+	parents:[`john1605`,`eleanor1612`],
+	children:[`james1679`]}
+eleanor1612={
+	name:`Eleanor Durham`,
+	gender:`female`,
+	birth:[`?`,`?`,1612],
+	marriage:[`?`,`?`,1631],
+	death:[`?`,`?`,1680],
+	children:[`thomas1648`,`mary1650`]}
+john1605={
+	name:`John`,
+	gender:`male`,
+	birth:[`?`,`?`,1605],
+	marriage:[`?`,`?`,1631],
+	death:[`?`,`?`,1695],
+	parents:[`Nicholas`,`Elizabeth`],
+	children:[`thomas1648`,`mary1650`]}
+mary1650={
+	name:`Mary`,
+	gender:`female`,
+	birth:[`?`,`?`,1650],
+	death:[`?`,`?`,`?`],
+	parents:[`john1605`]}
+harriet1786={
+	name:`Harriet Smith`,
+	gender:`female`,
+	birth:[`?`,`?`,1786],
+	marriage:[`?`,`?`,1805],
+	death:[`?`,`?`,`?`],
+	children:[`harriet1811`]}
 richard1856={
 	name:`Richard Morgan Le Poidevin`,
 	gender:`male`,
