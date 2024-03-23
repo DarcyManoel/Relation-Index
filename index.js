@@ -11,7 +11,7 @@ richard2={
 	birthPlace:`North Adelaide, South Australia`,
 	parents:[`raymond3`,`gwendoline51`],
 	children:[`monty7`,`darcy1`,`holly8`],
-	photos:[16]}
+	photos:[34,16,32]}
 raymond3={
 	name:`Raymond Walter Manoel`,
 	gender:`male`,
@@ -19,7 +19,7 @@ raymond3={
 	death:[10,9,2016],
 	parents:[`gladys4`,`george70`],
 	children:[`gary31`,`wayne29`,`geoffrey23`,`neil21`,`wendy19`,`richard2`],
-	photos:[21,14,15]}
+	photos:[21,14,33,15]}
 gladys4={
 	name:`Gladys Eleanor Silverlock`,
 	gender:`female`,
@@ -411,7 +411,8 @@ george70={
 	deathPlace:`Manse, Semaphore, South Australia`,
 	buried:`Cheltenham, South Australia`,
 	parents:[`george75`,`laura74`],
-	children:[`raymond3`,`peter38`,`Barry Manoel`,`Margaret Manoel`]}
+	children:[`raymond3`,`peter38`,`Barry Manoel`,`Margaret Manoel`],
+	photos:[33]}
 sarah71={
 	name:`Sarah Ann Everett`,
 	gender:`female`,
