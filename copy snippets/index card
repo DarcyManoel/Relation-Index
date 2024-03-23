@@ -1,11 +1,11 @@
 example={
 	name:``
 	gender:``
-	birth:[`?`,`?`,`?`]
+	birth:[,,]
 	birthPlace:``
-	marriage:[`?`,`?`,`?`]
+	marriage:[,,]
 	marriagePlace:``
-	death:[`?`,`?`,`?`]
+	death:[,,]
 	deathPlace:``
 	deathCause:``
 	buried:``

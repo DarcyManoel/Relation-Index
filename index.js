@@ -28,9 +28,9 @@ gladys4={
 walter5={
 	name:`Walter Silverlock`,
 	gender:`male`,
-	birth:[`?`,`?`,1853],
-	marriage:[`?`,`?`,1882],
-	death:[`?`,`?`,1921],
+	birth:[,,1853],
+	marriage:[,,1882],
+	death:[,,1921],
 	children:[`gladys4`,`Francis Ewart Everett Silverlock`]}
 gwen6={
 	name:`Gwendoline Olive Le Poidevin`,
@@ -181,7 +181,7 @@ david32={
 danielle33={
 	name:`Danielle Ann`,
 	gender:`female`,
-	birth:[`?`,`?`,1983],
+	birth:[,,1983],
 	parents:[`david32`,`Tracey Ann Mills`],
 	children:[`Mia Rose`,`Riley`]}
 colin34={
@@ -397,7 +397,7 @@ ronald69={
 george70={
 	name:`George William Manoel`,
 	gender:`male`,
-	birth:[`?`,`?`,1907],
+	birth:[,,1907],
 	birthPlace:`Broken Hill, New South Wales, Australia`,
 	death:[17,11,1990],
 	deathPlace:`Manse, Semaphore, South Australia`,
@@ -407,9 +407,9 @@ george70={
 sarah71={
 	name:`Sarah Ann Everett`,
 	gender:`female`,
-	birth:[`?`,`?`,1861],
-	marriage:[`?`,`?`,1882],
-	death:[`?`,`?`,`?`],
+	birth:[,,1861],
+	marriage:[,,1882],
+	death:[,,],
 	children:[`gladys4`,`Francis Ewart Everett Silverlock`]}
 olive72={
 	name:`Olive Annie White`,
@@ -431,7 +431,7 @@ laura74={
 	gender:`female`,
 	birth:[14,4,1877],
 	birthPlace:`Moonta Mines, South Australia`,
-	marriage:[`?`,`?`,1897],
+	marriage:[,,1897],
 	marriagePlace:`Broken Hill, New South Wales, Australia`,
 	death:[5,1,1961],
 	deathPlace:`South Australia`,
@@ -443,7 +443,7 @@ george75={
 	gender:`male`,
 	birth:[13,4,1873],
 	birthPlace:`Portland Estate, Pt Adelaide, South Australia`,
-	marriage:[`?`,`?`,1897],
+	marriage:[,,1897],
 	marriagePlace:`Broken Hill, New South Wales, Australia`,
 	death:[17,11,1945],
 	deathPlace:`South Australia`,
@@ -453,7 +453,7 @@ george75={
 martha76={
 	name:`Martha Mary Creed Rimes`,
 	gender:`female`,
-	birth:[`?`,9,1848],
+	birth:[,9,1848],
 	marriage:[25,12,1868],
 	marriagePlace:`Brompton, South Australia (Bowden)`,
 	death:[22,7,1934],
@@ -535,17 +535,17 @@ daniel82={
 amy83={
 	name:`Amy Marguerite Le Poidevin`,
 	gender:`female`,
-	birth:[`?`,`?`,1873],
+	birth:[,,1873],
 	birthPlace:`Noarlunga, South Australia`,
-	death:[`?`,`?`,1952],
+	death:[,,1952],
 	parents:[`daniel82`,`harriet85`],
 	photos:[`5`]}
 louisa84={
 	name:`Louisa Mary Le Poidevin`,
 	gender:`female`,
-	birth:[`?`,`?`,1858],
+	birth:[,,1858],
 	birthPlace:`Morphett Vale, South Australia`,
-	death:[`?`,`?`,1928],
+	death:[,,1928],
 	parents:[`daniel82`,`harriet85`],
 	photos:[`6`]}
 harriet85={
@@ -562,7 +562,7 @@ harriet85={
 william86={
 	name:`William Hutchinson`,
 	gender:`male`,
-	birth:[`?`,`?`,1813],
+	birth:[,,1813],
 	marriage:[18,2,1833],
 	death:[8,2,1884],
 	buried:`St Philip and St James Anglican Church, Old Noarlunga, South Australia`,
@@ -571,9 +571,9 @@ william86={
 harriet87={
 	name:`Harriet Smith Palmer`,
 	gender:`female`,
-	birth:[`?`,`?`,1811],
+	birth:[,,1811],
 	marriage:[18,2,1833],
-	death:[`?`,`?`,1880],
+	death:[,,1880],
 	buried:`St Philip and St James Anglican Church, Old Noarlunga, South Australia`,
 	parents:[`john97`,`Harriet Smith`],
 	children:[`eleanora88`,`harriet85`,`william89`,`elizabeth91`,`mary92`,`john93`,`eleanor94`,`thomas95`,`frederick96`]}
@@ -581,7 +581,7 @@ eleanora88={
 	name:`Eleanora Christiana Whitfield Hutchinson`,
 	gender:`female`,
 	birth:[25,12,1833],
-	death:[`?`,`?`,1839],
+	death:[,,1839],
 	parents:[`harriet87`,`william86`]}
 william89={
 	name:`William Palmer Hutchinson`,
@@ -601,13 +601,13 @@ elizabeth91={
 	name:`Elizabeth Palmer`,
 	gender:`female`,
 	birth:[27,8,1840],
-	death:[`?`,`?`,`?`],
+	death:[,,],
 	parents:[`harriet87`,`william86`]}
 mary92={
 	name:`Mary Palmer`,
 	gender:`female`,
 	birth:[15,2,1843],
-	death:[`?`,`?`,`?`],
+	death:[,,],
 	parents:[`harriet87`,`william86`]}
 john93={
 	name:`John Palmer`,
@@ -630,7 +630,7 @@ thomas95={
 frederick96={
 	name:`Frederick Williams`,
 	gender:`male`,
-	birth:[`?`,`?`,1852],
+	birth:[,,1852],
 	birthPlace:`Hackham`,
 	parents:[`harriet87`,`william86`]}
 john97={
@@ -638,7 +638,7 @@ john97={
 	gender:`male`,
 	birth:[28,1,1783],
 	birthPlace:`Bishop Middleham, Durham`,
-	marriage:[`?`,`?`,1805],
+	marriage:[,,1805],
 	death:[23,8,1846],
 	deathPlace:`Chorlton-on-Medlock, Manchester, UK`,
 	parents:[`william98`,`elizabeth99`],
@@ -647,102 +647,102 @@ john97={
 william98={
 	name:`William Palmer`,
 	gender:`male`,
-	birth:[`?`,`?`,1744],
-	marriage:[`?`,`?`,1766],
-	death:[`?`,`?`,`?`],
+	birth:[,,1744],
+	marriage:[,,1766],
+	death:[,,],
 	children:[`john97`]}
 elizabeth99={
 	name:`Elizabeth Whitfield`,
 	gender:`female`,
-	birth:[`?`,`?`,1747],
-	marriage:[`?`,`?`,1766],
-	death:[`?`,`?`,1835],
+	birth:[,,1747],
+	marriage:[,,1766],
+	death:[,,1835],
 	parents:[`robert101`,`mary100`],
 	children:[`john97`]}
 mary100={
 	name:`Mary Whitfield`,
 	gender:`female`,
-	birth:[`?`,`?`,1713],
-	marriage:[`?`,`?`,1732],
-	death:[`?`,`?`,1783],
+	birth:[,,1713],
+	marriage:[,,1732],
+	death:[,,1783],
 	children:[`elizabeth99`,`lance102`]}
 robert101={
 	name:`Robert`,
 	gender:`male`,
-	birth:[`?`,`?`,1706],
-	marriage:[`?`,`?`,1732],
-	death:[`?`,`?`,1766],
+	birth:[,,1706],
+	marriage:[,,1732],
+	death:[,,1766],
 	parents:[`james105`,`elizabeth103`],
 	children:[`elizabeth99`,`lance102`]}
 lance102={
 	name:`Lance`,
 	gender:`male`,
-	birth:[`?`,`?`,1749],
-	death:[`?`,`?`,`?`],
+	birth:[,,1749],
+	death:[,,],
 	parents:[`robert101`,`mary100`]}
 elizabeth103={
 	name:`Elizabeth Dent`,
 	gender:`female`,
-	birth:[`?`,`?`,1681],
-	marriage:[`?`,`?`,1700],
-	death:[`?`,`?`,`?`],
+	birth:[,,1681],
+	marriage:[,,1700],
+	death:[,,],
 	children:[`robert101`,`daniel104`]}
 daniel104={
 	name:`Daniel`,
 	gender:`male`,
-	birth:[`?`,`?`,1708],
-	death:[`?`,`?`,`?`],
+	birth:[,,1708],
+	death:[,,],
 	parents:[`james105`,`elizabeth103`]}
 james105={
 	name:`James`,
 	gender:`male`,
-	birth:[`?`,`?`,1679],
-	marriage:[`?`,`?`,1700],
-	death:[`?`,`?`,1760],
+	birth:[,,1679],
+	marriage:[,,1700],
+	death:[,,1760],
 	parents:[`thomas107`,`ellen106`],
 	children:[`robert101`,`daniel104`]}
 ellen106={
 	name:`Ellen`,
 	gender:`female`,
-	birth:[`?`,`?`,1651],
-	marriage:[`?`,`?`,1670],
-	death:[`?`,`?`,1712],
+	birth:[,,1651],
+	marriage:[,,1670],
+	death:[,,1712],
 	children:[`james105`]}
 thomas107={
 	name:`Thomas`,
 	gender:`male`,
-	birth:[`?`,`?`,1648],
-	marriage:[`?`,`?`,1670],
-	death:[`?`,`?`,1716],
+	birth:[,,1648],
+	marriage:[,,1670],
+	death:[,,1716],
 	parents:[`john109`,`eleanor108`],
 	children:[`james105`]}
 eleanor108={
 	name:`Eleanor Durham`,
 	gender:`female`,
-	birth:[`?`,`?`,1612],
-	marriage:[`?`,`?`,1631],
-	death:[`?`,`?`,1680],
+	birth:[,,1612],
+	marriage:[,,1631],
+	death:[,,1680],
 	children:[`thomas107`,`mary110`]}
 john109={
 	name:`John`,
 	gender:`male`,
-	birth:[`?`,`?`,1605],
-	marriage:[`?`,`?`,1631],
-	death:[`?`,`?`,1695],
+	birth:[,,1605],
+	marriage:[,,1631],
+	death:[,,1695],
 	parents:[`Nicholas`,`Elizabeth`],
 	children:[`thomas107`,`mary110`]}
 mary110={
 	name:`Mary`,
 	gender:`female`,
-	birth:[`?`,`?`,1650],
-	death:[`?`,`?`,`?`],
+	birth:[,,1650],
+	death:[,,],
 	parents:[`john109`]}
 harriet111={
 	name:`Harriet Smith`,
 	gender:`female`,
-	birth:[`?`,`?`,1786],
-	marriage:[`?`,`?`,1805],
-	death:[`?`,`?`,`?`],
+	birth:[,,1786],
+	marriage:[,,1805],
+	death:[,,],
 	children:[`harriet87`]}
 richard112={
 	name:`Richard Morgan Le Poidevin`,
@@ -765,35 +765,35 @@ mary114={
 	gender:`female`,
 	birth:[11,2,1810],
 	birthPlace:`West Pennard, Somerset, England`,
-	death:[`?`,6,1885],
+	death:[,6,1885],
 	deathPlace:`Yeovil, Somerset, England`,
 	children:[`martha76`]}
 nicholas115={
 	name:`Nicholas Manolis`,
 	gender:`male`,
-	birth:[`?`,`?`,1810],
+	birth:[,,1810],
 	birthPlace:`Mitilini, Island of Lesbos, Greek Isles`,
-	death:[`?`,`?`,`?`],
+	death:[,,],
 	children:[`peter80`]}
 daniel116={
 	name:`Daniel Rimes`,
 	gender:`male`,
-	birth:[`?`,`?`,1807],
+	birth:[,,1807],
 	birthPlace:`Pearl, Somerset, England`,
-	marriage:[`?`,7,1840],
+	marriage:[,7,1840],
 	marriagePlace:`England`,
-	death:[`?`,10,1891],
+	death:[,10,1891],
 	deathPlace:`Martlock, Somerset, England`,
 	children:[`martha76`]}
 thomas117={
 	name:`Thomas Le Poidevin`,
 	gender:`male`,
-	birth:[`?`,`?`,1789],
-	death:[`?`,`?`,1872],
+	birth:[,,1789],
+	death:[,,1872],
 	children:[`daniel82`]}
 martha118={
 	name:`Martha Marquand`,
 	gender:`female`,
-	birth:[`?`,`?`,1788],
-	death:[`?`,`?`,`?`],
+	birth:[,,1788],
+	death:[,,],
 	children:[`daniel82`]}
