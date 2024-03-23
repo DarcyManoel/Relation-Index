@@ -121,6 +121,14 @@ function renderCard(){
 			}
 		}
 	}
+	if(focus.accomplishments){
+		document.getElementById(`main`).innerHTML+=`<br><div id="accomplishments"><span class="heading">Accomplishments:</span><br></div>`
+		for(i1=0;i1<focus.accomplishments.length;i1++){
+			if(focus.accomplishments[i1][0]==`author`){
+				document.getElementById(`accomplishments`).innerHTML+=`<span class="list">Author of <a href="writings/`+focus.accomplishments[i1][1]+`.pdf" target="_blank">`+focus.accomplishments[i1][1]+`</span></span><br>`
+			}
+		}
+	}
 	if(focus.photos){
 		document.getElementById(`main`).innerHTML+=`<br><div id="photos"></div>`
 		for(i1=0;i1<focus.photos.length;i1++){

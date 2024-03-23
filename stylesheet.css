@@ -12,6 +12,12 @@ img{
 	height:200px;
 	margin:-2px 2px 2px 2px;
 }
+a{
+	text-decoration:none;
+}
+a:visited{
+	color:#00f;
+}
 #footer{
 	bottom:0;
 	height:20px;

@@ -565,8 +565,9 @@ william1813={
 	name:`William Hutchinson`,
 	gender:`male`,
 	birth:[`?`,`?`,1813],
-	place:[18,2,1833],
+	marriage:[18,2,1833],
 	death:[8,2,1884],
+	buried:`St Philip and St James Anglican Church, Old Noarlunga, South Australia`,
 	parents:[`Joseph Hutchinson`,`Ann Trewhitt`],
 	children:[`eleanora1833`,`harriet1835`,`william1838`,`elizabeth1840`,`mary1843`,`john1845`,`eleanor1847`,`thomas1850`,`frederick1852`]}
 harriet1811={
@@ -575,7 +576,8 @@ harriet1811={
 	birth:[`?`,`?`,1811],
 	marriage:[18,2,1833],
 	death:[`?`,`?`,1880],
-	parents:[`john1783`,`Harriet Palmer`],
+	buried:`St Philip and St James Anglican Church, Old Noarlunga, South Australia`,
+	parents:[`john1783`,`Harriet Smith`],
 	children:[`eleanora1833`,`harriet1835`,`william1838`,`elizabeth1840`,`mary1843`,`john1845`,`eleanor1847`,`thomas1850`,`frederick1852`]}
 eleanora1833={
 	name:`Eleanora Christiana Whitfield Hutchinson`,
@@ -640,7 +642,8 @@ john1783={
 	birthPlace:`Bishop Middleham, Durham`,
 	death:[`?`,`?`,1846],
 	deathPlace:`Manchester`,
-	children:[`harriet1811`]}
+	children:[`harriet1811`],
+	accomplishments:[[`author`,`The History of the Siege of Manchester`]]}
 richard1856={
 	name:`Richard Morgan Le Poidevin`,
 	gender:`male`,
