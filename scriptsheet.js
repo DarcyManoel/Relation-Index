@@ -5,7 +5,7 @@ var prevFocus=[]
 if(localStorage.getItem(`prevFocus`)){
 	prevFocus=localStorage.getItem(`prevFocus`).split(`,`)
 }
-var focusPlain=`darcy2000`
+var focusPlain=`darcy1`
 if(localStorage.getItem(`focusPlain`)){
 	focusPlain=localStorage.getItem(`focusPlain`)
 }
@@ -157,7 +157,7 @@ function printYearRange(start,end){
 	}
 }
 function changeFocus(passedFocus){
-	if(passedFocus==`darcy2000`){
+	if(passedFocus==`darcy1`){
 		prevFocus=[]
 	}else if(prevFocus[prevFocus.length-1]==passedFocus){
 		prevFocus.pop()
