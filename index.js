@@ -653,7 +653,7 @@ john97={
 	deathPlace:`Chorlton-on-Medlock, Manchester, UK`,
 	parents:[`william98`,`elizabeth99`],
 	children:[`harriet87`,`thomas126`],
-	accomplishments:[[`author`,`The History of the Siege of Manchester`],[`author`,`A Brief Guide to the Collegiate Church`]]}
+	works:[[`author`,`The History of the Siege of Manchester`],[`author`,`A Brief Guide to the Collegiate Church`]]}
 william98={
 	name:`William Palmer`,
 	gender:`male`,
