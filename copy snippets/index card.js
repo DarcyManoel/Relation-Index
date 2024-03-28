@@ -2,11 +2,11 @@ example={
 	name:``
 	sex:``
 	b:[,,,]					//	Date of Birth
-	bx:``					//	Extra Birth information
+	bx:[``]					//	Extra Birth information
 	marriage:[,,]
 	marriagePlace:``
 	d:[,,]					//	Date of Death
-	dx:``					//	Extra Death information
+	dx:[``]					//	Extra Death information
 	bur:``					//	Location of Burial
 	parents:[``]
 	children:[``]
