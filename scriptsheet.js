@@ -134,10 +134,20 @@ function renderCard(){
 			}
 		}
 	}
-	if(focus.photos){
+	if(focus.img){
 		document.getElementById(`main`).innerHTML+=`<br><div id="photos"></div>`
-		for(i1=0;i1<focus.photos.length;i1++){
-			document.getElementById(`photos`).innerHTML+=`<a href="images/photos/`+focus.photos[i1]+`.jpg" target="_blank"><img src="images/photos/`+focus.photos[i1]+`.jpg"></img></a>`
+		for(i1=0;i1<focus.img.length;i1++){
+			document.getElementById(`photos`).innerHTML+=`<a href="images/photos/`+focus.img[i1]+`.jpg" target="_blank"><img src="images/photos/`+focus.img[i1]+`.jpg"></img></a>`
+		}
+	}
+	if(focus.src){
+		document.getElementById(`main`).innerHTML+=`<br><div id="sources"><span class="heading">Sources:</span><br></div>`
+		for(i1=0;i1<focus.src.length;i1++){
+			if(Array.isArray(focus.src[i1])){
+				document.getElementById(`sources`).innerHTML+=`<span class="list"><a href="`+focus.src[i1][1]+`">`+focus.src[i1][0]+`</a></span><br>`
+			}else{
+				document.getElementById(`sources`).innerHTML+=`<span class="list">`+focus.src[i1]+`</span><br>`
+			}
 		}
 	}
 }

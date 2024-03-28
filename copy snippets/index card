@@ -1,6 +1,6 @@
 example={
 	name:``
-	gender:``
+	sex:``
 	birth:[,,]
 	birthPlace:``
 	marriage:[,,]
@@ -12,5 +12,6 @@ example={
 	parents:[``]
 	children:[``]
 	works:[[``,``]]
-	photos:[``]
+	img:[``]
+	src:[``]
 }
