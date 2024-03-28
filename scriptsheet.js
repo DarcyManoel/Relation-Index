@@ -16,40 +16,37 @@ function renderCard(){
 	localStorage.setItem(`focusPlain`,focusPlain)
 	focus=window[focusPlain]
 	document.getElementById(`main`).innerHTML=`<div id="title">`+focus.name+`</div>`
-	if(focus.birth||focus.birthPlace||focus.marriage||focus.marriagePlace||focus.death||focus.deathPlace||focus.buried){
+	if(focus.b||focus.bx||focus.marriage||focus.marriagePlace||focus.d||focus.dx||focus.bur){
 		document.getElementById(`main`).innerHTML+=`<div id="lifePoints"></div>`
 	}
-	if(focus.birth){
-		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">b.</span> `+focus.birth.join(`-`)
-		if(!focus.death){
-			printYearRange(focus.birth,[day,month,year])
-		}else if(focus.birth[2]==focus.death[2]){
-			document.getElementById(`lifePoints`).innerHTML=`<span class="heading">b. & d.</span> `+focus.birth.join(`-`)
+	if(focus.b){
+		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">b.</span> `+focus.b.join(`-`)
+		if(!focus.d){
+			printYearRange(focus.b,[day,month,year])
+		}else if(focus.b[2]==focus.d[2]){
+			document.getElementById(`lifePoints`).innerHTML=`<span class="heading">b. & d.</span> `+focus.b.join(`-`)
 		}
 	}
-	if(focus.birthPlace){
-		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.birthPlace+`</span>`
+	if(focus.bx){
+		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.bx+`</span>`
 	}
 	if(focus.marriage){
 		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">m.</span> `+focus.marriage.join(`-`)
-		printYearRange(focus.birth,focus.marriage)
+		printYearRange(focus.b,focus.marriage)
 		if(focus.marriagePlace){
 			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.marriagePlace+`</span>`
 		}
 	}
-	if(focus.death){
-		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">d.</span> `+focus.death.join(`-`)
-		if(focus.birth){
-			printYearRange(focus.birth,focus.death)
+	if(focus.d){
+		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">d.</span> `+focus.d.join(`-`)
+		if(focus.b){
+			printYearRange(focus.b,focus.d)
 		}
-		if(focus.deathPlace){
-			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.deathPlace+`</span>`
+		if(focus.dx){
+			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.dx.join(`</span><br><span class="list">`)+`</span>`
 		}
-		if(focus.deathCause){
-			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.deathCause+`</span>`
-		}
-		if(focus.buried){
-			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">bur.</span> `+focus.buried
+		if(focus.bur){
+			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">bur.</span> `+focus.bur
 		}
 	}
 	if(focus.parents){
