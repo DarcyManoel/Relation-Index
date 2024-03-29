@@ -84,21 +84,23 @@ function renderCard(){
 		}
 	}
 	if(focus.children){
-		if(window[focus.children[0]]){
-			if(window[focus.children[0]].parents){
-				if(window[focus.children[0]].parents.length-1){
-					document.getElementById(`main`).innerHTML+=`<br><div id="spouses"><span class="heading">Spouses:</span><br></div>`
-					for(i1=0;i1<window[focus.children[0]].parents.length;i1++){
-						var spouse=window[focus.children[0]].parents[i1]
-						if(containsUppercase(spouse)){
-							document.getElementById(`spouses`).innerHTML+=`<span class="list nolink">`+spouse+`</span><br>`
-						}else{
-							if(window[spouse].name==focus.name){
+		for(i1=0;i1<focus.children.length;i1++){
+			if(!containsUppercase(focus.children[i1])){
+				if(window[focus.children[i1]].parents){
+					if(window[focus.children[i1]].parents.length-1){
+						document.getElementById(`main`).innerHTML+=`<br><div id="spouses"><span class="heading">Spouses:</span><br></div>`
+						for(i2=0;i2<window[focus.children[i1]].parents.length;i2++){
+							var spouse=window[focus.children[i1]].parents[i2]
+							if(containsUppercase(spouse)){
+								document.getElementById(`spouses`).innerHTML+=`<span class="list nolink">`+spouse+`</span><br>`
 							}else{
-								if(prevFocus[prevFocus.length-1]==spouse){
-									document.getElementById(`spouses`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+spouse+`")>`+window[spouse].name+`</span><br>`
+								if(window[spouse].name==focus.name){
 								}else{
-									document.getElementById(`spouses`).innerHTML+=`<span class="list link" onClick=changeFocus("`+spouse+`")>`+window[spouse].name+`</span><br>`
+									if(prevFocus[prevFocus.length-1]==spouse){
+										document.getElementById(`spouses`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+spouse+`")>`+window[spouse].name+`</span><br>`
+									}else{
+										document.getElementById(`spouses`).innerHTML+=`<span class="list link" onClick=changeFocus("`+spouse+`")>`+window[spouse].name+`</span><br>`
+									}
 								}
 							}
 						}
