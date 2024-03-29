@@ -62,7 +62,7 @@ brandi9={
 	bx:[`Rose Park, South Australia`],
 	parents:[`david32`,`gloria30`],
 	children:[`monty7`,`darcy1`,`holly8`],
-	img:[17]}
+	img:[35,17]}
 mitchell10={
 	name:`Mitchell Gavin Alexander`,
 	sex:`male`,
@@ -172,7 +172,7 @@ gloria30={
 	name:`Gloria Dawn Parslow`,
 	sex:`female`,
 	b:[8,8,1954],
-	parents:[`marjorie52`,`Ronald Stanley Parslow`],
+	parents:[`marjorie52`,`ronald162`],
 	children:[`brandi9`]}
 gary31={
 	name:`Gary Raymond Manoel`,
@@ -185,7 +185,7 @@ david32={
 	sex:`male`,
 	b:[17,1,1952],
 	d:[5,8,2016],
-	parents:[`James Frederick Godfrey Hamilton`,`Gwendoline Joyce Woodcock`],
+	parents:[`james166`,`Gwendoline Joyce Woodcock`],
 	children:[`brandi9`,`danielle33`]}
 danielle33={
 	name:`Danielle Ann`,
@@ -306,7 +306,7 @@ hamilton53={
 	sex:`male`,
 	b:[1,4,1912],
 	bx:[`Norwood, Adelaide, South Australia`],
-	d:[5,6,1945],
+	d:[5,6,2001],
 	dx:[`Hope Valley, Adelaide, South Australia`],
 	bur:`Enfield Cemetery, Clearview, South Australia`,
 	parents:[`charles136`,`daisy127`],
@@ -1145,3 +1145,39 @@ rossiter161={
 	children:[`barry159`,`christine160`],
 	img:[29],
 	src:[[`WikiTree`,`https://www.wikitree.com/wiki/Morrison-13528`],[`Find a Grave`,`https://www.findagrave.com/memorial/160510355/rossiter-adam-morrison`]]}
+ronald162={
+	name:`Ronald Stanley Parslow`,
+	b:[,,],
+	d:[,,],
+	parents:[`james163`,`doris164`],
+	children:[`gloria30`],
+	img:[36,37]}
+james163={
+	name:`James Phillip Parslow`,
+	b:[,,1906],
+	d:[,,1974],
+	children:[`ronald162`,`barbara165`],
+	src:[[`MyHeritage (search Doris)`,`https://www.myheritage.com/names/james_parslow`]]}
+doris164={
+	name:`Doris Margaret Lander`,
+	b:[,,1908],
+	d:[,,],
+	children:[`ronald162`,`barbara165`],
+	src:[[`MyHeritage (search Doris)`,`https://www.myheritage.com/names/james_parslow`]]}
+barbara165={
+	name:`Barbara Ellen Parslow`,
+	b:[27,11,1927],
+	bx:[`Nailsworth, South Australia, Australia`],
+	d:[,,],
+	dx:[`South Australia, Australia`],
+	parents:[`james163`,`doris164`],
+	children:[`Carolyn Ann McShane`,`Alan Jeffrey McShane`],
+	img:[38,39],
+	src:[[`WikiTree`,`https://www.wikitree.com/wiki/Parslow-100`]]}
+james166={
+	name:`James Frederick Godfrey Hamilton`,
+	b:[,,],
+	d:[,,],
+	children:[`david32`],
+	img:[40]
+}
