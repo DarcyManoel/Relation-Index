@@ -817,6 +817,7 @@ martha118={
 nicholas119={
 	name:`Nicholas Whitfield`,
 	sex:`male`,
+	b:[,,],
 	d:[,,1632],
 	dx:[`Pittington, County Durham`],
 	bur:`Pittington, County Durham`,

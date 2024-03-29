@@ -147,20 +147,22 @@ function renderCard(){
 }
 function printYearRange(start,end){
 	if(end[2]){
-		var yearDiff=end[2]-start[2]
-		if(!end[1]||!start[1]){
-			document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+`-`+yearDiff+` years)`
-		}else if(end[1]>start[1]){
-			document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+yearDiff+` years)`
-		}else if(end[1]<start[1]){
-			document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+` years)`
-		}else if(end[1]==start[1]){
-			if(!end[0]||!start[0]){
+		if(start[2]){
+			var yearDiff=end[2]-start[2]
+			if(!end[1]||!start[1]){
 				document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+`-`+yearDiff+` years)`
-			}else if(end[0]>=start[0]){
+			}else if(end[1]>start[1]){
 				document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+yearDiff+` years)`
-			}else if(end[0]<start[0]){
+			}else if(end[1]<start[1]){
 				document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+` years)`
+			}else if(end[1]==start[1]){
+				if(!end[0]||!start[0]){
+					document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+`-`+yearDiff+` years)`
+				}else if(end[0]>=start[0]){
+					document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+yearDiff+` years)`
+				}else if(end[0]<start[0]){
+					document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+` years)`
+				}
 			}
 		}
 	}
