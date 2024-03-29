@@ -1179,5 +1179,4 @@ james166={
 	b:[,,],
 	d:[,,],
 	children:[`david32`],
-	img:[40]
-}
+	img:[40]}

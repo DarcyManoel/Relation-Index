@@ -83,27 +83,30 @@ function renderCard(){
 			}
 		}
 	}
+	var spouses=[]
 	if(focus.children){
 		for(i1=0;i1<focus.children.length;i1++){
 			if(!containsUppercase(focus.children[i1])){
-				if(window[focus.children[i1]].parents){
-					if(window[focus.children[i1]].parents.length-1){
-						document.getElementById(`main`).innerHTML+=`<br><div id="spouses"><span class="heading">Spouses:</span><br></div>`
-						for(i2=0;i2<window[focus.children[i1]].parents.length;i2++){
-							var spouse=window[focus.children[i1]].parents[i2]
-							if(containsUppercase(spouse)){
-								document.getElementById(`spouses`).innerHTML+=`<span class="list nolink">`+spouse+`</span><br>`
-							}else{
-								if(window[spouse].name==focus.name){
-								}else{
-									if(prevFocus[prevFocus.length-1]==spouse){
-										document.getElementById(`spouses`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+spouse+`")>`+window[spouse].name+`</span><br>`
-									}else{
-										document.getElementById(`spouses`).innerHTML+=`<span class="list link" onClick=changeFocus("`+spouse+`")>`+window[spouse].name+`</span><br>`
-									}
-								}
-							}
-						}
+				for(i2=0;i2<window[focus.children[i1]].parents.length;i2++){
+					if(!spouses.includes(window[focus.children[i1]].parents[i2])){
+						spouses.push(window[focus.children[i1]].parents[i2])
+					}
+				}
+			}
+		}
+		if(spouses.length){
+			document.getElementById(`main`).innerHTML+=`<br><div id="spouses"><span class="heading">Spouses:</span><br></div>`
+		}
+		for(i1=0;i1<spouses.length;i1++){
+			if(containsUppercase(spouses[i1])){
+				document.getElementById(`spouses`).innerHTML+=`<span class="list nolink">`+spouses[i1]+`</span><br>`
+			}else{
+				if(window[spouses[i1]].name==focus.name){
+				}else{
+					if(prevFocus[prevFocus.length-1]==spouses[i1]){
+						document.getElementById(`spouses`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+spouses[i1]+`")>`+window[spouses[i1]].name+`</span><br>`
+					}else{
+						document.getElementById(`spouses`).innerHTML+=`<span class="list link" onClick=changeFocus("`+spouses[i1]+`")>`+window[spouses[i1]].name+`</span><br>`
 					}
 				}
 			}
