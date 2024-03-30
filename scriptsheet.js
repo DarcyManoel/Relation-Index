@@ -134,7 +134,7 @@ function renderCard(){
 		}
 	}
 	if(focus.img){
-		document.getElementById(`main`).innerHTML+=`<br><div id="photos"></div>`
+		document.getElementById(`main`).innerHTML+=`<br><div id="photos"><span class="heading">Photos:</span><br></div>`
 		for(i1=0;i1<focus.img.length;i1++){
 			document.getElementById(`photos`).innerHTML+=`<a href="images/photos/`+focus.img[i1]+`.jpg" target="_blank"><img src="images/photos/`+focus.img[i1]+`.jpg"></img></a>`
 		}
