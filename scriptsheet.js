@@ -39,37 +39,21 @@ function renderCard(){
 			}
 		}
 	}
+	var parents=[]
+	var siblings=[]
+	var spouses=[]
+	var children=[]
+	//	Collating relations
 	if(focus.parents){
-		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span class="heading">Parents:</span><br></div>`
 		for(i1=0;i1<focus.parents.length;i1++){
-			var parent=focus.parents[i1]
-			if(containsUppercase(parent)){
-				document.getElementById(`parents`).innerHTML+=`<span class="list nolink">`+parent+`</span><br>`
-			}else{
-				if(prevFocus[prevFocus.length-1]==parent){
-					document.getElementById(`parents`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+parent+`")>`+window[parent].name+`</span><br>`
-				}else{
-					document.getElementById(`parents`).innerHTML+=`<span class="list link" onClick=changeFocus("`+parent+`")>`+window[parent].name+`</span><br>`
-				}
+			if(!parents.includes(focus.parents[i1])){
+				parents.push(focus.parents[i1])
 			}
-		}
-		if(window[focus.parents[0]]){
-			if(window[focus.parents[0]].children){
-				if(window[focus.parents[0]].children.length-1){
-					document.getElementById(`main`).innerHTML+=`<br><div id="siblings"><span class="heading">Siblings:</span><br></div>`
-					for(i1=0;i1<window[focus.parents[0]].children.length;i1++){
-						var sibling=window[focus.parents[0]].children[i1]
-						if(containsUppercase(sibling)){
-							document.getElementById(`siblings`).innerHTML+=`<span class="list nolink">`+sibling+`</span><br>`
-						}else{
-							if(window[sibling].name==focus.name){
-							}else{
-								if(prevFocus[prevFocus.length-1]==sibling){
-									document.getElementById(`siblings`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+sibling+`")>`+window[sibling].name+`</span><br>`
-								}else{
-									document.getElementById(`siblings`).innerHTML+=`<span class="list link" onClick=changeFocus("`+sibling+`")>`+window[sibling].name+`</span><br>`
-								}
-							}
+			if(!containsUppercase(focus.parents[i1])){
+				for(i2=0;i2<window[focus.parents[i1]].children.length;i2++){
+					if(!siblings.includes(window[focus.parents[i1]].children[i2])){
+						if(window[focus.parents[i1]].children[i2]!==focusPlain){
+							siblings.push(window[focus.parents[i1]].children[i2])
 						}
 					}
 				}
@@ -77,49 +61,81 @@ function renderCard(){
 		}
 	}
 	if(focus.spouses){
-		document.getElementById(`main`).innerHTML+=`<br><div id="spouses"><span class="heading">Spouses:</span><br></div>`
 		for(i1=0;i1<focus.spouses.length;i1++){
-			document.getElementById(`spouses`).innerHTML+=`<span class="list nolink">`+focus.spouses[i1]+`</span><br>`
+			if(!spouses.includes(focus.spouses[i1])){
+				spouses.push(focus.spouses[i1])
+			}
 		}
 	}
-	var spouses=[]
 	if(focus.children){
 		for(i1=0;i1<focus.children.length;i1++){
+			if(!children.includes(focus.children[i1])){
+				children.push(focus.children[i1])
+			}
 			if(!containsUppercase(focus.children[i1])){
 				for(i2=0;i2<window[focus.children[i1]].parents.length;i2++){
 					if(!spouses.includes(window[focus.children[i1]].parents[i2])){
-						spouses.push(window[focus.children[i1]].parents[i2])
+						if(window[focus.children[i1]].parents[i2]!==focusPlain){
+							spouses.push(window[focus.children[i1]].parents[i2])
+						}
 					}
 				}
 			}
 		}
-		if(spouses.length){
-			document.getElementById(`main`).innerHTML+=`<br><div id="spouses"><span class="heading">Spouses:</span><br></div>`
+	}
+	//	Displaying relations
+	if(parents.length){
+		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span class="heading">Parents:</span><br></div>`
+		for(i1=0;i1<parents.length;i1++){
+			if(containsUppercase(parents[i1])){
+				document.getElementById(`parents`).innerHTML+=`<span class="list nolink">`+parents[i1]+`</span><br>`
+			}else{
+				if(prevFocus[prevFocus.length-1]==parents[i1]){
+					document.getElementById(`parents`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+parents[i1]+`")>`+window[parents[i1]].name+`</span><br>`
+				}else{
+					document.getElementById(`parents`).innerHTML+=`<span class="list link" onClick=changeFocus("`+parents[i1]+`")>`+window[parents[i1]].name+`</span><br>`
+				}
+			}
 		}
+	}
+	if(siblings.length){
+		document.getElementById(`main`).innerHTML+=`<br><div id="siblings"><span class="heading">Siblings:</span><br></div>`
+		for(i1=0;i1<siblings.length;i1++){
+			if(containsUppercase(siblings[i1])){
+				document.getElementById(`siblings`).innerHTML+=`<span class="list nolink">`+siblings[i1]+`</span><br>`
+			}else{
+				if(prevFocus[prevFocus.length-1]==siblings[i1]){
+					document.getElementById(`siblings`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+siblings[i1]+`")>`+window[siblings[i1]].name+`</span><br>`
+				}else{
+					document.getElementById(`siblings`).innerHTML+=`<span class="list link" onClick=changeFocus("`+siblings[i1]+`")>`+window[siblings[i1]].name+`</span><br>`
+				}
+			}
+		}
+	}
+	if(spouses.length){
+		document.getElementById(`main`).innerHTML+=`<br><div id="spouses"><span class="heading">Spouses:</span><br></div>`
 		for(i1=0;i1<spouses.length;i1++){
 			if(containsUppercase(spouses[i1])){
 				document.getElementById(`spouses`).innerHTML+=`<span class="list nolink">`+spouses[i1]+`</span><br>`
 			}else{
-				if(window[spouses[i1]].name==focus.name){
+				if(prevFocus[prevFocus.length-1]==spouses[i1]){
+					document.getElementById(`spouses`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+spouses[i1]+`")>`+window[spouses[i1]].name+`</span><br>`
 				}else{
-					if(prevFocus[prevFocus.length-1]==spouses[i1]){
-						document.getElementById(`spouses`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+spouses[i1]+`")>`+window[spouses[i1]].name+`</span><br>`
-					}else{
-						document.getElementById(`spouses`).innerHTML+=`<span class="list link" onClick=changeFocus("`+spouses[i1]+`")>`+window[spouses[i1]].name+`</span><br>`
-					}
+					document.getElementById(`spouses`).innerHTML+=`<span class="list link" onClick=changeFocus("`+spouses[i1]+`")>`+window[spouses[i1]].name+`</span><br>`
 				}
 			}
 		}
+	}
+	if(children.length){
 		document.getElementById(`main`).innerHTML+=`<br><div id="children"><span class="heading">Children:</span><br></div>`
-		for(i1=0;i1<focus.children.length;i1++){
-			var child=focus.children[i1]
-			if(containsUppercase(child)){
-				document.getElementById(`children`).innerHTML+=`<span class="list nolink">`+child+`</span><br>`
+		for(i1=0;i1<children.length;i1++){
+			if(containsUppercase(children[i1])){
+				document.getElementById(`children`).innerHTML+=`<span class="list nolink">`+children[i1]+`</span><br>`
 			}else{
-				if(prevFocus[prevFocus.length-1]==child){
-					document.getElementById(`children`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+child+`")>`+window[child].name+`</span><br>`
+				if(prevFocus[prevFocus.length-1]==children[i1]){
+					document.getElementById(`children`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+children[i1]+`")>`+window[children[i1]].name+`</span><br>`
 				}else{
-					document.getElementById(`children`).innerHTML+=`<span class="list link" onClick=changeFocus("`+child+`")>`+window[child].name+`</span><br>`
+					document.getElementById(`children`).innerHTML+=`<span class="list link" onClick=changeFocus("`+children[i1]+`")>`+window[children[i1]].name+`</span><br>`
 				}
 			}
 		}

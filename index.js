@@ -178,7 +178,8 @@ gary31={
 	sex:`male`,
 	b:[25,9,1953],
 	d:[8,12,2022],
-	parents:[`raymond3`,`gwendoline51`]}
+	parents:[`raymond3`,`gwendoline51`],
+	spouses:[`glenda183`]}
 david32={
 	name:`David James Hamilton`,
 	sex:`male`,
@@ -1286,3 +1287,12 @@ harriet182={
 	d:[,,1932],
 	children:[`harriet181`,`John Boundy (1870-1950)`,`Fanny Elenor Boundy (1873-1972)`,`Mary Maria Boundy (1875-1956)`,`Edith Alice Boundy (1877-1954)`,`Charles Henry Boundy (1880-1940)`,`Clara May Boundy (1884-1897)`,`Philip Howard Boundy (1886-1910)`],
 	src:[[`FamilySearch`,`https://ancestors.familysearch.org/en/9F3J-953/harriet-ann-boundy-1871-1939`]]}
+glenda183={
+	name:`Glenda Mary Fergusson`,
+	sex:`female`,
+	b:[6,5,1949],
+	d:[27,4,2018],
+	dx:[`Adelaide, South Australia`],
+	parents:[`Ross Fergusson`,`Una Gibson`],
+	spouses:[`gary31`],
+	src:[[`New Zealand Herald`,`https://notices.nzherald.co.nz/nz/obituaries/nzherald-nz/name/glenda-fergusson-obituary?id=43167942`]]}
