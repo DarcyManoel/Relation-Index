@@ -12,7 +12,7 @@ richard2={
 	bx:[`North Adelaide, South Australia`],
 	parents:[`raymond3`,`gwendoline51`],
 	children:[`monty7`,`darcy1`,`holly8`],
-	img:[34,16,32]}
+	img:[42,34,16,32]}
 raymond3={
 	name:`Raymond Walter Manoel`,
 	sex:`male`,
@@ -71,7 +71,8 @@ melissa11={
 	name:`Melissa Joy Manoel`,
 	sex:`female`,
 	b:[31,10,1988],
-	parents:[`wayne29`,`carolyn22`]}
+	parents:[`wayne29`,`carolyn22`],
+	img:[45]}
 shane12={
 	name:`Shane Neil Manoel`,
 	sex:`male`,
@@ -134,7 +135,8 @@ geoffrey23={
 	sex:`male`,
 	b:[4,11,1958],
 	parents:[`raymond3`,`gwendoline51`],
-	children:[`matthew14`,`sarah13`]}
+	children:[`matthew14`,`sarah13`],
+	img:[43]}
 carolyn24={
 	name:`Carolyn Amy Liston`,
 	sex:`female`,
@@ -166,7 +168,8 @@ wayne29={
 	sex:`male`,
 	b:[12,8,1955],
 	parents:[`raymond3`,`gwendoline51`],
-	children:[`melissa11`]}
+	children:[`melissa11`],
+	img:[44]}
 gloria30={
 	name:`Gloria Dawn Parslow`,
 	sex:`female`,
