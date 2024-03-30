@@ -9,6 +9,9 @@ var focusPlain=`darcy1`
 if(localStorage.getItem(`focusPlain`)){
 	focusPlain=localStorage.getItem(`focusPlain`)
 }
+if(new URLSearchParams(window.location.search).has('')){
+	focusPlain=new URLSearchParams(window.location.search).get('')
+}
 var focus=window[focusPlain]
 var yearDiff
 function renderCard(){
@@ -195,9 +198,10 @@ function printYearRange(start,end){
 	}
 }
 function changeFocus(passedFocus){
-	if(passedFocus==`darcy1`){
-		prevFocus=[]
-	}else if(prevFocus[prevFocus.length-1]==passedFocus){
+	if(new URLSearchParams(window.location.search).has('')){
+		window.location=window.location.href.split(`?`)[0]+`?=`+passedFocus
+	}
+	if(prevFocus[prevFocus.length-1]==passedFocus){
 		prevFocus.pop()
 	}else{
 		prevFocus.push(focusPlain)

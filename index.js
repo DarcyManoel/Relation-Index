@@ -1307,7 +1307,7 @@ jeffrey184={
 	d:[,,1983],
 	dx:[`South Australia, Australia`],
 	parents:[`Hubert Frederick McShane`,`Sylvia Grace Jury`],
-	siblings:[`Frank McShane`,`valda186`],
+	siblings:[`Frank McShane (1923-2006)`,`valda186`],
 	children:[`carolyn185`,`Alan Jeffrey McShane`],
 	img:[39],
 	src:[[`WikiTree`,`https://www.wikitree.com/wiki/McShane-306`]]}
@@ -1323,8 +1323,8 @@ valda186={
 	b:[2,1,1926],
 	bx:[`Campbelltown, South Australia, Australia`],
 	d:[,1,1951],
-	parents:[`Hubert Frederick McShane`,`Sylvia Grace Jury`],
-	siblings:[`jeffrey184`,`Frank McShane`],
+	parents:[`Hubert Frederick McShane (1897-1982)`,`Sylvia Grace Jury (1899-1967)`],
+	siblings:[`jeffrey184`,`Frank McShane (1923-2006)`],
 	spouses:[`Roy John Thiele (1919-2011)`],
 	children:[`John Paul Thiele (1948-)`,`Janice Kaye Thiele (1951-)`],
 	src:[[`WikiTree`,`https://www.wikitree.com/wiki/McShane-305`]]}
