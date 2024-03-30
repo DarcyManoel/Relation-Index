@@ -1266,6 +1266,7 @@ clifford180={
 	dx:[`Minlaton, South Australia, Australia`],
 	bur:`Minlaton Cemetery, Minlaton, South Australia, Australia`,
 	parents:[`walter171`,`harriet181`],
+	spouses:[`Dorothy May Twartz (1912-2007)`],
 	src:[[`FamilySearch`,`https://ancestors.familysearch.org/en/GWPG-PVV/clifford-boundy-le-poidevin-1904-1967`]]}
 harriet181={
 	name:`Harriet Ann Boundy`,

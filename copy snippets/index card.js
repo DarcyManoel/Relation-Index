@@ -7,6 +7,7 @@ example={
 	dx:[``]					//	Extra Death information
 	bur:``					//	Location of Burial
 	parents:[``]
+	spouses:[``]			//	Spouses with no indexed children
 	children:[``]
 	works:[[``,``]]			//	Creative works
 	img:[``]				//	Photos

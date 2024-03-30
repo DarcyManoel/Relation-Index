@@ -39,13 +39,6 @@ function renderCard(){
 			}
 		}
 	}
-//	if(focus.marriage){
-//		document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">m.</span> `+focus.marriage.join(`-`)
-//		printYearRange(focus.b,focus.marriage)
-//		if(focus.marriagePlace){
-//			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.marriagePlace+`</span>`
-//		}
-//	}
 	if(focus.parents){
 		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span class="heading">Parents:</span><br></div>`
 		for(i1=0;i1<focus.parents.length;i1++){
@@ -81,6 +74,12 @@ function renderCard(){
 					}
 				}
 			}
+		}
+	}
+	if(focus.spouses){
+		document.getElementById(`main`).innerHTML+=`<br><div id="spouses"><span class="heading">Spouses:</span><br></div>`
+		for(i1=0;i1<focus.spouses.length;i1++){
+			document.getElementById(`spouses`).innerHTML+=`<span class="list nolink">`+focus.spouses[i1]+`</span><br>`
 		}
 	}
 	var spouses=[]
