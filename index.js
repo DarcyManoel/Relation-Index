@@ -520,33 +520,37 @@ daniel82={
 	d:[30,10,1918],
 	dx:[`Morphett Vale, South Australia`],
 	parents:[`martha118`,`thomas117`],
-	children:[`richard112`,`louisa84`,`amy83`,`Thomas`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Laura Jones`,`Lionel`,`Howard`,`Ross`],
-	img:[2]}
+	children:[`richard112`,`louisa84`,`amy83`,`thomas167`,`martha168`,`alice169`,`alfred170`,`walter171`,`ada172`,`alfred173`,`laura174`,`howard175`,`ross176`],
+	img:[2],
+	src:[[`State Library`,`https://collections.slsa.sa.gov.au/resource/B+73578/2`],[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 amy83={
 	name:`Amy Marguerite Le Poidevin`,
 	sex:`female`,
 	b:[,,1873],
-	bx:[`Noarlunga, South Australia`],
+	bx:[`Noarlunga, South Australia, Australia`],
 	d:[,,1952],
 	parents:[`daniel82`,`harriet85`],
-	img:[5]}
+	img:[5],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 louisa84={
 	name:`Louisa Mary Le Poidevin`,
 	sex:`female`,
 	b:[,,1858],
-	bx:[`Morphett Vale, South Australia`],
+	bx:[`Morphett Vale, South Australia, Australia`],
 	d:[,,1928],
 	parents:[`daniel82`,`harriet85`],
-	img:[6]}
+	img:[6],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 harriet85={
 	name:`Harriet Palmer Hutchinson`,
 	sex:`female`,
 	b:[4,10,1835],
-	bx:[`Ardwick, Manchester, England`],
+	bx:[`Ardwick, Lancashire(Manchester), England`],
 	d:[8,9,1905],
 	parents:[`william86`,`harriet87`],
-	children:[`richard112`,`louisa84`,`amy83`,`Thomas`,`Martha`,`Alice`,`Alfred`,`Walter`,`Ada`,`Alfred`,`Laura Jones`,`Lionel`,`Howard`,`Ross`],
-	img:[2]}
+	children:[`richard112`,`louisa84`,`amy83`,`thomas167`,`martha168`,`alice169`,`alfred170`,`walter171`,`ada172`,`alfred173`,`laura174`,`howard175`,`ross176`],
+	img:[2],
+	src:[[`State Library`,`https://collections.slsa.sa.gov.au/resource/B+73578/2`],[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 william86={
 	name:`William Hutchinson`,
 	sex:`male`,
@@ -733,7 +737,8 @@ richard112={
 	d:[27,6,1913],
 	dx:[`O'Halloran Hill, South Australia`],
 	parents:[`daniel82`,`harriet85`],
-	children:[`richard73`]}
+	children:[`richard73`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 joseph113={
 	name:`Joseph Dixon`,
 	sex:`male`,
@@ -767,14 +772,18 @@ thomas117={
 	name:`Thomas Le Poidevin`,
 	sex:`male`,
 	b:[,,1789],
+	bx:[`St Peter in the Wood, Guernsey, Channel Islands`],
 	d:[,,1872],
-	children:[`daniel82`]}
+	children:[`daniel82`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 martha118={
 	name:`Martha Marquand`,
 	sex:`female`,
-	b:[,,1788],
-	d:[,,],
-	children:[`daniel82`]}
+	b:[,,1787],
+	bx:[`St Peter Port, Guernsey, Channel Islands`],
+	d:[,,1875],
+	children:[`daniel82`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 nicholas119={
 	name:`Nicholas Whitfield`,
 	sex:`male`,
@@ -1104,6 +1113,7 @@ rossiter161={
 	src:[[`WikiTree`,`https://www.wikitree.com/wiki/Morrison-13528`],[`Find a Grave`,`https://www.findagrave.com/memorial/160510355/rossiter-adam-morrison`]]}
 ronald162={
 	name:`Ronald Stanley Parslow`,
+	sex:`male`,
 	b:[,,],
 	d:[,,],
 	parents:[`james163`,`doris164`],
@@ -1111,18 +1121,21 @@ ronald162={
 	img:[36,37]}
 james163={
 	name:`James Phillip Parslow`,
+	sex:`male`,
 	b:[,,1906],
 	d:[,,1974],
 	children:[`ronald162`,`barbara165`],
 	src:[[`MyHeritage (search Doris)`,`https://www.myheritage.com/names/james_parslow`]]}
 doris164={
 	name:`Doris Margaret Lander`,
+	sex:`female`,
 	b:[,,1908],
 	d:[,,],
 	children:[`ronald162`,`barbara165`],
 	src:[[`MyHeritage (search Doris)`,`https://www.myheritage.com/names/james_parslow`]]}
 barbara165={
 	name:`Barbara Ellen Parslow`,
+	sex:`female`,
 	b:[27,11,1927],
 	bx:[`Nailsworth, South Australia, Australia`],
 	d:[,,],
@@ -1133,7 +1146,88 @@ barbara165={
 	src:[[`WikiTree`,`https://www.wikitree.com/wiki/Parslow-100`]]}
 james166={
 	name:`James Frederick Godfrey Hamilton`,
+	sex:`male`,
 	b:[,,],
 	d:[,,],
 	children:[`david32`],
 	img:[40]}
+thomas167={
+	name:`Thomas William Le Poidevin`,
+	sex:`male`,
+	b:[,,1854],
+	bx:[`Noarlunga, South Australia, Australia`],
+	d:[,,1926],
+	parents:[`daniel82`,`harriet85`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+martha168={
+	name:`Martha Margaret Le Poidevin`,
+	sex:`female`,
+	b:[,,1860],
+	bx:[`Morphett Vale, South Australia, Australia`],
+	d:[,,1865],
+	parents:[`daniel82`,`harriet85`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+alice169={
+	name:`Alice Harriet Le Poidevin`,
+	sex:`female`,
+	b:[,,1862],
+	bx:[`Noarlunga, South Australia, Australia`],
+	d:[,,1938],
+	parents:[`daniel82`,`harriet85`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+alfred170={
+	name:`Alfred James Le Poidevin`,
+	sex:`male`,
+	b:[,,1864],
+	bx:[`Morphett Vale, South Australia, Australia`],
+	d:[,,1867],
+	parents:[`daniel82`,`harriet85`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+walter171={
+	name:`Walter Marquand Le Poidevin`,
+	sex:`male`,
+	b:[,,1866],
+	bx:[`Noarlunga, South Australia, Australia`],
+	d:[,,1939],
+	parents:[`daniel82`,`harriet85`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+ada172={
+	name:`Ada Ozanne Le Poidevin`,
+	sex:`female`,
+	b:[,,1868],
+	bx:[`Morphett Vale, South Australia, Australia`],
+	d:[,,1952],
+	parents:[`daniel82`,`harriet85`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+alfred173={
+	name:`Alfred Daniel Le Poidevin`,
+	sex:`male`,
+	b:[,,1870],
+	bx:[`Noarlunga, South Australia, Australia`],
+	d:[,,1941],
+	parents:[`daniel82`,`harriet85`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+laura174={
+	name:`Laura Elsie Palmer Le Poidevin`,
+	sex:`female`,
+	b:[,,1875],
+	bx:[`Morphett Vale, South Australia, Australia`],
+	d:[,,1946],
+	parents:[`daniel82`,`harriet85`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+howard175={
+	name:`Howard Norman Le Poidevin`,
+	sex:`male`,
+	b:[,,1878],
+	bx:[`South Australia, Australia`],
+	d:[,,1889],
+	parents:[`daniel82`,`harriet85`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+ross176={
+	name:`Ross Durdin Le Poidevin`,
+	sex:`male`,
+	b:[,,1885],
+	bx:[`Morphett Vale, South Australia, Australia`],
+	d:[,,],
+	parents:[`daniel82`,`harriet85`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
