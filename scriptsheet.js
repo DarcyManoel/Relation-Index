@@ -12,12 +12,16 @@ if(localStorage.getItem(`focusPlain`)){
 if(new URLSearchParams(window.location.search).has('')){
 	focusPlain=new URLSearchParams(window.location.search).get('')
 }
+if(!window[focusPlain]){
+	focusPlain=`darcy1`
+	window.location=window.location.href.split(`?`)[0]+`?=`+focusPlain
+}
 var focus=window[focusPlain]
 var yearDiff
 function renderCard(){
+	focus=window[focusPlain]
 	localStorage.setItem(`prevFocus`,prevFocus)
 	localStorage.setItem(`focusPlain`,focusPlain)
-	focus=window[focusPlain]
 	document.getElementById(`main`).innerHTML=`<div id="title">`+focus.name+`</div>`
 	if(focus.b){
 		document.getElementById(`main`).innerHTML+=`<div id="lifePoints"><span class="heading">b.</span> `+focus.b.join(`-`)+`</div>`
