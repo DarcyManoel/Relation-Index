@@ -896,7 +896,8 @@ margaret133={
 	bx:[`Melbourne, Melbourne City, Victoria, Australia`],
 	d:[,7,1865],
 	dx:[`Victoria, Australia`],
-	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`}
+	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`,
+	parents:[`james130`,`jane131`]}
 john134={
 	name:`John Entwistle`,
 	sex:`male`,
@@ -1142,7 +1143,8 @@ barbara165={
 	d:[,,],
 	dx:[`South Australia, Australia`],
 	parents:[`james163`,`doris164`],
-	children:[`Carolyn Ann McShane`,`Alan Jeffrey McShane`],
+	spouses:[`jeffrey184`],
+	children:[`carolyn185`,`Alan Jeffrey McShane`],
 	img:[38,39],
 	src:[[`WikiTree`,`https://www.wikitree.com/wiki/Parslow-100`]]}
 james166={
@@ -1297,3 +1299,32 @@ glenda183={
 	spouses:[`gary31`],
 	siblings:[`Lynn`,`Patricia`,`Heather`,`Rosslyn`,`Dawn`],
 	src:[[`New Zealand Herald`,`https://notices.nzherald.co.nz/nz/obituaries/nzherald-nz/name/glenda-fergusson-obituary?id=43167942`]]}
+jeffrey184={
+	name:`Jeffrey McShane`,
+	sex:`male`,
+	b:[12,8,1927],
+	bx:[`Park terrace, Gilberton, South Australia, Australia`],
+	d:[,,1983],
+	dx:[`South Australia, Australia`],
+	parents:[`Hubert Frederick McShane`,`Sylvia Grace Jury`],
+	siblings:[`Frank McShane`,`valda186`],
+	children:[`carolyn185`,`Alan Jeffrey McShane`],
+	img:[39],
+	src:[[`WikiTree`,`https://www.wikitree.com/wiki/McShane-306`]]}
+carolyn185={
+	name:`Carolyn Ann McShane`,
+	sex:`female`,
+	b:[,,],
+	d:[,,],
+	parents:[`jeffrey184`,`barbara165`]}
+valda186={
+	name:`Valda Grace McShane`,
+	sex:`female`,
+	b:[2,1,1926],
+	bx:[`Campbelltown, South Australia, Australia`],
+	d:[,1,1951],
+	parents:[`Hubert Frederick McShane`,`Sylvia Grace Jury`],
+	siblings:[`jeffrey184`,`Frank McShane`],
+	spouses:[`Roy John Thiele (1919-2011)`],
+	children:[`John Paul Thiele (1948-)`,`Janice Kaye Thiele (1951-)`],
+	src:[[`WikiTree`,`https://www.wikitree.com/wiki/McShane-305`]]}
