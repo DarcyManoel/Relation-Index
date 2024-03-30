@@ -9,12 +9,12 @@ var focusPlain=`darcy1`
 if(localStorage.getItem(`focusPlain`)){
 	focusPlain=localStorage.getItem(`focusPlain`)
 }
-if(new URLSearchParams(window.location.search).has('')){
-	focusPlain=new URLSearchParams(window.location.search).get('')
+if(new URLSearchParams(window.location.search).has(``)){
+	focusPlain=new URLSearchParams(window.location.search).get(``)
 }
 if(!window[focusPlain]){
 	focusPlain=`darcy1`
-	window.location=window.location.href.split(`?`)[0]+`?=`+focusPlain
+	window.history.replaceState(null, document.title,`?=`+focusPlain)
 }
 var focus=window[focusPlain]
 var yearDiff
@@ -202,9 +202,7 @@ function printYearRange(start,end){
 	}
 }
 function changeFocus(passedFocus){
-	if(new URLSearchParams(window.location.search).has('')){
-		window.location=window.location.href.split(`?`)[0]+`?=`+passedFocus
-	}
+	window.history.replaceState(null, document.title,`?=`+passedFocus)
 	if(prevFocus[prevFocus.length-1]==passedFocus){
 		prevFocus.pop()
 	}else{

@@ -1,3 +1,4 @@
+//	[a-zA-Z]+(?=[0-9]+[=|`]) to select characters in indexes
 darcy1={
 	name:`Darcy Hamilton Manoel`,
 	sex:`male`,
