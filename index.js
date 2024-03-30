@@ -310,7 +310,7 @@ hamilton53={
 	bur:`Enfield Cemetery, Clearview, South Australia`,
 	parents:[`charles136`,`daisy127`],
 	children:[`marjorie52`],
-	img:[12,18,19]}
+	img:[41,12,18,19]}
 joy54={
 	name:`Joy Lorraine Le Poidevin`,
 	sex:`female`,
@@ -839,7 +839,7 @@ daisy127={
 	dx:[`Payneham South, City of Norwood Payneham & St Peters, South Australia`],
 	bur:`Payneham Cemetery, Payneham South, City of Norwood Payneham & St Peters, South Australia`,
 	parents:[`james128`,`sarah129`],
-	children:[`hamilton53`,`vera158`,`Jessie`,`Charlie`,`Edna`,`Alma`,`Alfred`],
+	children:[`hamilton53`,`vera158`,`edna177`,`alfred178`,`Jessie`,`Charlie`,`Alma`],
 	img:[22,23]}
 james128={
 	name:`James Hamilton`,
@@ -920,7 +920,7 @@ charles136={
 	d:[23,6,1959],
 	bur:`Centennial Park Cemetery, Pasadena, Mitcham City, South Australia, Australia`,
 	parents:[`john137`,`elizabeth138`],
-	children:[`hamilton53`,`vera158`,`Jessie`,`Charlie`,`Edna`,`Alma`,`Alfred`]}
+	children:[`hamilton53`,`vera158`,`edna177`,`alfred178`,`Jessie`,`Charlie`,`Alma`]}
 john137={
 	name:`John Lloyd Williams`,
 	sex:`male`,
@@ -1186,11 +1186,14 @@ alfred170={
 walter171={
 	name:`Walter Marquand Le Poidevin`,
 	sex:`male`,
-	b:[,,1866],
+	b:[27,6,1866],
 	bx:[`Noarlunga, South Australia, Australia`],
-	d:[,,1939],
+	d:[16,6,1939],
+	dx:[`Minlaton, South Australia, Australia`],
+	bur:`Minlaton Cemetery, Minlaton, South Australia, Australia`,
 	parents:[`daniel82`,`harriet85`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	children:[`eleanor179`,`clifford180`,`Walter Henry Le Poidevin (1898-1981)`],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`],[`FamilySearch`,`https://ancestors.familysearch.org/en/MPSR-G9D/walter-marquand-le-poidevin-1866-1939`]]}
 ada172={
 	name:`Ada Ozanne Le Poidevin`,
 	sex:`female`,
@@ -1231,3 +1234,54 @@ ross176={
 	d:[,,],
 	parents:[`daniel82`,`harriet85`],
 	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+edna177={
+	name:`Edna`,
+	sex:`female`,
+	b:[,,],
+	d:[,,],
+	parents:[`daisy127`,`charles136`],
+	img:[41]}
+alfred178={
+	name:`Alfred`,
+	sex:`male`,
+	b:[,,],
+	d:[,,],
+	parents:[`daisy127`,`charles136`],
+	img:[41]}
+eleanor179={
+	name:`Eleanor May Le Poidevin`,
+	sex:`female`,
+	b:[19,3,1895],
+	bx:[`Morphett Vale, South Australia, Australia`],
+	d:[29,7,1966],
+	parents:[`walter171`,`harriet181`],
+	children:[`Gordon Aubrey Vanstone`,`Walter Joseph Vanstone`,`Constance Margaret Vanstone`,`Eleanor Valmai Vanstone`,`Philip Arnold Henry Vanstone`],
+	src:[[`FamilySearch`,`https://ancestors.familysearch.org/en/KCFH-GF9/eleanor-may-le-poidevin-1895-1966`]]}
+clifford180={
+	name:`Clifford Boundy Le Poidevin`,
+	sex:`male`,
+	b:[26,1,1904],
+	bx:[`Morphett Vale, South Australia, Australia`],
+	d:[12,12,1967],
+	dx:[`Minlaton, South Australia, Australia`],
+	bur:`Minlaton Cemetery, Minlaton, South Australia, Australia`,
+	parents:[`walter171`,`harriet181`],
+	src:[[`FamilySearch`,`https://ancestors.familysearch.org/en/GWPG-PVV/clifford-boundy-le-poidevin-1904-1967`]]}
+harriet181={
+	name:`Harriet Ann Boundy`,
+	sex:`female`,
+	b:[1,11,1871],
+	bx:[`Inman Valley, South Australia, Australia`],
+	d:[5,11,1939],
+	dx:[`Minlaton, South Australia, Australia`],
+	bur:`Minlaton Cemetery, Minlaton, South Australia, Australia`,
+	parents:[`harriet182`],
+	children:[`eleanor179`,`clifford180`,`Walter Henry Le Poidevin (1898-1981)`],
+	src:[[`FamilySearch`,`https://ancestors.familysearch.org/en/9F3J-953/harriet-ann-boundy-1871-1939`]]}
+harriet182={
+	name:`Harriet Anne Brundell`,
+	sex:`female`,
+	b:[,,1849],
+	d:[,,1932],
+	children:[`harriet181`,`John Boundy (1870-1950)`,`Fanny Elenor Boundy (1873-1972)`,`Mary Maria Boundy (1875-1956)`,`Edith Alice Boundy (1877-1954)`,`Charles Henry Boundy (1880-1940)`,`Clara May Boundy (1884-1897)`,`Philip Howard Boundy (1886-1910)`],
+	src:[[`FamilySearch`,`https://ancestors.familysearch.org/en/9F3J-953/harriet-ann-boundy-1871-1939`]]}
