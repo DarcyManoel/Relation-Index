@@ -60,6 +60,13 @@ function renderCard(){
 			}
 		}
 	}
+	if(focus.siblings){
+		for(i1=0;i1<focus.siblings.length;i1++){
+			if(!siblings.includes(focus.siblings[i1])){
+				siblings.push(focus.siblings[i1])
+			}
+		}
+	}
 	if(focus.spouses){
 		for(i1=0;i1<focus.spouses.length;i1++){
 			if(!spouses.includes(focus.spouses[i1])){

@@ -1295,4 +1295,5 @@ glenda183={
 	dx:[`Adelaide, South Australia`],
 	parents:[`Ross Fergusson`,`Una Gibson`],
 	spouses:[`gary31`],
+	siblings:[`Lynn`,`Patricia`,`Heather`,`Rosslyn`,`Dawn`],
 	src:[[`New Zealand Herald`,`https://notices.nzherald.co.nz/nz/obituaries/nzherald-nz/name/glenda-fergusson-obituary?id=43167942`]]}

@@ -8,6 +8,7 @@ example={
 	bur:``					//	Location of Burial
 	parents:[``]
 	spouses:[``]			//	Spouses with no indexed children
+	siblings:[``]			//	Siblings when shared parents aren't indexed
 	children:[``]
 	works:[[``,``]]			//	Creative works
 	img:[``]				//	Photos
