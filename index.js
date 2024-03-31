@@ -1128,17 +1128,24 @@ ronald162={
 james163={
 	name:`James Phillip Parslow`,
 	sex:`male`,
-	b:[,,1906],
+	b:[,,1905],
+	bx:[`Enfield, Middlesex, England`],
 	d:[,,1974],
+	parents:[`adelaide187`,`Albert Henry Parslow (1883-1940)`],
+	siblings:[`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Henry Parslow (1907-1976)`,`Albert Henry Parslow (1908-1955)`,`Doris Amy Parslow (1917-2003)`],
+	spouses:[`doris164`],
 	children:[`ronald162`,`barbara165`],
-	src:[[`MyHeritage (search Doris)`,`https://www.myheritage.com/names/james_parslow`]]}
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/adelaide-weenen-24-10w3tpv`]]}
 doris164={
 	name:`Doris Margaret Lander`,
 	sex:`female`,
 	b:[,,1908],
-	d:[,,],
+	d:[22,1,1975],
+	bur:`Centennial Park Cemetery, Pasadena, South Australia, Australia`,
+	parents:[`Ellen Pollock`,`John Richard Lander`],
+	spouses:[`james163`],
 	children:[`ronald162`,`barbara165`],
-	src:[[`MyHeritage (search Doris)`,`https://www.myheritage.com/names/james_parslow`]]}
+	src:[[`Australian Cemeteries Index`,`https://austcemindex.com/inscription?id=4360262`]]}
 barbara165={
 	name:`Barbara Ellen Parslow`,
 	sex:`female`,
@@ -1332,3 +1339,13 @@ valda186={
 	spouses:[`Roy John Thiele (1919-2011)`],
 	children:[`John Paul Thiele (1948-)`,`Janice Kaye Thiele (1951-)`],
 	src:[[`WikiTree`,`https://www.wikitree.com/wiki/McShane-305`]]}
+adelaide187={
+	name:`Adelaide Weenen`,
+	b:[,4,1882],
+	bx:[`London, England`],
+	d:[20,8,1960],
+	parents:[`Philip Edward Van Weenen (1849-1920)`,`Mary Van Weenan (1855-)`],
+	spouses:[`Albert Henry Parslow (1883-1940)`],
+	children:[`james163`,`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Henry Parslow (1907-1976)`,`Albert Henry Parslow (1908-1955)`,`Doris Amy Parslow (1917-2003)`],
+	img:[46],
+	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/adelaide-weenen-24-10w3tpv`]]}
