@@ -11,6 +11,13 @@ body{
 	padding:20px;
 	user-select:none;
 }
+#photos{
+	margin:4px;
+}
+#photos .heading{
+	position:relative;
+	top:-4px;
+}
 img{
 	border-radius:20px;
 	height:200px;
