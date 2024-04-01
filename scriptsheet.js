@@ -18,6 +18,7 @@ if(!window[focusPlain]){
 }
 var focus=window[focusPlain]
 var yearDiff
+var trackingPrev=0
 function renderCard(){
 	focus=window[focusPlain]
 	localStorage.setItem(`prevFocus`,prevFocus)
@@ -139,6 +140,7 @@ function renderCard(){
 		for(i1=0;i1<parents[0].length;i1++){
 			if(prevFocus[prevFocus.length-1]==parents[0][i1]){
 				document.getElementById(`parents`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+parents[0][i1]+`")>`+window[parents[0][i1]].name+`</span><br>`
+				trackingPrev++
 			}else{
 				document.getElementById(`parents`).innerHTML+=`<span class="list link" onClick=changeFocus("`+parents[0][i1]+`")>`+window[parents[0][i1]].name+`</span><br>`
 			}
@@ -152,6 +154,7 @@ function renderCard(){
 		for(i1=0;i1<siblings[0].length;i1++){
 			if(prevFocus[prevFocus.length-1]==siblings[0][i1]){
 				document.getElementById(`siblings`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+siblings[0][i1]+`")>`+window[siblings[0][i1]].name+`</span><br>`
+				trackingPrev++
 			}else{
 				document.getElementById(`siblings`).innerHTML+=`<span class="list link" onClick=changeFocus("`+siblings[0][i1]+`")>`+window[siblings[0][i1]].name+`</span><br>`
 			}
@@ -165,6 +168,7 @@ function renderCard(){
 		for(i1=0;i1<spouses[0].length;i1++){
 			if(prevFocus[prevFocus.length-1]==spouses[0][i1]){
 				document.getElementById(`spouses`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+spouses[0][i1]+`")>`+window[spouses[0][i1]].name+`</span><br>`
+				trackingPrev++
 			}else{
 				document.getElementById(`spouses`).innerHTML+=`<span class="list link" onClick=changeFocus("`+spouses[0][i1]+`")>`+window[spouses[0][i1]].name+`</span><br>`
 			}
@@ -178,6 +182,7 @@ function renderCard(){
 		for(i1=0;i1<children[0].length;i1++){
 			if(prevFocus[prevFocus.length-1]==children[0][i1]){
 				document.getElementById(`children`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+children[0][i1]+`")>`+window[children[0][i1]].name+`</span><br>`
+				trackingPrev++
 			}else{
 				document.getElementById(`children`).innerHTML+=`<span class="list link" onClick=changeFocus("`+children[0][i1]+`")>`+window[children[0][i1]].name+`</span><br>`
 			}
@@ -185,6 +190,10 @@ function renderCard(){
 		for(i1=0;i1<children[1].length;i1++){
 			document.getElementById(`children`).innerHTML+=`<span class="list nolink">`+children[1][i1]+`</span><br>`
 		}
+	}
+	if(!trackingPrev){
+		trackingPrev=0
+		prevFocus=[]
 	}
 	if(focus.works){
 		document.getElementById(`main`).innerHTML+=`<br><div id="works"><span class="heading">Creative Works:</span><br></div>`
