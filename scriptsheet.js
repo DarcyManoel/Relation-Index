@@ -213,7 +213,7 @@ function renderCard(){
 		document.getElementById(`main`).innerHTML+=`<br><div id="sources"><span class="heading">Sources:</span><br></div>`
 		for(i1=0;i1<focus.src.length;i1++){
 			if(Array.isArray(focus.src[i1])){
-				document.getElementById(`sources`).innerHTML+=`<span class="list"><a href="`+focus.src[i1][1]+`">`+focus.src[i1][0]+`</a></span><br>`
+				document.getElementById(`sources`).innerHTML+=`<span class="list"><a href="`+focus.src[i1][2]+`">`+focus.src[i1][0]+`</a></span><br><span class="sourceInformation">- `+focus.src[i1][1].join(`<br>- `)+`</span>`
 			}else{
 				document.getElementById(`sources`).innerHTML+=`<span class="list">`+focus.src[i1]+`</span><br>`
 			}

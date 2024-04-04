@@ -4,8 +4,7 @@ darcy1={
 	sex:`male`,
 	b:[9,5,2000],
 	bx:[`Adelaide, South Australia`],
-	parents:[`richard2`,`brandi9`],
-	src:[`I am him.`]}
+	parents:[`richard2`,`brandi9`]}
 richard2={
 	name:`Richard John Manoel`,
 	sex:`male`,
@@ -316,7 +315,7 @@ hamilton53={
 	parents:[`charles136`,`daisy127`],
 	children:[`marjorie52`,`Jim`,`Joan`,`Marilyn`],
 	img:[41,12,18,48,19],
-	src:[[`Redlegs Museum`,`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSHamilton.aspx`]]}
+	src:[[`Redlegs Museum`,[`photo`,`siblings`,`father`,`mother`,`birth place`,`birth date`,`service`,`spouse`,`death place`,`death date`,`burial`],`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSHamilton.aspx`]]}
 joy54={
 	name:`Joy Lorraine Le Poidevin`,
 	sex:`female`,
@@ -528,7 +527,8 @@ daniel82={
 	parents:[`martha118`,`thomas117`],
 	children:[`richard112`,`louisa84`,`amy83`,`thomas167`,`martha168`,`alice169`,`alfred170`,`walter171`,`ada172`,`alfred173`,`laura174`,`howard175`,`ross176`],
 	img:[2],
-	src:[[`State Library`,`https://collections.slsa.sa.gov.au/resource/B+73578/2`],[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`State Library`,[`photo`],`https://collections.slsa.sa.gov.au/resource/B+73578/2`],
+		[`Ancestry`,[`birth date`,`birth place`,`death date`,`death place`,`mother`,`father`,`spouse`,`children`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 amy83={
 	name:`Amy Marguerite Le Poidevin`,
 	sex:`female`,
@@ -537,7 +537,7 @@ amy83={
 	d:[,,1952],
 	parents:[`daniel82`,`harriet85`],
 	img:[5],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 louisa84={
 	name:`Louisa Mary Le Poidevin`,
 	sex:`female`,
@@ -546,7 +546,7 @@ louisa84={
 	d:[,,1928],
 	parents:[`daniel82`,`harriet85`],
 	img:[6],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 harriet85={
 	name:`Harriet Palmer Hutchinson`,
 	sex:`female`,
@@ -556,7 +556,8 @@ harriet85={
 	parents:[`william86`,`harriet87`],
 	children:[`richard112`,`louisa84`,`amy83`,`thomas167`,`martha168`,`alice169`,`alfred170`,`walter171`,`ada172`,`alfred173`,`laura174`,`howard175`,`ross176`],
 	img:[2],
-	src:[[`State Library`,`https://collections.slsa.sa.gov.au/resource/B+73578/2`],[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`State Library`,[`photo`],`https://collections.slsa.sa.gov.au/resource/B+73578/2`],
+		[`Ancestry`,[`spouse`,`birth date`,`death date`,`birth place`,`children`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 william86={
 	name:`William Hutchinson`,
 	sex:`male`,
@@ -744,7 +745,7 @@ richard112={
 	dx:[`O'Halloran Hill, South Australia`],
 	parents:[`daniel82`,`harriet85`],
 	children:[`richard73`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`birth date`,`death date`,`birth place`,`siblings`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 joseph113={
 	name:`Joseph Dixon`,
 	sex:`male`,
@@ -781,7 +782,7 @@ thomas117={
 	bx:[`St Peter in the Wood, Guernsey, Channel Islands`],
 	d:[,,1872],
 	children:[`daniel82`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`birth date`,`death date`,`birth place`,`spouse`,`child`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 martha118={
 	name:`Martha Marquand`,
 	sex:`female`,
@@ -789,7 +790,7 @@ martha118={
 	bx:[`St Peter Port, Guernsey, Channel Islands`],
 	d:[,,1875],
 	children:[`daniel82`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`birth date`,`death date`,`birth place`,`spouse`,`child`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 nicholas119={
 	name:`Nicholas Whitfield`,
 	sex:`male`,
@@ -847,7 +848,8 @@ daisy127={
 	parents:[`james128`,`sarah129`],
 	children:[`hamilton53`,`vera158`,`edna177`,`alfred178`,`charles192`,`Jessie (1907-)`,`Alma`],
 	img:[22,23],
-	src:[[`WikiTree`,`https://www.wikitree.com/wiki/Hamilton-22031`],[`Find a Grave`,`https://www.findagrave.com/memorial/201300534/daisy-marguerite-williams`]]}
+	src:[[`WikiTree`,[`birth date`,`birth place`,`spouse`,`child`,`death date`,`death place`,`burial`],`https://www.wikitree.com/wiki/Hamilton-22031`],
+		[`Find a Grave`,[`birth date`,`birth place`,`death date`,`death place`,`burial`,`father`,`mother`,`spouse`],`https://www.findagrave.com/memorial/201300534/daisy-marguerite-williams`]]}
 james128={
 	name:`James Hamilton`,
 	sex:`male`,
@@ -929,7 +931,8 @@ charles136={
 	bur:`Centennial Park Cemetery, Pasadena, Mitcham City, South Australia, Australia`,
 	parents:[`john137`,`elizabeth138`],
 	children:[`hamilton53`,`vera158`,`edna177`,`alfred178`,`charles192`,`Jessie (1907-)`,`Alma`],
-	src:[[`WikiTree`,`https://www.wikitree.com/wiki/Williams-82517`],[`Find a Grave`,`https://www.findagrave.com/memorial/153523708/charles_alfred_williams`]]}
+	src:[[`WikiTree`,[`birth date`,`birth place`,`spouse`,`child`,`death date`,`death place`,`father`,`mother`],`https://www.wikitree.com/wiki/Williams-82517`],
+		[`Find a Grave`,[`birth date`,`birth place`,`death date`,`burial`,`service`,`siblings`],`https://www.findagrave.com/memorial/153523708/charles_alfred_williams`]]}
 john137={
 	name:`John Lloyd Williams`,
 	sex:`male`,
@@ -939,7 +942,7 @@ john137={
 	dx:[`Melbourne, Melbourne City, Victoria, Australia`],
 	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`,
 	children:[`john139`,`charles136`,`jessie140`,`leslie141`,`alfred144`],
-	src:[[`Find a Grave`,`https://www.findagrave.com/memorial/150307322/john_lloyd_williams`]]}
+	src:[[`Find a Grave`,[`birth date`,`birth place`,`death date`,`death place`,`burial`,`spouse`,`children`],`https://www.findagrave.com/memorial/150307322/john_lloyd_williams`]]}
 elizabeth138={
 	name:`Elizabeth Reid`,
 	sex:`female`,
@@ -1102,14 +1105,14 @@ vera158={
 	bur:`Payneham Cemetery, Payneham South, City of Norwood Payneham & St Peters, South Australia, Australia`,
 	parents:[`daisy127`,`charles136`],
 	children:[`barry159`,`christine160`],
-	src:[[`WikiTree`,`https://www.wikitree.com/wiki/Williams-82494`]]}
+	src:[[`WikiTree`,[`birth date`,`father`,`mother`,`child`,`death date`],`https://www.wikitree.com/wiki/Williams-82494`]]}
 barry159={
 	name:`Barry Morrison`,
 	sex:`male`,
 	b:[,,1939],
 	d:[,,2016],
 	parents:[`vera158`,`rossiter161`],
-	src:[[`WikiTree`,`https://www.wikitree.com/wiki/Morrison-13532`]]}
+	src:[[`WikiTree`,[`birth date`,`father`,`mother`,`death date`],`https://www.wikitree.com/wiki/Morrison-13532`]]}
 christine160={
 	name:`Christine Morrison`,
 	sex:`female`,
@@ -1127,7 +1130,8 @@ rossiter161={
 	spouses:[`vera158`],
 	children:[`barry159`,`christine160`],
 	img:[29],
-	src:[[`WikiTree`,`https://www.wikitree.com/wiki/Morrison-13528`],[`Find a Grave`,`https://www.findagrave.com/memorial/160510355/rossiter-adam-morrison`]]}
+	src:[[`WikiTree`,[`birth date (vague)`,`father`,`mother`,`siblings`,`child`,`death date`],`https://www.wikitree.com/wiki/Morrison-13528`],
+		[`Find a Grave`,[`photo`,`birth date`,`birth place`,`death date`,`death place`,`burial`,`spouse`],`https://www.findagrave.com/memorial/160510355/rossiter-adam-morrison`]]}
 ronald162={
 	name:`Ronald Stanley Parslow`,
 	sex:`male`,
@@ -1147,7 +1151,7 @@ james163={
 	spouses:[`doris164`],
 	children:[`ronald162`,`barbara165`],
 	img:[37],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/adelaide-weenen-24-10w3tpv`]]}
+	src:[[`Ancestry`,[`mother`,`father`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/adelaide-weenen-24-10w3tpv`]]}
 doris164={
 	name:`Doris Margaret Lander`,
 	sex:`female`,
@@ -1158,7 +1162,7 @@ doris164={
 	spouses:[`james163`],
 	children:[`ronald162`,`barbara165`],
 	img:[47],
-	src:[[`Australian Cemeteries Index`,`https://austcemindex.com/inscription?id=4360262`]]}
+	src:[[`Australian Cemeteries Index`,[`birth date`,`death date`,`burial`],`https://austcemindex.com/inscription?id=4360262`]]}
 barbara165={
 	name:`Barbara Ellen Parslow`,
 	sex:`female`,
@@ -1170,7 +1174,7 @@ barbara165={
 	spouses:[`jeffrey184`],
 	children:[`carolyn185`,`Alan Jeffrey McShane`,`Mark`],
 	img:[38,39],
-	src:[[`WikiTree`,`https://www.wikitree.com/wiki/Parslow-100`]]}
+	src:[[`WikiTree`,[`birth date`,`birth place`,`spouse`,`death date (vague)`,`death place`,`father`,`mother`,`children`],`https://www.wikitree.com/wiki/Parslow-100`]]}
 james166={
 	name:`James Frederick Godfrey Hamilton`,
 	sex:`male`,
@@ -1185,7 +1189,7 @@ thomas167={
 	bx:[`Noarlunga, South Australia, Australia`],
 	d:[,,1926],
 	parents:[`daniel82`,`harriet85`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 martha168={
 	name:`Martha Margaret Le Poidevin`,
 	sex:`female`,
@@ -1193,7 +1197,7 @@ martha168={
 	bx:[`Morphett Vale, South Australia, Australia`],
 	d:[,,1865],
 	parents:[`daniel82`,`harriet85`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 alice169={
 	name:`Alice Harriet Le Poidevin`,
 	sex:`female`,
@@ -1201,7 +1205,7 @@ alice169={
 	bx:[`Noarlunga, South Australia, Australia`],
 	d:[,,1938],
 	parents:[`daniel82`,`harriet85`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 alfred170={
 	name:`Alfred James Le Poidevin`,
 	sex:`male`,
@@ -1209,7 +1213,7 @@ alfred170={
 	bx:[`Morphett Vale, South Australia, Australia`],
 	d:[,,1867],
 	parents:[`daniel82`,`harriet85`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 walter171={
 	name:`Walter Marquand Le Poidevin`,
 	sex:`male`,
@@ -1220,7 +1224,8 @@ walter171={
 	bur:`Minlaton Cemetery, Minlaton, South Australia, Australia`,
 	parents:[`daniel82`,`harriet85`],
 	children:[`eleanor179`,`clifford180`,`Walter Henry Le Poidevin (1898-1981)`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`],[`FamilySearch`,`https://ancestors.familysearch.org/en/MPSR-G9D/walter-marquand-le-poidevin-1866-1939`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`],
+		[`FamilySearch`,[`birth date`,`death date`,`birth place`,`father`,`mother`,`spouse`,`death place`,`burial`,`siblings`,`children`],`https://ancestors.familysearch.org/en/MPSR-G9D/walter-marquand-le-poidevin-1866-1939`]]}
 ada172={
 	name:`Ada Ozanne Le Poidevin`,
 	sex:`female`,
@@ -1228,7 +1233,7 @@ ada172={
 	bx:[`Morphett Vale, South Australia, Australia`],
 	d:[,,1952],
 	parents:[`daniel82`,`harriet85`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 alfred173={
 	name:`Alfred Daniel Le Poidevin`,
 	sex:`male`,
@@ -1236,7 +1241,7 @@ alfred173={
 	bx:[`Noarlunga, South Australia, Australia`],
 	d:[,,1941],
 	parents:[`daniel82`,`harriet85`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 laura174={
 	name:`Laura Elsie Palmer Le Poidevin`,
 	sex:`female`,
@@ -1244,7 +1249,7 @@ laura174={
 	bx:[`Morphett Vale, South Australia, Australia`],
 	d:[,,1946],
 	parents:[`daniel82`,`harriet85`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 howard175={
 	name:`Howard Norman Le Poidevin`,
 	sex:`male`,
@@ -1252,7 +1257,7 @@ howard175={
 	bx:[`South Australia, Australia`],
 	d:[,,1889],
 	parents:[`daniel82`,`harriet85`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 ross176={
 	name:`Ross Durdin Le Poidevin`,
 	sex:`male`,
@@ -1260,7 +1265,7 @@ ross176={
 	bx:[`Morphett Vale, South Australia, Australia`],
 	d:[,,],
 	parents:[`daniel82`,`harriet85`],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
+	src:[[`Ancestry`,[`father`,`mother`,`siblings`,`birth date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/daniel-le-poidevin-24-2m07z`]]}
 edna177={
 	name:`Edna`,
 	sex:`female`,
@@ -1281,9 +1286,10 @@ eleanor179={
 	b:[19,3,1895],
 	bx:[`Morphett Vale, South Australia, Australia`],
 	d:[29,7,1966],
+	bur:`Centennial Park Cemetery, Pasadena, South Australia, Australia`,
 	parents:[`walter171`,`harriet181`],
 	children:[`Gordon Aubrey Vanstone`,`Walter Joseph Vanstone`,`Constance Margaret Vanstone`,`Eleanor Valmai Vanstone`,`Philip Arnold Henry Vanstone`],
-	src:[[`FamilySearch`,`https://ancestors.familysearch.org/en/KCFH-GF9/eleanor-may-le-poidevin-1895-1966`]]}
+	src:[[`FamilySearch`,[`birth date`,`death date`,`birth place`,`father`,`mother`,`spouse`,`death place`,`burial`,`siblings`,`children`],`https://ancestors.familysearch.org/en/KCFH-GF9/eleanor-may-le-poidevin-1895-1966`]]}
 clifford180={
 	name:`Clifford Boundy Le Poidevin`,
 	sex:`male`,
@@ -1294,7 +1300,7 @@ clifford180={
 	bur:`Minlaton Cemetery, Minlaton, South Australia, Australia`,
 	parents:[`walter171`,`harriet181`],
 	spouses:[`Dorothy May Twartz (1912-2007)`],
-	src:[[`FamilySearch`,`https://ancestors.familysearch.org/en/GWPG-PVV/clifford-boundy-le-poidevin-1904-1967`]]}
+	src:[[`FamilySearch`,[`birth date`,`death date`,`birth place`,`father`,`mother`,`spouse`,`death place`,`burial`,`siblings`],`https://ancestors.familysearch.org/en/GWPG-PVV/clifford-boundy-le-poidevin-1904-1967`]]}
 harriet181={
 	name:`Harriet Ann Boundy`,
 	sex:`female`,
@@ -1305,24 +1311,25 @@ harriet181={
 	bur:`Minlaton Cemetery, Minlaton, South Australia, Australia`,
 	parents:[`harriet182`],
 	children:[`eleanor179`,`clifford180`,`Walter Henry Le Poidevin (1898-1981)`],
-	src:[[`FamilySearch`,`https://ancestors.familysearch.org/en/9F3J-953/harriet-ann-boundy-1871-1939`]]}
+	src:[[`FamilySearch`,[`birth date`,`death date`,`birth place`,`mother`,`spouse`,`death place`,`burial`,`siblings`,`children`],`https://ancestors.familysearch.org/en/9F3J-953/harriet-ann-boundy-1871-1939`]]}
 harriet182={
 	name:`Harriet Anne Brundell`,
 	sex:`female`,
 	b:[,,1849],
 	d:[,,1932],
 	children:[`harriet181`,`John Boundy (1870-1950)`,`Fanny Elenor Boundy (1873-1972)`,`Mary Maria Boundy (1875-1956)`,`Edith Alice Boundy (1877-1954)`,`Charles Henry Boundy (1880-1940)`,`Clara May Boundy (1884-1897)`,`Philip Howard Boundy (1886-1910)`],
-	src:[[`FamilySearch`,`https://ancestors.familysearch.org/en/9F3J-953/harriet-ann-boundy-1871-1939`]]}
+	src:[[`FamilySearch`,[`birth date`,`death date`,`children`],`https://ancestors.familysearch.org/en/9F3J-953/harriet-ann-boundy-1871-1939`]]}
 glenda183={
 	name:`Glenda Mary Fergusson`,
 	sex:`female`,
 	b:[6,5,1949],
+	bx:[`New Zealand`],
 	d:[27,4,2018],
 	dx:[`Adelaide, South Australia`],
 	parents:[`Ross Fergusson`,`Una Gibson`],
 	spouses:[`gary31`],
 	siblings:[`Lynn`,`Patricia`,`Heather`,`Rosslyn`,`Dawn`],
-	src:[[`New Zealand Herald`,`https://notices.nzherald.co.nz/nz/obituaries/nzherald-nz/name/glenda-fergusson-obituary?id=43167942`]]}
+	src:[[`New Zealand Herald`,[`birth date`,`death date`,`death place`,`spouse`,`mother`,`father`,`siblings`],`https://notices.nzherald.co.nz/nz/obituaries/nzherald-nz/name/glenda-fergusson-obituary?id=43167942`]]}
 jeffrey184={
 	name:`Jeffrey McShane`,
 	sex:`male`,
@@ -1334,7 +1341,7 @@ jeffrey184={
 	siblings:[`Frank McShane (1923-2006)`,`valda186`],
 	children:[`carolyn185`,`Alan Jeffrey McShane`],
 	img:[39],
-	src:[[`WikiTree`,`https://www.wikitree.com/wiki/McShane-306`]]}
+	src:[[`WikiTree`,[`birth date`,`birth place`,`father`,`mother`,`siblings`,`spouse`,`death date`,`death place`,`children`],`https://www.wikitree.com/wiki/McShane-306`]]}
 carolyn185={
 	name:`Carolyn Ann McShane`,
 	sex:`female`,
@@ -1351,25 +1358,28 @@ valda186={
 	siblings:[`jeffrey184`,`Frank McShane (1923-2006)`],
 	spouses:[`Roy John Thiele (1919-2011)`],
 	children:[`John Paul Thiele (1948-)`,`Janice Kaye Thiele (1951-)`],
-	src:[[`WikiTree`,`https://www.wikitree.com/wiki/McShane-305`]]}
+	src:[[`WikiTree`,[`birth place`,`birth place`,`father`,`mother`,`siblings`,`spouse`,`death date`,`children`,`death date (vague)`],`https://www.wikitree.com/wiki/McShane-305`]]}
 adelaide187={
 	name:`Adelaide Weenen`,
 	b:[,4,1882],
 	bx:[`London, England`],
 	d:[20,8,1960],
+	dx:[`South Australia, Australia`],
 	parents:[`Philip Edward Van Weenen (1849-1920)`,`Mary Van Weenan (1855-)`],
 	spouses:[`Albert Henry Parslow (1883-1940)`],
 	children:[`james163`,`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Parslow (1907-1976)`,`Albert Parslow (1908-1955)`,`Doris Amy Parslow (1917-2003)`],
 	img:[46],
-	src:[[`Ancestry`,`https://www.ancestry.com.au/genealogy/records/adelaide-weenen-24-10w3tpv`]]}
+	src:[[`Ancestry`,[`birth date`,`birth place`,`death date`,`death place`,`mother`,`father`,`spouse`,`children`,`photo`],`https://www.ancestry.com.au/genealogy/records/adelaide-weenen-24-10w3tpv`]]}
 ellen188={
 	name:`Ellen Pollock`,
 	b:[,,],
 	d:[5,12,1925],
 	dx:[`Queensland, Australia`],
 	spouse:[`john189`],
-	children:[`doris164`,`john190`,`George Edmund John Lander (1883-1974)`,`william191`,`Samuel Alexander Lander (-1933)`],
-	src:[[`BillionGraves`,`https://billiongraves.com/grave/Ellen-LANDER-Pollock/12621439`],[`QLD B.D.M. (marriage)`,`https://www.familyhistory.bdm.qld.gov.au/details/1b70d08e9138ba80b299f0486f3dd5d375aa408b1ee1e34b21aeaac9447b0f82`],[`Gordan Family Tree`,`https://sites.rootsweb.com/~gordon/gordonfam/pafg964.htm`]]}
+	children:[`doris164`,`john190`,`George Edmund Albert Lander`,`william191`,`Samuel Alexander Lander`],
+	src:[[`BillionGraves`,[`death date`,`child`],`https://billiongraves.com/grave/Ellen-LANDER-Pollock/12621439`],
+		[`QLD B.D.M.`,[`spouse`],`https://www.familyhistory.bdm.qld.gov.au/details/1b70d08e9138ba80b299f0486f3dd5d375aa408b1ee1e34b21aeaac9447b0f82`],
+		[`Gordan Family Tree`,[`death date`,`death place`,`spouse`,`children`],`https://sites.rootsweb.com/~gordon/gordonfam/pafg964.htm`]]}
 john189={
 	name:`John Richard Lander`,
 	b:[14,6,1852],
@@ -1378,15 +1388,19 @@ john189={
 	dx:[`Eudlo, Queensland, Australia`],
 	parents:[`Mary Bennett`,`Edmund Lander`],
 	spouses:[`ellen188`],
-	children:[`doris164`,`john190`,`George Edmund John Lander (1883-1974)`,`william191`,`Samuel Alexander Lander (-1933)`],
-	src:[[`QLD B.D.M. (death)`,`https://www.familyhistory.bdm.qld.gov.au/details/7ebbded96d3a5a0ecdc243ceeb51b9f45469983fee0ef8738c101cb2835981ee`],[`QLD B.D.M. (birth)`,`https://www.familyhistory.bdm.qld.gov.au/details/0d49440eb754a0b490c637f63cf25ddd6d392ce13724133b28e33860cb5cd605`],[`Gordan Family Tree`,`https://sites.rootsweb.com/~gordon/gordonfam/pafg964.htm`]]}
+	children:[`Caroline Beatrice Maud Mary Lander`,`George Edmund Albert Lander`,`James Henry Albert Lander`,`Samuel Alexander Lander`,`doris164`,`john190`,`william191`],
+	src:[[`QLD B.D.M.`,[`death date`,`mother`,`father`],`https://www.familyhistory.bdm.qld.gov.au/details/7ebbded96d3a5a0ecdc243ceeb51b9f45469983fee0ef8738c101cb2835981ee`],
+		[`QLD B.D.M.`,[`birth date`,`mother`,`father`],`https://www.familyhistory.bdm.qld.gov.au/details/0d49440eb754a0b490c637f63cf25ddd6d392ce13724133b28e33860cb5cd605`],
+		[`Gordan Family Tree`,[`birth date`,`birth place`,`death date`,`death place`,`spouse`,`children`],`https://sites.rootsweb.com/~gordon/gordonfam/pafg964.htm`]]}
 john190={
 	name:`John Pollock Lander`,
 	b:[2,4,1891],
 	d:[30,1,1957],
 	parents:[`ellen188`,`john189`],
 	spouses:[`Catherine Violet Cramb`],
-	src:[[`QLD B.D.M. (death)`,`https://www.familyhistory.bdm.qld.gov.au/details/df9acc812ed236edcc4da230e419aa6e37c4bca024aef071f9b0256e3db052c9`],[`QLD B.D.M. (marriage)`,`https://www.familyhistory.bdm.qld.gov.au/details/72d76d966849d7e2e29dc8f19090d8453e4d4fd166581cae2e0652cf2dc30417`],[`QLD B.D.M. (birth)`,`https://www.familyhistory.bdm.qld.gov.au/details/181894b577d02d8caeabec1c621b735f275db6cf58a11bb10d1a76ba97d20cad`]]}
+	src:[[`QLD B.D.M.`,[`death date`,`mother`,`father`],`https://www.familyhistory.bdm.qld.gov.au/details/df9acc812ed236edcc4da230e419aa6e37c4bca024aef071f9b0256e3db052c9`],
+		[`QLD B.D.M.`,[`spouse`],`https://www.familyhistory.bdm.qld.gov.au/details/72d76d966849d7e2e29dc8f19090d8453e4d4fd166581cae2e0652cf2dc30417`],
+		[`QLD B.D.M.`,[`birth date`,`mother`,`father`],`https://www.familyhistory.bdm.qld.gov.au/details/181894b577d02d8caeabec1c621b735f275db6cf58a11bb10d1a76ba97d20cad`]]}
 william191={
 	name:`William Richard Lander`,
 	b:[5,11,1893],
@@ -1394,14 +1408,19 @@ william191={
 	d:[12,10,1917],
 	dx:[`Passchendaele, Ypres, Belgium`,`KIA - World War I`],
 	parents:[`ellen188`,`john189`],
-	src:[[`Gordan Family Tree`,`https://sites.rootsweb.com/~gordon/gordonfam/pafg964.htm#30663`],[`Gordan Family Tree (notes)`,`https://sites.rootsweb.com/~gordon/gordonfam/pafn964.htm#30663`]]}
+	siblings:[`Caroline Beatrice Maud Mary Lander`,`George Edmund Albert Lander`,`James Henry Albert Lander`,`Samuel Alexander Lander`,`john190`],
+	src:[[`Gordan Family Tree`,[`father`,`mother`,`siblings`,`birth date`,`birth place`,`death date`,`death place`,`death cause`],`https://sites.rootsweb.com/~gordon/gordonfam/pafg964.htm#30663`],
+		[`Gordan Family Tree`,[`service`,`birth place`,`education`,`religion`],`https://sites.rootsweb.com/~gordon/gordonfam/pafn964.htm#30663`]]}
 charles192={
-	name:`Charles Williams`,
+	name:`Charles Walter Williams`,
 	b:[16,8,1909],
+	bx:[`Collingwood, Victoria, Australia`],
 	d:[5,5,1986],
+	dx:[`Adelaide`],
 	parents:[`charles136`,`daisy127`],
 	siblings:[`hamilton53`,`vera158`,`edna177`,`alfred178`],
 	spouses:[`Barbara Rowe`],
 	children:[`Margaret`],
 	img:[49],
-	src:[[`Redlegs Museum (Charles)`,`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSCharles.aspx`],[`Redlegs Museum (Hamilton)`,`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSHamilton.aspx`]]}
+	src:[[`Redlegs Museum`,[`photo`],`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSCharles.aspx`],
+		[`Redlegs Museum`,[`brother`,`father`,`mother`,`birth place`,`birth date`,`sisters`,`service`,`spouse`,`daughter`,`death date`,`death place`],`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSHamilton.aspx`]]}

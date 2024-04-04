@@ -18,6 +18,12 @@ body{
 	position:relative;
 	top:-4px;
 }
+.sourceInformation{
+	display:block;
+	font-size:.5em;
+	left:40px;
+	position:relative;
+}
 img{
 	border-radius:20px;
 	height:200px;
