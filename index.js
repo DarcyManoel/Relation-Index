@@ -315,7 +315,7 @@ hamilton53={
 	bur:`Enfield Cemetery, Clearview, South Australia`,
 	parents:[`charles136`,`daisy127`],
 	children:[`marjorie52`,`Jim`,`Joan`,`Marilyn`],
-	img:[41,12,18,48,19],
+	img:[41,12,18,48,58,19,59],
 	src:[[`Redlegs Museum`,[`photo`,`siblings`,`father`,`mother`,`birth place`,`birth date`,`service`,`spouse`,`death place`,`death date`,`burial`],`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSHamilton.aspx`]]}
 joy54={
 	name:`Joy Lorraine Le Poidevin`,
