@@ -304,7 +304,7 @@ marjorie52={
 	d:[25,2,2024],
 	parents:[`hamilton53`,`Marjorie Schauer`],
 	children:[`gloria30`],
-	img:[11,10,9]}
+	img:[54,11,10,9]}
 hamilton53={
 	name:`Hamilton "Chappie" Williams`,
 	sex:`male`,
