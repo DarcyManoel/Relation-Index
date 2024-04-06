@@ -1452,7 +1452,7 @@ bessie196={
 	d:[21,8,1919],
 	dx:[`Maylands, City of Norwood Payneham & St Peters, South Australia, Australia`],
 	bur:`Payneham Cemetery, Payneham South, City of Norwood Payneham & St Peters, South Australia, Australia`,
-	parents:[`Philip Hull (1842-1903)`,`Mary Ann Jenner (1840-1900)`],
+	parents:[`philip198`,`Mary Ann Jenner (1840-1900)`],
 	spouses:[`wilhelm197`],
 	children:[`marjorie195`],
 	img:[62],
@@ -1467,3 +1467,12 @@ wilhelm197={
 	children:[`marjorie195`],
 	img:[62,63],
 	src:[[`Find a Grave`,[`death date`,`death place`,`burial`,`birth date (inferred)`,`spouse`],`https://www.findagrave.com/memorial/257924892/wilhelm_johann_eric_luis_schauer`]]}
+philip198={
+	name:`Philip Hull`,
+	b:[,,1842],
+	d:[24,5,1903],
+	dx:[`Payneham, City of Norwood Payneham & St Peters, South Australia, Australia`],
+	bur:`Payneham Cemetery, Payneham South, City of Norwood Payneham & St Peters, South Australia, Australia`,
+	spouses:[`Mary Ann Jenner (1840-1900)`],
+	children:[`bessie196`],
+	src:[[`Find a Grave`,[`birth date`,`death date`,`death place`,`burial`,`spouse`,`child`],`https://www.findagrave.com/memorial/254882767/philip_hull`]]}
