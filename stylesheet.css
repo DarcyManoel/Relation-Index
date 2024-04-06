@@ -6,24 +6,32 @@
 	font-family:"montserratBold";
 	src:url("fonts/Montserrat-Medium.ttf");
 }
+::-webkit-scrollbar{
+	display:none;
+}
 body{
+	-ms-overflow-style:none;
 	font-family:"montserratLight";
 	margin:0;
 	outline:none;
 	overflow:hidden;
 	padding:1em;
+	scrollbar-width:none;
 	user-select:none;
 }
 #main{
-	height:calc(100vh - 7em);
+	height:calc(100vh - 4em);
 	overflow-x:hidden;
 	overflow-y:scroll;
 	padding:1em;
 }
 #footer{
+	background-color:#fff;
 	bottom:1em;
-	padding-top:3em;
+	font-size:.75em;
+	padding-top:.5em;
 	position:absolute;
+	width:calc(100% - 4em);
 }
 #photos{
 	margin:4px;
