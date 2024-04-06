@@ -1147,7 +1147,7 @@ james163={
 	b:[,,1905],
 	bx:[`Enfield, Middlesex, England`],
 	d:[,,1974],
-	parents:[`adelaide187`,`Albert Henry Parslow (1883-1940)`],
+	parents:[`adelaide187`,`albert193`],
 	siblings:[`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Parslow (1907-1976)`,`Albert Parslow (1908-1955)`,`Doris Amy Parslow (1917-2003)`],
 	spouses:[`doris164`],
 	children:[`ronald162`,`barbara165`],
@@ -1425,3 +1425,9 @@ charles192={
 	img:[49],
 	src:[[`Redlegs Museum`,[`photo`],`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSCharles.aspx`],
 		[`Redlegs Museum`,[`brother`,`father`,`mother`,`birth place`,`birth date`,`sisters`,`service`,`spouse`,`daughter`,`death date`,`death place`],`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSHamilton.aspx`]]}
+albert193={
+	name:`Albert Henry Parslow`,
+	b:[,,1883],
+	d:[,,1940],
+	children:[`james163`,`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Parslow (1907-1976)`,`Albert Parslow (1908-1955)`,`Doris Amy Parslow (1917-2003)`],
+	img:[37]}
