@@ -1441,7 +1441,7 @@ marjorie195={
 	name:`Marjorie Elsa Schauer`,
 	b:[,,1914],
 	d:[,,],
-	parents:[`bessie196`,`Wilhelm Johann Eric Luis Schauer (-1950)`],
+	parents:[`bessie196`,`wilhelm197`],
 	spouses:[`hamilton53`],
 	children:[`marjorie52`,`Jim`,`Joan`,`Marilyn`],
 	img:[61,48,19,59]}
@@ -1453,7 +1453,17 @@ bessie196={
 	dx:[`Maylands, City of Norwood Payneham & St Peters, South Australia, Australia`],
 	bur:`Payneham Cemetery, Payneham South, City of Norwood Payneham & St Peters, South Australia, Australia`,
 	parents:[`Philip Hull (1842-1903)`,`Mary Ann Jenner (1840-1900)`],
-	spouses:[`Wilhelm Johann Eric Luis Schauer (-1950)`],
+	spouses:[`wilhelm197`],
 	children:[`marjorie195`],
 	img:[62],
 	src:[[`Find a Grave`,[`birth date`,`birth place`,`death date`,`death place`,`burial`,`father`,`mother`,`spouse`],`https://www.findagrave.com/memorial/257924830/bessie_olive_schauer`]]}
+wilhelm197={
+	name:`Wilhelm Johann Eric Luis Schauer`,
+	b:[,,1882],
+	d:[6,8,1950],
+	dx:[`Murray Bridge, Murray Bridge Rural City, South Australia, Australia`],
+	bur:`Loxton Cemetery, Loxton, District Council of Loxton Waikerie, South Australia, Australia`,
+	spouses:[`bessie196`],
+	children:[`marjorie195`],
+	img:[62,63],
+	src:[[`Find a Grave`,[`death date`,`death place`,`burial`,`birth date (inferred)`,`spouse`],`https://www.findagrave.com/memorial/257924892/wilhelm_johann_eric_luis_schauer`]]}
