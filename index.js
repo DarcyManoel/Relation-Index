@@ -1445,7 +1445,7 @@ marjorie195={
 	parents:[`bessie196`,`wilhelm197`],
 	spouses:[`hamilton53`],
 	children:[`marjorie52`,`Jim`,`Joan`,`Marilyn`],
-	img:[61,48,19,59]}
+	img:[61,64,48,19,59]}
 bessie196={
 	name:`Bessie Olive Hull`,
 	b:[16,10,1888],
