@@ -316,7 +316,8 @@ hamilton53={
 	parents:[`charles136`,`daisy127`],
 	children:[`marjorie52`,`Jim`,`Joan`,`Marilyn`],
 	img:[41,12,18,48,58,19,59],
-	src:[[`Redlegs Museum`,[`photo`,`siblings`,`father`,`mother`,`birth place`,`birth date`,`service`,`spouse`,`death place`,`death date`,`burial`],`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSHamilton.aspx`]]}
+	src:[[`Redlegs Museum`,[`photo`,`siblings`,`father`,`mother`,`birth place`,`birth date`,`service`,`spouse`,`death place`,`death date`,`burial`],`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSHamilton.aspx`],
+		[`Virtual War Memorial Australia`,[`service`,`birth place`,`birth date`],`https://vwma.org.au/explore/people/600945`]]}
 joy54={
 	name:`Joy Lorraine Le Poidevin`,
 	sex:`female`,
