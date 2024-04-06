@@ -5,6 +5,7 @@ var prevFocus=[]
 if(localStorage.getItem(`prevFocus`)){
 	prevFocus=localStorage.getItem(`prevFocus`).split(`,`)
 }
+var immPrevFocus=``
 var focusPlain=`darcy1`
 if(localStorage.getItem(`focusPlain`)){
 	focusPlain=localStorage.getItem(`focusPlain`)
@@ -142,9 +143,8 @@ function renderCard(){
 	if(parents[0].length||parents[1].length){
 		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span class="heading">Parents:</span><br></div>`
 		for(i1=0;i1<parents[0].length;i1++){
-			if(prevFocus[prevFocus.length-1]==parents[0][i1]){
+			if(immPrevFocus==parents[0][i1]){
 				document.getElementById(`parents`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+parents[0][i1]+`")>`+window[parents[0][i1]].name+`</span><br>`
-				trackingPrev++
 			}else{
 				document.getElementById(`parents`).innerHTML+=`<span class="list link" onClick=changeFocus("`+parents[0][i1]+`")>`+window[parents[0][i1]].name+`</span><br>`
 			}
@@ -156,9 +156,8 @@ function renderCard(){
 	if(siblings[0].length||siblings[1].length){
 		document.getElementById(`main`).innerHTML+=`<br><div id="siblings"><span class="heading">Siblings:</span><br></div>`
 		for(i1=0;i1<siblings[0].length;i1++){
-			if(prevFocus[prevFocus.length-1]==siblings[0][i1]){
+			if(immPrevFocus==siblings[0][i1]){
 				document.getElementById(`siblings`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+siblings[0][i1]+`")>`+window[siblings[0][i1]].name+`</span><br>`
-				trackingPrev++
 			}else{
 				document.getElementById(`siblings`).innerHTML+=`<span class="list link" onClick=changeFocus("`+siblings[0][i1]+`")>`+window[siblings[0][i1]].name+`</span><br>`
 			}
@@ -170,9 +169,8 @@ function renderCard(){
 	if(spouses[0].length||spouses[1].length){
 		document.getElementById(`main`).innerHTML+=`<br><div id="spouses"><span class="heading">Spouses:</span><br></div>`
 		for(i1=0;i1<spouses[0].length;i1++){
-			if(prevFocus[prevFocus.length-1]==spouses[0][i1]){
+			if(immPrevFocus==spouses[0][i1]){
 				document.getElementById(`spouses`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+spouses[0][i1]+`")>`+window[spouses[0][i1]].name+`</span><br>`
-				trackingPrev++
 			}else{
 				document.getElementById(`spouses`).innerHTML+=`<span class="list link" onClick=changeFocus("`+spouses[0][i1]+`")>`+window[spouses[0][i1]].name+`</span><br>`
 			}
@@ -184,9 +182,8 @@ function renderCard(){
 	if(children[0].length||children[1].length){
 		document.getElementById(`main`).innerHTML+=`<br><div id="children"><span class="heading">Children:</span><br></div>`
 		for(i1=0;i1<children[0].length;i1++){
-			if(prevFocus[prevFocus.length-1]==children[0][i1]){
+			if(immPrevFocus==children[0][i1]){
 				document.getElementById(`children`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+children[0][i1]+`")>`+window[children[0][i1]].name+`</span><br>`
-				trackingPrev++
 			}else{
 				document.getElementById(`children`).innerHTML+=`<span class="list link" onClick=changeFocus("`+children[0][i1]+`")>`+window[children[0][i1]].name+`</span><br>`
 			}
@@ -194,10 +191,6 @@ function renderCard(){
 		for(i1=0;i1<children[1].length;i1++){
 			document.getElementById(`children`).innerHTML+=`<span class="list nolink">`+children[1][i1]+`</span><br>`
 		}
-	}
-	if(!trackingPrev){
-		trackingPrev=0
-		prevFocus=[]
 	}
 	if(focus.works){
 		document.getElementById(`main`).innerHTML+=`<br><div id="works"><span class="heading">Creative Works:</span><br></div>`
@@ -249,11 +242,7 @@ function printYearRange(start,end){
 }
 function changeFocus(passedFocus){
 	window.history.replaceState(null, document.title,`?=`+passedFocus)
-	if(prevFocus[prevFocus.length-1]==passedFocus){
-		prevFocus.pop()
-	}else{
-		prevFocus.push(focusPlain)
-	}
+	immPrevFocus=focusPlain
 	focusPlain=passedFocus
 	renderCard()
 }
