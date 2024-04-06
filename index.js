@@ -1140,7 +1140,7 @@ ronald162={
 	d:[,,],
 	parents:[`james163`,`doris164`],
 	children:[`gloria30`],
-	img:[36]}
+	img:[57,36,56,11,10,55]}
 james163={
 	name:`James Phillip Parslow`,
 	sex:`male`,
