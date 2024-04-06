@@ -302,7 +302,7 @@ marjorie52={
 	sex:`female`,
 	b:[14,11,1932],
 	d:[25,2,2024],
-	parents:[`hamilton53`,`Marjorie Schauer`],
+	parents:[`hamilton53`,`marjorie195`],
 	children:[`gloria30`],
 	img:[54,11,10,9]}
 hamilton53={
@@ -1148,7 +1148,7 @@ james163={
 	bx:[`Enfield, Middlesex, England`],
 	d:[,,1974],
 	parents:[`adelaide187`,`albert193`],
-	siblings:[`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Parslow (1907-1976)`,`Albert Parslow (1908-1955)`,`Doris Amy Parslow (1917-2003)`],
+	siblings:[`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Parslow (1907-1976)`,`albert194`,`Doris Amy Parslow (1917-2003)`],
 	spouses:[`doris164`],
 	children:[`ronald162`,`barbara165`],
 	img:[60,37],
@@ -1368,7 +1368,7 @@ adelaide187={
 	dx:[`South Australia, Australia`],
 	parents:[`Philip Edward Van Weenen (1849-1920)`,`Mary Van Weenan (1855-)`],
 	spouses:[`Albert Henry Parslow (1883-1940)`],
-	children:[`james163`,`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Parslow (1907-1976)`,`Albert Parslow (1908-1955)`,`Doris Amy Parslow (1917-2003)`],
+	children:[`james163`,`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Parslow (1907-1976)`,`albert194`,`Doris Amy Parslow (1917-2003)`],
 	img:[46],
 	src:[[`Ancestry`,[`birth date`,`birth place`,`death date`,`death place`,`mother`,`father`,`spouse`,`children`,`photo`],`https://www.ancestry.com.au/genealogy/records/adelaide-weenen-24-10w3tpv`]]}
 ellen188={
@@ -1429,5 +1429,19 @@ albert193={
 	name:`Albert Henry Parslow`,
 	b:[,,1883],
 	d:[,,1940],
-	children:[`james163`,`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Parslow (1907-1976)`,`Albert Parslow (1908-1955)`,`Doris Amy Parslow (1917-2003)`],
+	children:[`james163`,`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Parslow (1907-1976)`,`albert194`,`Doris Amy Parslow (1917-2003)`],
 	img:[37]}
+albert194={
+	name:`Albert Parslow`,
+	b:[,,1906],
+	d:[,,1955],
+	parents:[`albert193`,`adelaide187`],
+	img:[37]}
+marjorie195={
+	name:`Marjorie Elsa Schauer`,
+	b:[,,1914],
+	d:[,,],
+	parents:[`Bessi Olive Hull`,`Wilhelm Joseph Schauer`],
+	spouse:[`hamilton53`],
+	children:[`marjorie52`,`Jim`,`Joan`,`Marilyn`],
+	img:[61,48,19,59]}
