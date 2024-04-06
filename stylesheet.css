@@ -20,7 +20,7 @@ body{
 	user-select:none;
 }
 #main{
-	height:calc(100vh - 4em);
+	height:calc(100vh - 5em);
 	overflow-x:hidden;
 	overflow-y:scroll;
 	padding:1em;

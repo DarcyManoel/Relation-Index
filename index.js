@@ -861,17 +861,21 @@ james128={
 	dx:[`Williamstown, Hobsons Bay City, Victoria, Australia`],
 	bur:`Williamstown Cemetery, Williamstown, Hobsons Bay City, Victoria, Australia`,
 	parents:[`james130`,`jane131`],
-	children:[`daisy127`]}
+	children:[`daisy127`,`Elsie Myrtle Hamilton (1890-1891)`,`Lily Hamilton (1888-1889)`,`Phoebe Caroline Hamilton (1876-1957)`,`Annie Hamilton (1873-1874)`,`Rosie Hamilton (1883-1883)`,`Alma Ann Hamilton (1879-1961)`,`James Claud Hamilton (1882-1882)`,`Mary Maud Hamilton (1882-1882)`,`Charles Edward Hamilton (1886-1886)`,`William Roberts Hamilton (1886-1886)`,`Charlotte Amelia Hamilton (1874-)`,`Walter Blake Hamilton (1878-1955)`,`Jane Campbell Hamilton (1875-1934)`,`Sarah Bailey Hamilton (1881-1881)`]}
 sarah129={
 	name:`Sarah Blake Entwisle`,
 	sex:`female`,
-	b:[,,1851],
-	bx:[`England`],
+	b:[10,5,1852],
+	bx:[`Carlisle, Cumberland, England`],
 	d:[30,7,1900],
-	dx:[`East Melbourne, Melbourne City, Victoria, Australia`],
+	dx:[`Melbourne East Hospital, Melbourne, Victoria, Australia`],
 	bur:`Williamstown Cemetery, Williamstown, Hobsons Bay City, Victoria, Australia`,
 	parents:[`john134`,`ann135`],
-	children:[`daisy127`]}
+	siblings:[`William Baillie Entwisle (1845-1930)`,`James Carruthers Entwisle (1851-1885)`,`Charlotte Entwisle (1854-1943)`,`Annie Therza Entwisle (1860-1940)`,`Mary Jane Entwisle (1848-1891)`,`John Entwisle (1847-1851)`],
+	spouses:[`james128`],
+	children:[`daisy127`,`Elsie Myrtle Hamilton (1890-1891)`,`Lily Hamilton (1888-1889)`,`Phoebe Caroline Hamilton (1876-1957)`,`Annie Hamilton (1873-1874)`,`Rosie Hamilton (1883-1883)`,`Alma Ann Hamilton (1879-1961)`,`James Claud Hamilton (1882-1882)`,`Mary Maud Hamilton (1882-1882)`,`Charles Edward Hamilton (1886-1886)`,`William Roberts Hamilton (1886-1886)`,`Charlotte Amelia Hamilton (1874-)`,`Walter Blake Hamilton (1878-1955)`,`Jane Campbell Hamilton (1875-1934)`,`Sarah Bailey Hamilton (1881-1881)`],
+	src:[[`Webtrees`,[`birth date`,`birth place`,`spouse`,`death date`,`death place`,`burial`,`father`,`mother`,`siblings`,`children`],`https://www.entwisle.net/Webtrees/index.php?route=/Webtrees/tree/Entwisle/individual/I231/Sarah-Blake-ENTWISLE#tab-personal_facts`],
+		`Unsourced family tree provided`]}
 james130={
 	name:`James Hamilton`,
 	sex:`male`,
@@ -918,9 +922,9 @@ john134={
 	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`,
 	children:[`sarah129`]}
 ann135={
-	name:`Ann Entwistle`,
+	name:`Ann Baillie`,
 	sex:`female`,
-	b:[,,1819],
+	b:[,,1820],
 	d:[2,8,1902],
 	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`,
 	children:[`sarah129`]}
