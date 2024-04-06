@@ -175,7 +175,8 @@ gloria30={
 	sex:`female`,
 	b:[8,8,1954],
 	parents:[`marjorie52`,`ronald162`],
-	children:[`brandi9`]}
+	children:[`brandi9`],
+	img:[51,50]}
 gary31={
 	name:`Gary Raymond Manoel`,
 	sex:`male`,
