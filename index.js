@@ -1156,7 +1156,7 @@ james163={
 	siblings:[`Adelaide Parslow (1904-1998)`,`Ada Parslow (1904-2002)`,`Albert Parslow (1907-1976)`,`albert194`,`Doris Amy Parslow (1917-2003)`],
 	spouses:[`doris164`],
 	children:[`ronald162`,`barbara165`],
-	img:[60,37],
+	img:[60,37,65],
 	src:[[`Ancestry`,[`mother`,`father`,`siblings`,`birth date`,`death date`,`birth place`],`https://www.ancestry.com.au/genealogy/records/adelaide-weenen-24-10w3tpv`]]}
 doris164={
 	name:`Doris Margaret Lander`,
@@ -1167,7 +1167,7 @@ doris164={
 	parents:[`ellen188`,`john189`],
 	spouses:[`james163`],
 	children:[`ronald162`,`barbara165`],
-	img:[47],
+	img:[47,65],
 	src:[[`Australian Cemeteries Index`,[`birth date`,`death date`,`burial`],`https://austcemindex.com/inscription?id=4360262`]]}
 barbara165={
 	name:`Barbara Ellen Parslow`,
