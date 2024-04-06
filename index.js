@@ -61,7 +61,7 @@ brandi9={
 	bx:[`Rose Park, South Australia`],
 	parents:[`david32`,`gloria30`],
 	children:[`monty7`,`darcy1`,`holly8`],
-	img:[35,17]}
+	img:[53,52,35,17]}
 mitchell10={
 	name:`Mitchell Gavin Alexander`,
 	sex:`male`,
