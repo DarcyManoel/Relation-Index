@@ -58,17 +58,19 @@ function renderCard(){
 				if(!parents[0].includes(focus.parents[i1])){
 					parents[0].push(focus.parents[i1])
 				}
-				for(i2=0;i2<window[focus.parents[i1]].children.length;i2++){
-					if(!containsUppercase(window[focus.parents[i1]].children[i2])){
-						if(!siblings[0].includes(window[focus.parents[i1]].children[i2])){
-							if(window[focus.parents[i1]].children[i2]!==focusPlain){
-								siblings[0].push(window[focus.parents[i1]].children[i2])
+				if(window[focus.parents[i1]].children){
+					for(i2=0;i2<window[focus.parents[i1]].children.length;i2++){
+						if(!containsUppercase(window[focus.parents[i1]].children[i2])){
+							if(!siblings[0].includes(window[focus.parents[i1]].children[i2])){
+								if(window[focus.parents[i1]].children[i2]!==focusPlain){
+									siblings[0].push(window[focus.parents[i1]].children[i2])
+								}
 							}
-						}
-					}else{
-						if(!siblings[1].includes(window[focus.parents[i1]].children[i2])){
-							if(window[focus.parents[i1]].children[i2]!==focusPlain){
-								siblings[1].push(window[focus.parents[i1]].children[i2])
+						}else{
+							if(!siblings[1].includes(window[focus.parents[i1]].children[i2])){
+								if(window[focus.parents[i1]].children[i2]!==focusPlain){
+									siblings[1].push(window[focus.parents[i1]].children[i2])
+								}
 							}
 						}
 					}
@@ -112,17 +114,19 @@ function renderCard(){
 				if(!children[0].includes(focus.children[i1])){
 					children[0].push(focus.children[i1])
 				}
-				for(i2=0;i2<window[focus.children[i1]].parents.length;i2++){
-					if(!containsUppercase(window[focus.children[i1]].parents[i2])){
-						if(!spouses[0].includes(window[focus.children[i1]].parents[i2])){
-							if(window[focus.children[i1]].parents[i2]!==focusPlain){
-								spouses[0].push(window[focus.children[i1]].parents[i2])
+				if(window[focus.children[i1]].parents){
+					for(i2=0;i2<window[focus.children[i1]].parents.length;i2++){
+						if(!containsUppercase(window[focus.children[i1]].parents[i2])){
+							if(!spouses[0].includes(window[focus.children[i1]].parents[i2])){
+								if(window[focus.children[i1]].parents[i2]!==focusPlain){
+									spouses[0].push(window[focus.children[i1]].parents[i2])
+								}
 							}
-						}
-					}else{
-						if(!spouses[1].includes(window[focus.children[i1]].parents[i2])){
-							if(window[focus.children[i1]].parents[i2]!==focusPlain){
-								spouses[1].push(window[focus.children[i1]].parents[i2])
+						}else{
+							if(!spouses[1].includes(window[focus.children[i1]].parents[i2])){
+								if(window[focus.children[i1]].parents[i2]!==focusPlain){
+									spouses[1].push(window[focus.children[i1]].parents[i2])
+								}
 							}
 						}
 					}
