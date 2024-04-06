@@ -223,6 +223,7 @@ function renderCard(){
 			}
 		}
 	}
+	document.getElementById(`main`).innerHTML+=`<div id="footer">Any inquiries or corrections can be emailed to <span class="link"><a href="mailto:darcman00@gmail.com">darcman00@gmail.com</a></span></div>`
 }
 function printYearRange(start,end){
 	if(end[2]){
