@@ -15,47 +15,25 @@ body{
 	margin:0;
 	outline:none;
 	overflow:hidden;
-	padding:1em;
+	padding:.5em;
 	scrollbar-width:none;
 	user-select:none;
 }
+#header{
+	font-family:"montserratBold";
+	line-height:1.5em;
+	text-align:center;
+	vertical-align:middle;
+}
+.staticLink{
+	color:#33f;
+	cursor:pointer;
+}
 #main{
-	height:calc(100vh - 5em);
+	height:calc(100vh - 6em);
 	overflow-x:hidden;
 	overflow-y:scroll;
 	padding:1em;
-}
-#footer{
-	background-color:#fff;
-	bottom:1em;
-	font-size:.75em;
-	padding-top:.5em;
-	position:absolute;
-	width:calc(100% - 4em);
-}
-#photos{
-	margin:4px;
-}
-#photos .heading{
-	position:relative;
-	top:-4px;
-}
-.sourceInformation{
-	display:block;
-	font-size:.5em;
-	left:40px;
-	position:relative;
-}
-img{
-	border-radius:20px;
-	height:200px;
-	margin:-2px 2px 2px 2px;
-}
-a{
-	text-decoration:none;
-}
-a:visited{
-	color:#00f;
 }
 #title{
 	font-size:3em;
@@ -81,14 +59,44 @@ a:visited{
 .nolink{
 	color:#f33;
 }
+.unavailable{
+	color:#aaa;
+	pointer-events:none;
+}
+a{
+	text-decoration:none;
+}
+a:visited{
+	color:#00f;
+}
+#photos{
+	margin:4px;
+}
+#photos .heading{
+	position:relative;
+	top:-4px;
+}
+img{
+	border-radius:20px;
+	height:200px;
+	margin:-2px 2px 2px 2px;
+}
+.sourceInformation{
+	display:block;
+	font-size:.5em;
+	left:40px;
+	position:relative;
+}
+#footer{
+	font-size:.75em;
+	line-height:2em;
+	text-align:center;
+	vertical-align:middle;
+}
 /*	Mobile inclusions
 */
 @media only screen and (max-width:600px){
 	.link:hover{
 		padding-left:0;
 	}
-}
-/*	Desktop inclusions
-*/
-@media only screen and (min-width:600px){
 }

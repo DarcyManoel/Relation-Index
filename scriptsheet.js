@@ -216,7 +216,11 @@ function renderCard(){
 			}
 		}
 	}
-	document.getElementById(`main`).innerHTML+=`<div id="footer">Inquiries or corrections can be emailed to <span class="link"><a href="mailto:darcman00@gmail.com">darcman00@gmail.com</a></span></div>`
+	if(prevFocus.length==0){
+		document.getElementById(`back`).classList.add(`unavailable`)
+	}else{
+		document.getElementById(`back`).classList.remove(`unavailable`)
+	}
 }
 function printYearRange(start,end){
 	if(end[2]){
@@ -241,9 +245,16 @@ function printYearRange(start,end){
 	}
 }
 function changeFocus(passedFocus){
-	window.history.replaceState(null, document.title,`?=`+passedFocus)
+	prevFocus.push(focusPlain)
 	immPrevFocus=focusPlain
 	focusPlain=passedFocus
+	window.history.replaceState(null, document.title,`?=`+focusPlain)
+	renderCard()
+}
+function returnFocus(){
+	immPrevFocus=focusPlain
+	focusPlain=prevFocus.pop()
+	window.history.replaceState(null, document.title,`?=`+focusPlain)
 	renderCard()
 }
 function containsUppercase(string){
