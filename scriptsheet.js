@@ -216,6 +216,7 @@ function renderCard(){
 			}
 		}
 	}
+	document.getElementById(`main`).innerHTML+=`<br>`
 	if(prevFocus.length==0){
 		document.getElementById(`back`).classList.add(`unavailable`)
 	}else{
