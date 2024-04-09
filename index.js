@@ -1455,13 +1455,15 @@ bessie196={
 	b:[16,10,1888],
 	bx:[`Campbelltown, Campbelltown City, South Australia, Australia`],
 	d:[21,8,1919],
-	dx:[`Maylands, City of Norwood Payneham & St Peters, South Australia, Australia`],
+	dx:[`Janet Street, Maylands, City of Norwood Payneham & St Peters, South Australia, Australia`],
 	bur:`Payneham Cemetery, Payneham South, City of Norwood Payneham & St Peters, South Australia, Australia`,
 	parents:[`philip198`,`mary199`],
+	siblings:[`Laura`,`Mill`,`Will`,`Jack`],
 	spouses:[`wilhelm197`],
 	children:[`marjorie195`],
 	img:[62],
-	src:[[`Find a Grave`,[`birth date`,`birth place`,`death date`,`death place`,`burial`,`father`,`mother`,`spouse`],`https://www.findagrave.com/memorial/257924830/bessie_olive_schauer`]]}
+	src:[[`Find a Grave`,[`birth date`,`birth place`,`death date`,`death place`,`burial`,`father`,`mother`,`spouse`],`https://www.findagrave.com/memorial/257924830/bessie_olive_schauer`],
+		[`Trove`,[`death place`,`siblings`,`husband`,`death date`,`child`],`https://trove.nla.gov.au/newspaper/article/89186299`]]}
 wilhelm197={
 	name:`Wilhelm Johann Eric Luis Schauer`,
 	b:[,,1882],
