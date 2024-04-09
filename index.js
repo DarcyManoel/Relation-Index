@@ -913,14 +913,18 @@ margaret133={
 	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`,
 	parents:[`james130`,`jane131`]}
 john134={
-	name:`John Entwistle`,
+	name:`John Entwisle`,
 	sex:`male`,
-	b:[,,1818],
-	bx:[`Lancashire, England`],
-	d:[29,10,1870],
-	dx:[`Carlton, Melbourne City, Victoria, Australia`],
+	b:[22,5,1818],
+	bx:[`Farnworth, Lancashire, England`],
+	d:[28,10,1870],
+	dx:[`Keppel St, Carlton, Melbourne City, Victoria, Australia`],
 	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`,
-	children:[`sarah129`]}
+	parents:[`John Entwisle (1766-1846)`,`Mary Rothwell (1776-1856)`],
+	siblings:[`Alice Entwisle (1814-)`,`Nathaniel Entwisle (1816-1847)`,`Thomas Entwisle (1812-)`,`Ellen Entwisle (1807-1823)`,`Richard Entwisle (1810-1891)`],
+	spouses:[`ann135`],
+	children:[`sarah129`,`William Baillie Entwisle (1845-1930)`,`James Carruthers Entwisle (1851-1885)`,`Charlotte Entwisle (1854-1943)`,`Annie Therza Entwisle (1860-1940)`,`Mary Jane Entwisle (1848-1891)`,`John Entwisle (1847-1851)`],
+	src:[[`Webtrees`,[`birth date`,`birth place`,`spouse`,`father`,`mother`,`siblings`,`children`],`https://www.entwisle.net/Webtrees/index.php?route=/Webtrees/tree/Entwisle/individual/I224/John-ENTWISLE`]]}
 ann135={
 	name:`Ann Baillie`,
 	sex:`female`,
