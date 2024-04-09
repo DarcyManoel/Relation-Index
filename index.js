@@ -1473,7 +1473,8 @@ wilhelm197={
 	spouses:[`bessie196`],
 	children:[`marjorie195`],
 	img:[62,63],
-	src:[[`Find a Grave`,[`death date`,`death place`,`burial`,`birth date (inferred)`,`spouse`],`https://www.findagrave.com/memorial/257924892/wilhelm_johann_eric_luis_schauer`]]}
+	src:[[`Find a Grave`,[`death date`,`death place`,`burial`,`birth date (inferred)`,`spouse`],`https://www.findagrave.com/memorial/257924892/wilhelm_johann_eric_luis_schauer`],
+		[`Trove`,[`death date`,`death place`,`spouse`,`child`,`birth date (inferred)`],`https://trove.nla.gov.au/newspaper/article/44927759`]]}
 philip198={
 	name:`Philip Hull`,
 	b:[,,1842],
