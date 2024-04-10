@@ -1190,10 +1190,12 @@ barbara165={
 james166={
 	name:`James Frederick Godfrey Hamilton`,
 	sex:`male`,
-	b:[,,],
-	d:[,,],
-	children:[`david32`],
-	img:[40]}
+	b:[,,1923],
+	d:[30,11,2019],
+	spouses:[`Gwendoline Joyce Woodcock`],
+	children:[`david32`,`Dean`,`Heather`],
+	img:[40],
+	src:[[`MyTributes`,[`death date`,`birth date (inferred)`,`children`],`https://www.mytributes.com.au/notice/death-notices/james-hamilton/5180529/`]]}
 thomas167={
 	name:`Thomas William Le Poidevin`,
 	sex:`male`,
