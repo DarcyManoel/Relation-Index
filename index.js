@@ -301,10 +301,12 @@ marjorie52={
 	name:`Marjorie Valda Williams`,
 	sex:`female`,
 	b:[14,11,1932],
-	d:[25,2,2024],
+	d:[24,2,2024],
 	parents:[`hamilton53`,`marjorie195`],
-	children:[`gloria30`],
-	img:[54,11,10,9]}
+	children:[`gloria30`,`Steven`,`Rod`,`Barbara`],
+	img:[54,11,10,9],
+	src:[[`Facebook`,[`birth date`,`death date`,`spouse`,`children`],`https://www.facebook.com/photo/?fbid=862569482335369&set=a.400120608580261`],
+		[`Murray Pioneer (magazine)`,[`birth date`,`death date`,`spouse`,`children`],`https://d3pbdxdl8c65wb.cloudfront.net/n/547/2024/Feb/27/February%2028,%202024%20MP.pdf`]]}
 hamilton53={
 	name:`Hamilton "Chappie" Williams`,
 	sex:`male`,
