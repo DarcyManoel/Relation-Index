@@ -47,6 +47,7 @@ monty7={
 	sex:`male`,
 	b:[2,5,1999],
 	bx:[`Adelaide, South Australia`],
+	spouses:[`Sharmaine Arcenal`],
 	parents:[`richard2`,`brandi9`]}
 holly8={
 	name:`Holly Crystal Manoel`,
