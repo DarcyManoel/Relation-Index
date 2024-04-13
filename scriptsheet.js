@@ -1,10 +1,6 @@
 const year=new Date().getFullYear()
 const month=new Date().getMonth()+1
 const day=new Date().getDate()
-var prevFocus=[]
-if(localStorage.getItem(`prevFocus`)){
-	prevFocus=localStorage.getItem(`prevFocus`).split(`,`)
-}
 var immPrevFocus=``
 var focusPlain=`darcy1`
 if(localStorage.getItem(`focusPlain`)){
@@ -22,7 +18,6 @@ var yearDiff
 var trackingPrev=0
 function renderCard(){
 	focus=window[focusPlain]
-	localStorage.setItem(`prevFocus`,prevFocus)
 	localStorage.setItem(`focusPlain`,focusPlain)
 	document.getElementById(`main`).innerHTML=`<div id="title">`+focus.name+`</div>`
 	if(focus.b){
@@ -217,11 +212,6 @@ function renderCard(){
 		}
 	}
 	document.getElementById(`main`).innerHTML+=`<br>`
-	if(prevFocus.length==0){
-		document.getElementById(`back`).classList.add(`unavailable`)
-	}else{
-		document.getElementById(`back`).classList.remove(`unavailable`)
-	}
 }
 function printYearRange(start,end){
 	if(end[2]){
@@ -246,15 +236,8 @@ function printYearRange(start,end){
 	}
 }
 function changeFocus(passedFocus){
-	prevFocus.push(focusPlain)
 	immPrevFocus=focusPlain
 	focusPlain=passedFocus
-	window.history.replaceState(null, document.title,`?=`+focusPlain)
-	renderCard()
-}
-function returnFocus(){
-	immPrevFocus=focusPlain
-	focusPlain=prevFocus.pop()
 	window.history.replaceState(null, document.title,`?=`+focusPlain)
 	renderCard()
 }
