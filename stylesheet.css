@@ -20,36 +20,45 @@ body{
 	user-select:none;
 }
 #header{
+	background-color:rgba(255,0,0,0);
 	font-family:"montserratBold";
-	line-height:1.5em;
+	height:1.5em;
 	text-align:center;
 	vertical-align:middle;
+}
+.fadeDown{
+	background-image:linear-gradient(to bottom,white,rgba(255,0,0,0));
+	height:3em;
+	left:0;
+	position:absolute;
+	width:100%;
+	z-index:1;
+}
+#main{
+	height:calc(100vh - 5.5em);
+	overflow-x:hidden;
+	overflow-y:scroll;
+	padding:1em;
+	vertical-align:top;
+}
+.fadeUp{
+	background-image:linear-gradient(to top,white,rgba(255,0,0,0));
+	height:1.5em;
+	left:0;
+	position:absolute;
+	translate:0% -99%;
+	width:100%;
+	z-index:1;
+}
+#footer{
+	font-size:.75em;
+	height:1em;
+	padding-top:.5em;
+	text-align:center;
 }
 .staticLink{
 	color:#33f;
 	cursor:pointer;
-}
-#mainScrollMask1{
-	background-image:linear-gradient(to bottom,white,rgba(255,0,0,0));
-	height:calc(2em);
-	position:absolute;
-	top:2em;
-	width:calc(100vw - 1em);
-	z-index:1;
-}
-#mainScrollMask2{
-	background-image:linear-gradient(to bottom,rgba(255,0,0,0),white);
-	height:calc(2em);
-	position:absolute;
-	bottom:2em;
-	width:calc(100vw - 1em);
-	z-index:1;
-}
-#main{
-	height:calc(100vh - 6em);
-	overflow-x:hidden;
-	overflow-y:scroll;
-	padding:1em;
 }
 #title{
 	font-size:3em;
@@ -102,11 +111,6 @@ img{
 	font-size:.5em;
 	left:40px;
 	position:relative;
-}
-#footer{
-	font-size:.75em;
-	line-height:2em;
-	text-align:center;
 }
 /*	Mobile inclusions
 */
