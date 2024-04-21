@@ -867,6 +867,7 @@ thomas142={
 	d:[10,10,1899],
 	dx:[`East Melbourne, Melbourne City, Victoria, Australia`],
 	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`,
+	spouses:[`isabella143`],
 	children:[`elizabeth138`,`alfred145`]}
 isabella143={
 	name:`Isabella Shand`,
@@ -875,7 +876,9 @@ isabella143={
 	d:[25,10,1892],
 	dx:[`Hawthorn, Boroondara City, Victoria, Australia`],
 	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`,
-	children:[`elizabeth138`,`alfred145`]}
+	spouses:[`thomas142`,`Alexander Cockburn (1832-1855)`],
+	children:[`elizabeth138`,`alfred145`],
+	src:[[`Find a Grave`,[`birth date`,`birth place`,`death date`,`death place`,`burial`,`spouses`,`children`],`https://www.findagrave.com/memorial/191830325/isabella_reed`]]}
 alfred144={
 	name:`Alfred David Williams`,
 	b:[,,1893],
