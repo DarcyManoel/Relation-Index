@@ -1318,3 +1318,59 @@ mary199={
 	spouses:[`philip198`],
 	children:[`bessie196`],
 	src:[[`Find a Grave`,[`birth date`,`death date`,`death place`,`burial`,`spouse`,`child`],`https://www.findagrave.com/memorial/254209161/mary_ann_hull`]]}
+robert200={
+	name:`Robert William Slape`,
+	b:[9,9,1938],
+	bx:[`Werribee, Victoria, Australia`],
+	d:[,,],
+	parents:[`Elva Adelaide Underwood (1913-1978)`,`herbert203`],
+	children:[`paul201`,`philip202`],
+	img:[66,67,68],
+	src:[[`Trove`,[`birth date`,`birth place`,`mother`,`father`],`https://trove.nla.gov.au/newspaper/article/92424491`],
+		[`Slape and Sons`,[`photos`,`children`],`https://www.slapeandsons.com.au/about/`]]}
+paul201={
+	name:`Paul Slape`,
+	b:[,,],
+	parents:[`robert200`],
+	siblings:[`philip202`],
+	children:[`Vanessa Slape`],
+	img:[66,67,68,69,70],
+	src:[[`Slape and Sons`,[`photos`,`father`,`sibling`,`child`],`https://www.slapeandsons.com.au/about/`]]}
+philip202={
+	name:`Philip Slape`,
+	b:[,,],
+	parents:[`robert200`],
+	siblings:[`paul201`],
+	children:[`Samuel Slape`,`Lachlan Slape`,`Hayden Slape`],
+	img:[66,67,68,69,70],
+	src:[[`Slape and Sons`,[`photos`,`father`,`sibling`,`children`],`https://www.slapeandsons.com.au/about/`]]}
+herbert203={
+	name:`Herbert William Slape`,
+	b:[21,3,1909],
+	bx:[`Rose Park, South Australia, Australia`],
+	d:[23,4,1981],
+	parents:[`robert204`,`eliza205`],
+	siblings:[`Gladys Rose Keir (1904-1935)`,`Bobbie Slape (1913-1913)`,`Eric Slape (1914-2002)`,`Alice Jean Slape (1920-1920)`],
+	spouses:[`Elva Adelaide Underwood (1913-1978)`],
+	children:[`robert200`],
+	src:[[`FamilySearch`,[`birth date`,`death date`,`birth place`,`father`,`mother`,`spouse`,`siblings`],`https://ancestors.familysearch.org/en/968X-ZBK/herbert-william-slape-1909-1981`]]}
+robert204={
+	name:`Robert Slape`,
+	b:[13,10,1870],
+	bx:[`Burnside, South Australia, Australia`],
+	d:[,,1957],
+	dx:[`South Australia, Australia`],
+	parents:[`William Slape`,`Mary Ann Sully`],
+	siblings:[`Eliza Jane Slape (1854-1935)`,`James Slape (1856-1910)`,`Harry William Slape (1858-1929)`,`Alfred Edwin Slape (1860-1942)`,`Alfred John Slape (1861-1936)`,`Florence Mary Slape (1863-1941)`,`Edith Slape (1867-1946)`,`William Edward Slape (1868-1952)`,`Frank Lacy Slape (1872-1874)`,`George Ernest Slape (1874-1876)`,`Mary Slape (1877-1942)`],
+	spouses:[`Phynella Pollard (1875-1904)`,`eliza205`],
+	children:[`herbert203`,`Gladys Rose Keir (1904-1935)`,`Bobbie Slape (1913-1913)`,`Eric Slape (1914-2002)`,`Alice Jean Slape (1920-1920)`,`Clarence Herbert Slape (1893-1973)`,`Horace Clemence Slape (1896-1955)`],
+	src:[[`FamilySearch`,[`birth date`,`birth place`,`father`,`mother`,`spouses`,`death date`,`death place`,`children`,`siblings`],`https://ancestors.familysearch.org/en/26L7-L6W/robert-slape-1870-1957`]]}
+eliza205={
+	name:`Eliza Isabella Kier`,
+	b:[10,9,1879],
+	bx:[`Mount Lofty, South Australia, Australia`],
+	d:[17,10,1957],
+	dx:[`Yorketown, South Australia, Australia`],
+	spouses:[`robert204`],
+	children:[`herbert203`,`Gladys Rose Keir (1904-1935)`,`Bobbie Slape (1913-1913)`,`Eric Slape (1914-2002)`,`Alice Jean Slape (1920-1920)`],
+	src:[[`FamilySearch`,[`birth date`,`death date`,`birth place`,`spouse`,`death place`,`children`],`https://ancestors.familysearch.org/en/KC66-26C/eliza-isabella-keir-1879-1957`]]}
