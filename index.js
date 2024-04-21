@@ -924,7 +924,7 @@ harry149={
 	name:`Harry Reid`,
 	parents:[`emily146`,`charles156`]}
 maud150={
-	name:`Maud Reid`,
+	name:`Maud Veronica Caddy`,
 	parents:[`emily146`,`charles156`]}
 eileen151={
 	name:`Eileen Reid`,
@@ -956,10 +956,12 @@ charles156={
 	d:[15,11,1957],
 	dx:[`Fitzroy, Yarra City, Victoria, Australia`],
 	bur:`Preston General Cemetery, Bundoora, Banyule City, Victoria, Australia`,
-	siblings:[`James`,`Maud`,`William`,`Francis`,`Victor`],
+	parents:[`Mary Vize (1859-1919)`,`Charles Dunstan Caddy (1850-1896)`],
+	siblings:[`james207`,`maud208`,`William`,`Francis`,`Victor`],
 	spouses:[`emily146`],
 	children:[`maud150`,`eileen151`,`charles152`,`molly153`],
-	src:[[`Find a Grave`,[`birth date`,`birth place`,`death date`,`death place`,`burial`,`spouse`,`children`,`siblings`],`https://www.findagrave.com/memorial/211103704/charles_william_caddy`]]}
+	src:[[`Find a Grave`,[`birth date`,`birth place`,`death date`,`death place`,`burial`,`spouse`,`children`,`siblings`],`https://www.findagrave.com/memorial/211103704/charles_william_caddy`],
+		[`Fandom`,[`birth date`,`birth place`,`death date`,`death place`,`father`,`mother`,`siblings`],`https://vizefamilyhistory.fandom.com/wiki/William_VIZE_married_Eliza_McGURK_Family_Group_Sheet`]]}
 elizabeth157={
 	name:`Elizabeth Ellen Tobin`,
 	b:[8,7,1861],
@@ -1395,3 +1397,22 @@ marilyn206={
 	parents:[`hamilton53`,`marjorie195`],
 	siblings:[`Jim`,`Joan`,`marjorie52`],
 	img:[59,71]}
+james207={
+	name:`James Caddy`,
+	b:[,,1887],
+	bx:[`Fitzroy, Yarra City, Victoria, Australia`],
+	d:[,,1949],
+	dx:[`Fitzroy, Yarra City, Victoria, Australia`],
+	parents:[`Mary Vize (1859-1919)`,`Charles Dunstan Caddy (1850-1896)`],
+	siblings:[`charles156`,`maud208`,`William`,`Francis`,`Victor`],
+	src:[[`Fandom`,[`birth date`,`birth place`,`death date`,`death place`,`father`,`mother`,`siblings`],`https://vizefamilyhistory.fandom.com/wiki/William_VIZE_married_Eliza_McGURK_Family_Group_Sheet`]]}
+maud208={
+	name:`Maud Victoria Caddy`,
+	b:[,,1889],
+	bx:[`Fitzroy, Yarra City, Victoria, Australia`],
+	d:[,,1954],
+	dx:[`Carlton, Melbourne, Victoria, Australia`],
+	parents:[`Mary Vize (1859-1919)`,`Charles Dunstan Caddy (1850-1896)`],
+	siblings:[`charles156`,`james207`,`William`,`Francis`,`Victor`],
+	spouses:[`James Arthur Andrewartha`],
+	src:[[`Fandom`,[`birth date`,`birth place`,`death date`,`death place`,`father`,`mother`,`spouse`,`siblings`],`https://vizefamilyhistory.fandom.com/wiki/William_VIZE_married_Eliza_McGURK_Family_Group_Sheet`]]}
