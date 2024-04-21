@@ -252,6 +252,7 @@ marjorie52={
 	b:[14,11,1932],
 	d:[24,2,2024],
 	parents:[`hamilton53`,`marjorie195`],
+	siblings:[`Jim`,`Joan`,`marilyn206`],
 	children:[`gloria30`,`Steven`,`Rod`,`Barbara`],
 	img:[54,11,10,9],
 	src:[[`Facebook`,[`birth date`,`death date`,`spouse`,`children`],`https://www.facebook.com/photo/?fbid=862569482335369&set=a.400120608580261`],
@@ -264,7 +265,7 @@ hamilton53={
 	dx:[`Hope Valley, Adelaide, South Australia`],
 	bur:`Enfield Cemetery, Clearview, South Australia`,
 	parents:[`charles136`,`daisy127`],
-	children:[`marjorie52`,`Jim`,`Joan`,`Marilyn`],
+	children:[`marjorie52`,`Jim`,`Joan`,`marilyn206`],
 	img:[41,12,18,48,58,19,59],
 	src:[[`Redlegs Museum`,[`photo`,`siblings`,`father`,`mother`,`birth place`,`birth date`,`service`,`spouse`,`death place`,`death date`,`burial`],`https://www.redlegsmuseum.com.au/ON_FIELD/PLAYERS/WILLIAMSHamilton.aspx`],
 		[`Virtual War Memorial Australia`,[`service`,`birth place`,`birth date`],`https://vwma.org.au/explore/people/600945`]]}
@@ -1273,7 +1274,7 @@ marjorie195={
 	d:[,,],
 	parents:[`bessie196`,`wilhelm197`],
 	spouses:[`hamilton53`],
-	children:[`marjorie52`,`Jim`,`Joan`,`Marilyn`],
+	children:[`marjorie52`,`Jim`,`Joan`,`marilyn206`],
 	img:[61,64,48,19,59]}
 bessie196={
 	name:`Bessie Olive Hull`,
@@ -1374,3 +1375,10 @@ eliza205={
 	spouses:[`robert204`],
 	children:[`herbert203`,`Gladys Rose Keir (1904-1935)`,`Bobbie Slape (1913-1913)`,`Eric Slape (1914-2002)`,`Alice Jean Slape (1920-1920)`],
 	src:[[`FamilySearch`,[`birth date`,`death date`,`birth place`,`spouse`,`death place`,`children`],`https://ancestors.familysearch.org/en/KC66-26C/eliza-isabella-keir-1879-1957`]]}
+marilyn206={
+	name:`Marilyn`,
+	b:[,,],
+	d:[,,],
+	parents:[`hamilton53`,`marjorie195`],
+	siblings:[`Jim`,`Joan`,`marjorie52`],
+	img:[59,71]}
