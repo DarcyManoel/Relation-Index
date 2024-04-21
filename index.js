@@ -820,6 +820,7 @@ john137={
 	d:[14,5,1916],
 	dx:[`Melbourne, Melbourne City, Victoria, Australia`],
 	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`,
+	spouses:[`elizabeth138`],
 	children:[`john139`,`charles136`,`jessie140`,`leslie141`,`alfred144`],
 	src:[[`Find a Grave`,[`birth date`,`birth place`,`death date`,`death place`,`burial`,`spouse`,`children`],`https://www.findagrave.com/memorial/150307322/john_lloyd_williams`]]}
 elizabeth138={
@@ -830,8 +831,11 @@ elizabeth138={
 	dx:[`Sunshine, Brimbank City, Victoria, Australia`,`Train-train collision, "THE SUNSHINE STATION RAILWAY DISASTER"`],
 	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`,
 	parents:[`thomas142`,`isabella143`],
+	siblings:[`alfred145`],
+	spouses:[`john137`],
 	children:[`john139`,`charles136`,`jessie140`,`leslie141`,`alfred144`],
-	img:[24]}
+	img:[24],
+	src:[[`Find a Grave`,[`photo`,`birth date`,`birth place`,`death date`,`death place`,`burial`,`death cause`,`father`,`mother`,`spouse`,`children`,`sibling`],`https://www.findagrave.com/memorial/150226109/elizabeth_williams`]]}
 john139={
 	name:`John Thomas Lloyd Williams`,
 	b:[,,1883],
@@ -888,6 +892,7 @@ alfred145={
 	dx:[`Heidelberg, Banyule City, Victoria, Australia`],
 	bur:`Melbourne General Cemetery, Carlton North, Melbourne City, Victoria, Australia`,
 	parents:[`thomas142`,`isabella143`],
+	siblings:[`elizabeth138`],
 	children:[`emily146`]}
 emily146={
 	name:`Emily Reid`,
