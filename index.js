@@ -956,8 +956,10 @@ charles156={
 	d:[15,11,1957],
 	dx:[`Fitzroy, Yarra City, Victoria, Australia`],
 	bur:`Preston General Cemetery, Bundoora, Banyule City, Victoria, Australia`,
+	siblings:[`James`,`Maud`,`William`,`Francis`,`Victor`],
 	spouses:[`emily146`],
-	children:[`maud150`,`eileen151`,`charles152`,`molly153`]}
+	children:[`maud150`,`eileen151`,`charles152`,`molly153`],
+	src:[[`Find a Grave`,[`birth date`,`birth place`,`death date`,`death place`,`burial`,`spouse`,`children`,`siblings`],`https://www.findagrave.com/memorial/211103704/charles_william_caddy`]]}
 elizabeth157={
 	name:`Elizabeth Ellen Tobin`,
 	b:[8,7,1861],
