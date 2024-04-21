@@ -17,6 +17,7 @@ var focus=window[focusPlain]
 var yearDiff
 var trackingPrev=0
 function renderCard(){
+	window.history.replaceState(null, document.title,`?=`+focusPlain)
 	focus=window[focusPlain]
 	localStorage.setItem(`focusPlain`,focusPlain)
 	document.getElementById(`main`).innerHTML=`<div id="title">`+focus.name+`</div>`
@@ -238,7 +239,6 @@ function printYearRange(start,end){
 function changeFocus(passedFocus){
 	immPrevFocus=focusPlain
 	focusPlain=passedFocus
-	window.history.replaceState(null, document.title,`?=`+focusPlain)
 	renderCard()
 }
 function containsUppercase(string){
