@@ -355,7 +355,7 @@ george70={
 	siblings:[`Florence Dorothy Manoel`,`Lillian Gertrude Manoel`,`Gwendoline Ada Manoel`,`Ethel Mary Manoel`],
 	children:[`raymond3`,`peter38`,`Barry Manoel`,`Margaret Manoel`],
 	img:[33],
-	src:[[`MyHeritage`,[`name`,`birth date`,`birth place`,`death date`,`death place`,`father`,`mother`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]}
+	src:[[`MyHeritage`,[`name`,`birth date (incomplete)`,`birth place`,`death date`,`death place`,`father`,`mother`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]}
 sarah71={
 	name:`Sarah Ann Everett`,
 	b:[,,1861],
@@ -385,14 +385,15 @@ laura74={
 	children:[`george70`,`Florence Dorothy Manoel`,`Gwendoline Ada Manoel`,`Ethel Mary Manoel`]}
 george75={
 	name:`George Henry Manoel`,
-	b:[13,4,1873],
+	b:[12,4,1873],
 	bx:[`Portland Estate, Pt Adelaide, South Australia`],
 	d:[17,11,1945],
-	dx:[`South Australia`],
+	dx:[`Adelaide, South Australia`],
 	bur:`Cheltenham Cemetery, Cheltenham, South Australia`,
 	parents:[`peter80`,`martha76`],
-	children:[`george70`,`Florence Dorothy Manoel`,`Gwendoline Ada Manoel`,`Ethel Mary Manoel`],
-	img:[13]}
+	children:[`george70`,`Florence Dorothy Manoel`,`Gwendoline Ada Manoel`,`Ethel Mary Manoel`,`Lillian Gertrude Manoel`],
+	img:[13],
+	src:[[`MyHeritage`,[`name`,`birth date`,`spouse`,`death date`,`death place`,`children`],`https://www.myheritage.com/research/record-1-555372411-2-4607/george-henry-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]}
 martha76={
 	name:`Martha Mary Creed Rimes`,
 	b:[,9,1848],
