@@ -403,7 +403,7 @@ martha76={
 	dx:[`Adelaide, South Australia`],
 	bur:`North Road Cemetery, Adelaide, South Australia`,
 	parents:[`daniel116`,`mary114`],
-	children:[`sophia81`,`george75`,`William Nicholas`,`Ernest John`,`Frederick Peter S`,`Julia Ann C`,`Christopher Philip`,`Amelia Mary`,`Constantine`,`Rosena Helen`,`Olive Florence`],
+	children:[`sophia81`,`george75`,`william213`,`Ernest John Manoel`,`Frederick Daniel Peter Manoel`,`Julie Ann Catherine Manoel`,`Christopher Philip Manoel`,`Amelia Mary Manoel`,`Constantine`,`Rosena Helen`,`Olive Florence Manoel`],
 	img:[30,7],
 	src:[[`The Locked Journal`,[`birth date (incomplete)`,`birth place`,`spouse`,`death date`,`death place`,`burial`,`father`,`mother`,`children`],`https://www.thelockedjournal.com/webs/pedigrees/17714.html`]]}
 david77={
@@ -440,7 +440,7 @@ peter80={
 	dx:[`Philip St, Southwark, South Australia`,`Asthma(long term), bronchitis, and finally heart failure`],
 	bur:`North Road Cemetery, Cemetery Ave, Nailsworth, South Australia`,
 	parents:[`nicholas115`],
-	children:[`sophia81`,`george75`,`William Nicholas`,`Ernest John`,`Frederick Peter S`,`Julia Ann C`,`Christopher Philip`,`Amelia Mary`,`Constantine`,`Rosena Helen`,`Olive Florence`],
+	children:[`sophia81`,`george75`,`william213`,`Ernest John Manoel`,`Frederick Daniel Peter Manoel`,`Julie Ann Catherine Manoel`,`Christopher Philip Manoel`,`Amelia Mary Manoel`,`Constantine`,`Rosena Helen`,`Olive Florence Manoel`],
 	img:[3,4],
 	src:[[`The Locked Journal`,[`birth date`,`birth place`,`spouse`,`death date`,`death place`,`burial`,`father`,`children`],`https://www.thelockedjournal.com/webs/pedigrees/17681.html`]]}
 sophia81={
@@ -451,8 +451,12 @@ sophia81={
 	dx:[`Jamestown, South Australia`],
 	bur:`Jamestown Cemetery, Jamestown, South Australia`,
 	parents:[`peter80`,`martha76`],
+	siblings:[`george75`,`Ernest John Manoel`,`Walter Samuel Manoel`,`Frederick Daniel Peter Manoel`,`Julie Ann Catherine Manoel`,`Christopher Philip Manoel`,`Amelia Mary Manoel`,`Olive Florence Manoel`,`Alexander James Manoel`],
+	spouses:[`John Camp`],
 	children:[`Amelia May Camp`,`Ernest John Camp`,`Lionel Oldridge Camp`,`Clara Hilda Camp`,`Beatrice Florence Camp`,`Celia L Camp`,`William Henry Camp`,`Leta Eileen Camp`,`Albert Camp`,`Mabel Camp`],
-	img:[8]}
+	img:[8],
+	src:[[`The Locked Journal`,[`father`,`mother`,`birth date (incomplete)`,`spouse`,`death date`,`death place`,`burial`],`https://www.thelockedjournal.com/webs/pedigrees/17677.html`],
+		[`FamilySearch`,[`photo`,`birth date`,`death date`,`birth place`,`father`,`mother`,`spouse`,`children`,`death place`,`burial`,`siblings`],`https://ancestors.familysearch.org/en/9XS9-W3J/sophia-manoel-1871-1903`]]}
 daniel82={
 	name:`Daniel Le Poidevin`,
 	b:[19,5,1826],
@@ -1456,4 +1460,11 @@ ethel212={
 	parents:[`laura74`,`george75`],
 	siblings:[`george70`,`florence209`,`lillian210`,`gwendoline211`],
 	src:[[`MyHeritage`,[`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
+}
+william213={
+	name:`William Nicholas Manoel`,
+	b:[25,2,1870],
+	d:[26,10,1921],
+	parents:[`peter80`,`martha76`],
+	src:[[`The Locked Journal`,[`father`,`mother`,`birth date`,`death date`],`https://www.thelockedjournal.com/webs/pedigrees/17848.html`]]
 }
