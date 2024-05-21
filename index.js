@@ -355,7 +355,7 @@ george70={
 	siblings:[`florence209`,`lillian210`,`gwendoline211`,`ethel212`],
 	children:[`raymond3`,`peter38`,`Barry Manoel`,`Margaret Manoel`],
 	img:[33],
-	src:[[`MyHeritage`,[`name`,`birth date (incomplete)`,`birth place`,`death date`,`death place`,`father`,`mother`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]}
+	src:[[`MyHeritage`,[`birth date (incomplete)`,`birth place`,`death date`,`death place`,`father`,`mother`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]}
 sarah71={
 	name:`Sarah Ann Everett`,
 	b:[,,1861],
@@ -393,15 +393,19 @@ george75={
 	parents:[`peter80`,`martha76`],
 	children:[`george70`,`florence209`,`gwendoline211`,`ethel212`,`lillian210`],
 	img:[13],
-	src:[[`MyHeritage`,[`name`,`birth date`,`spouse`,`death date`,`death place`,`children`],`https://www.myheritage.com/research/record-1-555372411-2-4607/george-henry-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`],
-		[`The Locked Journal`,[`name`,`birth date (conflict)`,`father`,`mother`],`https://www.thelockedjournal.com/webs/pedigrees/17849.html`]]}
+	src:[[`MyHeritage`,[`birth date`,`spouse`,`death date`,`death place`,`children`],`https://www.myheritage.com/research/record-1-555372411-2-4607/george-henry-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`],
+		[`The Locked Journal`,[`birth date (conflict)`,`father`,`mother`],`https://www.thelockedjournal.com/webs/pedigrees/17849.html`]]}
 martha76={
 	name:`Martha Mary Creed Rimes`,
 	b:[,9,1848],
+	bx:[`England`],
 	d:[22,7,1934],
+	dx:[`Adelaide, South Australia`],
+	bur:`North Road Cemetery, Adelaide, South Australia`,
 	parents:[`daniel116`,`mary114`],
-	children:[`sophia81`,`george75`],
-	img:[30,7]}
+	children:[`sophia81`,`george75`,`William Nicholas`,`Ernest John`,`Frederick Peter S`,`Julia Ann C`,`Christopher Philip`,`Amelia Mary`,`Constantine`,`Rosena Helen`,`Olive Florence`],
+	img:[30,7],
+	src:[[`The Locked Journal`,[`birth date (incomplete)`,`birth place`,`spouse`,`death date`,`death place`,`burial`,`father`,`mother`,`children`],`https://www.thelockedjournal.com/webs/pedigrees/17714.html`]]}
 david77={
 	name:`David William Dixon`,
 	b:[15,3,1847],
@@ -438,7 +442,7 @@ peter80={
 	parents:[`nicholas115`],
 	children:[`sophia81`,`george75`,`William Nicholas`,`Ernest John`,`Frederick Peter S`,`Julia Ann C`,`Christopher Philip`,`Amelia Mary`,`Constantine`,`Rosena Helen`,`Olive Florence`],
 	img:[3,4],
-	src:[[`The Locked Journal`,[`name`,`birth date`,`birth place`,`spouse`,`death date`,`death place`,`burial`,`father`,`children`],`https://www.thelockedjournal.com/webs/pedigrees/17681.html`]]}
+	src:[[`The Locked Journal`,[`birth date`,`birth place`,`spouse`,`death date`,`death place`,`burial`,`father`,`children`],`https://www.thelockedjournal.com/webs/pedigrees/17681.html`]]}
 sophia81={
 	name:`Sophia Manoel`,
 	b:[24,7,1871],
@@ -1427,7 +1431,7 @@ florence209={
 	d:[,,1985],
 	parents:[`laura74`,`george75`],
 	siblings:[`george70`,`lillian210`,`gwendoline211`,`ethel212`],
-	src:[[`MyHeritage`,[`name`,`birth date (incomplete)`,`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
+	src:[[`MyHeritage`,[`birth date (incomplete)`,`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
 }
 lillian210={
 	name:`Lillian Gertrude Manoel`,
@@ -1435,7 +1439,7 @@ lillian210={
 	d:[,,1967],
 	parents:[`laura74`,`george75`],
 	siblings:[`george70`,`florence209`,`gwendoline211`,`ethel212`],
-	src:[[`MyHeritage`,[`name`,`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
+	src:[[`MyHeritage`,[`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
 }
 gwendoline211={
 	name:`Gwendoline Ada Manoel`,
@@ -1443,7 +1447,7 @@ gwendoline211={
 	d:[,,1973],
 	parents:[`laura74`,`george75`],
 	siblings:[`george70`,`florence209`,`lillian210`,`ethel212`],
-	src:[[`MyHeritage`,[`name`,`birth date (incomplete)`,`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
+	src:[[`MyHeritage`,[`birth date (incomplete)`,`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
 }
 ethel212={
 	name:`Ethel Mary Manoel`,
@@ -1451,5 +1455,5 @@ ethel212={
 	d:[,,1951],
 	parents:[`laura74`,`george75`],
 	siblings:[`george70`,`florence209`,`lillian210`,`gwendoline211`],
-	src:[[`MyHeritage`,[`name`,`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
+	src:[[`MyHeritage`,[`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
 }
