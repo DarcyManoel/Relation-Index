@@ -393,7 +393,8 @@ george75={
 	parents:[`peter80`,`martha76`],
 	children:[`george70`,`florence209`,`gwendoline211`,`ethel212`,`lillian210`],
 	img:[13],
-	src:[[`MyHeritage`,[`name`,`birth date`,`spouse`,`death date`,`death place`,`children`],`https://www.myheritage.com/research/record-1-555372411-2-4607/george-henry-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]}
+	src:[[`MyHeritage`,[`name`,`birth date`,`spouse`,`death date`,`death place`,`children`],`https://www.myheritage.com/research/record-1-555372411-2-4607/george-henry-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`],
+		[`The Locked Journal`,[`name`,`birth date (conflict)`,`father`,`mother`],`https://www.thelockedjournal.com/webs/pedigrees/17849.html`]]}
 martha76={
 	name:`Martha Mary Creed Rimes`,
 	b:[,9,1848],
@@ -428,15 +429,16 @@ james79={
 	parents:[`John Delbridge`,`Jane Hinkson`],
 	children:[`mary78`,`James Delbridge`,`Elizabeth Cundy Delbridge`,`Anthony Delbridge`,`Mary Jane Delbridge`,`George Cundy Delbridge`,`John Delbridge`,`Anne Delbridge`,`Ellen Helena Delbridge`,`Sarah Victoria Delbridge`]}
 peter80={
-	name:`Peter Fredrick Manolis`,
+	name:`Peter Frederick Manolis`,
 	b:[15,10,1840],
-	bx:[`Mitilini, Island of Lesbos, Greek Isles`],
+	bx:[`Mytilene, Island of Lesbos, Greek Isles`],
 	d:[26,7,1914],
 	dx:[`Philip St, Southwark, South Australia`,`Asthma(long term), bronchitis, and finally heart failure`],
-	bur:`Cemetery Ave, Nailsworth, South Australia`,
+	bur:`North Road Cemetery, Cemetery Ave, Nailsworth, South Australia`,
 	parents:[`nicholas115`],
-	children:[`sophia81`,`george75`],
-	img:[3,4]}
+	children:[`sophia81`,`george75`,`William Nicholas`,`Ernest John`,`Frederick Peter S`,`Julia Ann C`,`Christopher Philip`,`Amelia Mary`,`Constantine`,`Rosena Helen`,`Olive Florence`],
+	img:[3,4],
+	src:[[`The Locked Journal`,[`name`,`birth date`,`birth place`,`spouse`,`death date`,`death place`,`burial`,`father`,`children`],`https://www.thelockedjournal.com/webs/pedigrees/17681.html`]]}
 sophia81={
 	name:`Sophia Manoel`,
 	b:[24,7,1871],
