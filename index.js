@@ -352,7 +352,7 @@ george70={
 	dx:[`Exeter, Semaphore, South Australia`],
 	bur:`Cheltenham, South Australia`,
 	parents:[`george75`,`laura74`],
-	siblings:[`Florence Dorothy Manoel`,`Lillian Gertrude Manoel`,`Gwendoline Ada Manoel`,`Ethel Mary Manoel`],
+	siblings:[`florence209`,`lillian210`,`gwendoline211`,`ethel212`],
 	children:[`raymond3`,`peter38`,`Barry Manoel`,`Margaret Manoel`],
 	img:[33],
 	src:[[`MyHeritage`,[`name`,`birth date (incomplete)`,`birth place`,`death date`,`death place`,`father`,`mother`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]}
@@ -382,7 +382,7 @@ laura74={
 	dx:[`South Australia`],
 	bur:`Cheltenham Cemetery, Cheltenham, South Australia`,
 	parents:[`david77`,`mary78`],
-	children:[`george70`,`Florence Dorothy Manoel`,`Gwendoline Ada Manoel`,`Ethel Mary Manoel`]}
+	children:[`george70`,`florence209`,`gwendoline211`,`ethel212`]}
 george75={
 	name:`George Henry Manoel`,
 	b:[12,4,1873],
@@ -391,7 +391,7 @@ george75={
 	dx:[`Adelaide, South Australia`],
 	bur:`Cheltenham Cemetery, Cheltenham, South Australia`,
 	parents:[`peter80`,`martha76`],
-	children:[`george70`,`Florence Dorothy Manoel`,`Gwendoline Ada Manoel`,`Ethel Mary Manoel`,`Lillian Gertrude Manoel`],
+	children:[`george70`,`florence209`,`gwendoline211`,`ethel212`,`lillian210`],
 	img:[13],
 	src:[[`MyHeritage`,[`name`,`birth date`,`spouse`,`death date`,`death place`,`children`],`https://www.myheritage.com/research/record-1-555372411-2-4607/george-henry-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]}
 martha76={
@@ -1419,3 +1419,35 @@ maud208={
 	siblings:[`charles156`,`james207`,`William`,`Francis`,`Victor`],
 	spouses:[`James Arthur Andrewartha`],
 	src:[[`Fandom`,[`birth date`,`birth place`,`death date`,`death place`,`father`,`mother`,`spouse`,`siblings`],`https://vizefamilyhistory.fandom.com/wiki/William_VIZE_married_Eliza_McGURK_Family_Group_Sheet`]]}
+florence209={
+	name:`Florence Dorothy Manoel`,
+	b:[,,1894],
+	d:[,,1985],
+	parents:[`laura74`,`george75`],
+	siblings:[`george70`,`lillian210`,`gwendoline211`,`ethel212`],
+	src:[[`MyHeritage`,[`name`,`birth date (incomplete)`,`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
+}
+lillian210={
+	name:`Lillian Gertrude Manoel`,
+	b:[,,],
+	d:[,,1967],
+	parents:[`laura74`,`george75`],
+	siblings:[`george70`,`florence209`,`gwendoline211`,`ethel212`],
+	src:[[`MyHeritage`,[`name`,`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
+}
+gwendoline211={
+	name:`Gwendoline Ada Manoel`,
+	b:[,,1903],
+	d:[,,1973],
+	parents:[`laura74`,`george75`],
+	siblings:[`george70`,`florence209`,`lillian210`,`ethel212`],
+	src:[[`MyHeritage`,[`name`,`birth date (incomplete)`,`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
+}
+ethel212={
+	name:`Ethel Mary Manoel`,
+	b:[,,],
+	d:[,,1951],
+	parents:[`laura74`,`george75`],
+	siblings:[`george70`,`florence209`,`lillian210`,`gwendoline211`],
+	src:[[`MyHeritage`,[`name`,`death date (incomplete)`,`mother`,`father`,`siblings`],`https://www.myheritage.com/research/record-1-555372411-2-4609/george-william-manoel-in-myheritage-family-trees?indId=&siteId=1646107048&language=EN&isExternal=1&rfr=super_search_email&hcl=1&tr_date=20240521`]]
+}
