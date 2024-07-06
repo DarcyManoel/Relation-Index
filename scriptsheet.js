@@ -17,29 +17,29 @@ var focus=window[focusPlain]
 var yearDiff
 var trackingPrev=0
 function renderCard(){
-	window.history.replaceState(null, document.title,`?=`+focusPlain)
+	window.history.replaceState(null, document.title,`?=${focusPlain}`)
 	focus=window[focusPlain]
 	localStorage.setItem(`focusPlain`,focusPlain)
-	document.getElementById(`main`).innerHTML=`<div id="title">`+focus.name+`</div>`
+	document.getElementById(`main`).innerHTML=`<div id="title">${focus.name}</div>`
 	if(focus.b){
-		document.getElementById(`main`).innerHTML+=`<div id="lifePoints"><span class="heading">b.</span> `+focus.b.join(`-`)+`</div>`
+		document.getElementById(`main`).innerHTML+=`<div id="lifePoints"><span class="heading">b.</span> ${focus.b.join(`-`)}</div>`
 		if(!focus.d){
 			printYearRange(focus.b,[day,month,year])
 		}
 		if(focus.bx){
-			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.bx.join(`</span><br><span class="list">`)+`</span>`
+			document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">${focus.bx.join(`</span><br><span class="list">`)}</span>`
 		}
 		if(focus.d){
 			if(focus.b[2]==focus.d[2]){
-				document.getElementById(`lifePoints`).innerHTML=`<span class="heading">b. & d.</span> `+focus.b.join(`-`)
+				document.getElementById(`lifePoints`).innerHTML=`<span class="heading">b. & d.</span> ${focus.b.join(`-`)}`
 			}else{
-				document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">d.</span> `+focus.d.join(`-`)
+				document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">d.</span> ${focus.d.join(`-`)}`
 				printYearRange(focus.b,focus.d)
 				if(focus.dx){
-					document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">`+focus.dx.join(`</span><br><span class="list">`)+`</span>`
+					document.getElementById(`lifePoints`).innerHTML+=`<br><span class="list">${focus.dx.join(`</span><br><span class="list">`)}</span>`
 				}
 				if(focus.bur){
-					document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">bur.</span> `+focus.bur
+					document.getElementById(`lifePoints`).innerHTML+=`<br><span class="heading">bur.</span> ${focus.bur}`
 				}
 			}
 		}
@@ -140,75 +140,75 @@ function renderCard(){
 		document.getElementById(`main`).innerHTML+=`<br><div id="parents"><span class="heading">Parents:</span><br></div>`
 		for(i1=0;i1<parents[0].length;i1++){
 			if(immPrevFocus==parents[0][i1]){
-				document.getElementById(`parents`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+parents[0][i1]+`")>`+window[parents[0][i1]].name+`</span><br>`
+				document.getElementById(`parents`).innerHTML+=`<span class="list link visited" onClick=changeFocus("${parents[0][i1]}")>${window[parents[0][i1]].name}</span><br>`
 			}else{
-				document.getElementById(`parents`).innerHTML+=`<span class="list link" onClick=changeFocus("`+parents[0][i1]+`")>`+window[parents[0][i1]].name+`</span><br>`
+				document.getElementById(`parents`).innerHTML+=`<span class="list link" onClick=changeFocus("${parents[0][i1]}")>${window[parents[0][i1]].name}</span><br>`
 			}
 		}
 		for(i1=0;i1<parents[1].length;i1++){
-			document.getElementById(`parents`).innerHTML+=`<span class="list nolink">`+parents[1][i1]+`</span><br>`
+			document.getElementById(`parents`).innerHTML+=`<span class="list nolink">${parents[1][i1]}</span><br>`
 		}
 	}
 	if(siblings[0].length||siblings[1].length){
 		document.getElementById(`main`).innerHTML+=`<br><div id="siblings"><span class="heading">Siblings:</span><br></div>`
 		for(i1=0;i1<siblings[0].length;i1++){
 			if(immPrevFocus==siblings[0][i1]){
-				document.getElementById(`siblings`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+siblings[0][i1]+`")>`+window[siblings[0][i1]].name+`</span><br>`
+				document.getElementById(`siblings`).innerHTML+=`<span class="list link visited" onClick=changeFocus("${siblings[0][i1]}")>${window[siblings[0][i1]].name}</span><br>`
 			}else{
-				document.getElementById(`siblings`).innerHTML+=`<span class="list link" onClick=changeFocus("`+siblings[0][i1]+`")>`+window[siblings[0][i1]].name+`</span><br>`
+				document.getElementById(`siblings`).innerHTML+=`<span class="list link" onClick=changeFocus("${siblings[0][i1]}")>${window[siblings[0][i1]].name}</span><br>`
 			}
 		}
 		for(i1=0;i1<siblings[1].length;i1++){
-			document.getElementById(`siblings`).innerHTML+=`<span class="list nolink">`+siblings[1][i1]+`</span><br>`
+			document.getElementById(`siblings`).innerHTML+=`<span class="list nolink">${siblings[1][i1]}</span><br>`
 		}
 	}
 	if(spouses[0].length||spouses[1].length){
 		document.getElementById(`main`).innerHTML+=`<br><div id="spouses"><span class="heading">Spouses:</span><br></div>`
 		for(i1=0;i1<spouses[0].length;i1++){
 			if(immPrevFocus==spouses[0][i1]){
-				document.getElementById(`spouses`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+spouses[0][i1]+`")>`+window[spouses[0][i1]].name+`</span><br>`
+				document.getElementById(`spouses`).innerHTML+=`<span class="list link visited" onClick=changeFocus("${spouses[0][i1]}")>${window[spouses[0][i1]].name}</span><br>`
 			}else{
-				document.getElementById(`spouses`).innerHTML+=`<span class="list link" onClick=changeFocus("`+spouses[0][i1]+`")>`+window[spouses[0][i1]].name+`</span><br>`
+				document.getElementById(`spouses`).innerHTML+=`<span class="list link" onClick=changeFocus("${spouses[0][i1]}")>${window[spouses[0][i1]].name}</span><br>`
 			}
 		}
 		for(i1=0;i1<spouses[1].length;i1++){
-			document.getElementById(`spouses`).innerHTML+=`<span class="list nolink">`+spouses[1][i1]+`</span><br>`
+			document.getElementById(`spouses`).innerHTML+=`<span class="list nolink">${spouses[1][i1]}</span><br>`
 		}
 	}
 	if(children[0].length||children[1].length){
 		document.getElementById(`main`).innerHTML+=`<br><div id="children"><span class="heading">Children:</span><br></div>`
 		for(i1=0;i1<children[0].length;i1++){
 			if(immPrevFocus==children[0][i1]){
-				document.getElementById(`children`).innerHTML+=`<span class="list link visited" onClick=changeFocus("`+children[0][i1]+`")>`+window[children[0][i1]].name+`</span><br>`
+				document.getElementById(`children`).innerHTML+=`<span class="list link visited" onClick=changeFocus("${children[0][i1]}")>${window[children[0][i1]].name}</span><br>`
 			}else{
-				document.getElementById(`children`).innerHTML+=`<span class="list link" onClick=changeFocus("`+children[0][i1]+`")>`+window[children[0][i1]].name+`</span><br>`
+				document.getElementById(`children`).innerHTML+=`<span class="list link" onClick=changeFocus("${children[0][i1]}")>${window[children[0][i1]].name}</span><br>`
 			}
 		}
 		for(i1=0;i1<children[1].length;i1++){
-			document.getElementById(`children`).innerHTML+=`<span class="list nolink">`+children[1][i1]+`</span><br>`
+			document.getElementById(`children`).innerHTML+=`<span class="list nolink">${children[1][i1]}</span><br>`
 		}
 	}
 	if(focus.works){
 		document.getElementById(`main`).innerHTML+=`<br><div id="works"><span class="heading">Creative Works:</span><br></div>`
 		for(i1=0;i1<focus.works.length;i1++){
 			if(focus.works[i1][0]==`author`){
-				document.getElementById(`works`).innerHTML+=`<span class="list">Author of <a href="writings/`+focus.works[i1][1]+`.pdf" target="_blank">`+focus.works[i1][1]+`</span></span><br>`
+				document.getElementById(`works`).innerHTML+=`<span class="list">Author of <a href="writings/${focus.works[i1][1]}.pdf" target="_blank">${focus.works[i1][1]}</span></span><br>`
 			}
 		}
 	}
 	if(focus.img){
 		document.getElementById(`main`).innerHTML+=`<br><div id="photos"><span class="heading">Photos:</span><br></div>`
 		for(i1=0;i1<focus.img.length;i1++){
-			document.getElementById(`photos`).innerHTML+=`<a href="images/photos/`+focus.img[i1]+`.jpg" target="_blank"><img src="images/photos/`+focus.img[i1]+`.jpg"></img></a>`
+			document.getElementById(`photos`).innerHTML+=`<a href="images/photos/${focus.img[i1]}.jpg" target="_blank"><img src="images/photos/${focus.img[i1]}.jpg"></img></a>`
 		}
 	}
 	if(focus.src){
 		document.getElementById(`main`).innerHTML+=`<br><div id="sources"><span class="heading">Sources:</span><br></div>`
 		for(i1=0;i1<focus.src.length;i1++){
 			if(Array.isArray(focus.src[i1])){
-				document.getElementById(`sources`).innerHTML+=`<span class="list"><a href="`+focus.src[i1][2]+`">`+focus.src[i1][0]+`</a></span><br><span class="sourceInformation">- `+focus.src[i1][1].join(`<br>- `)+`</span>`
+				document.getElementById(`sources`).innerHTML+=`<span class="list"><a href="${focus.src[i1][2]}">${focus.src[i1][0]}</a></span><br><span class="sourceInformation">- ${focus.src[i1][1].join(`<br>- `)}</span>`
 			}else{
-				document.getElementById(`sources`).innerHTML+=`<span class="list">`+focus.src[i1]+`</span><br>`
+				document.getElementById(`sources`).innerHTML+=`<span class="list">${focus.src[i1]}</span><br>`
 			}
 		}
 	}
@@ -219,18 +219,18 @@ function printYearRange(start,end){
 		if(start[2]){
 			var yearDiff=end[2]-start[2]
 			if(!end[1]||!start[1]){
-				document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+`-`+yearDiff+` years)`
+				document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(${(yearDiff-1)}-${yearDiff} years)`
 			}else if(end[1]>start[1]){
-				document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+yearDiff+` years)`
+				document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(${yearDiff} years)`
 			}else if(end[1]<start[1]){
-				document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+` years)`
+				document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(${(yearDiff-1)} years)`
 			}else if(end[1]==start[1]){
 				if(!end[0]||!start[0]){
-					document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+`-`+yearDiff+` years)`
+					document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(${(yearDiff-1)}-${yearDiff} years)`
 				}else if(end[0]>=start[0]){
-					document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+yearDiff+` years)`
+					document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(${yearDiff} years)`
 				}else if(end[0]<start[0]){
-					document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(`+(yearDiff-1)+` years)`
+					document.getElementById(`lifePoints`).innerHTML+=`&nbsp;(${(yearDiff-1)} years)`
 				}
 			}
 		}
